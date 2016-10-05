@@ -1,0 +1,50 @@
+{
+    "1888": {        
+        "phases": null, 
+        "from": "t_150test2", 
+        "name": "transmission_line1", 
+        "object": "transmission_line", 
+        "to": "t_150test1", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1888
+    },
+    "1889": {        
+        "phases": null, 
+        "from": "t_150", 
+        "name": "transmission_line2", 
+        "object": "transmission_line", 
+        "to": "t_150test1", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1889
+    },
+    "1890": {        
+        "phases": null, 
+        "from": "t_150", 
+        "name": "transmission_line3", 
+        "object": "transmission_line", 
+        "to": "t_150test2", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1890
+    },
+    "1891": {
+        "lat": 525.5075613755995, 
+        "object": "t_node", 
+        "lon": 493.8001306403842, 
+        "name": "t_150", 
+        "pgIndex": 1891
+    }, 
+    "1892": {
+        "lat": 2525.5075613755994, 
+        "object": "t_node", 
+        "lon": 2493.8001306403844, 
+        "name": "t_150test1", 
+        "pgIndex": 1892
+    },
+    "1893": {
+        "lat": 1025.5075613755994, 
+        "object": "t_node", 
+        "lon": -6.199869359615775, 
+        "name": "t_150test2", 
+        "pgIndex": 1893
+    }
+}
