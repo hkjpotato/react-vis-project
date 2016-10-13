@@ -54,24 +54,6 @@
 	var Filter = __webpack_require__(177);
 	var Preloader = __webpack_require__(178);
 	var FilterableElementTable = __webpack_require__(179);
-	// 83.20971630859378
-	// 83.99523876953128
-	// 84.78076123046878
-	// 85.56628369140628
-
-	// var x1 = -85.78465305614475;
-	// var x2 = -82.98863254833225;
-	// console.log("-----")
-	// console.log(x1, (x2 - x1)/3 * 1 + x1, (x2 - x1)/3 * 2 + x1, x2);
-
-	// var y1 = 33.07784152328942;
-	// var y2 = 34.44326454054181;
-
-	// console.log(y1, (y2 - y1)/3 * 1 + y1, (y2 - y1)/3 * 2 + y1, y2);
-
-
-	// console.log("-----")
-
 
 	var feeder0bound = { lat0: 33.988123534791015,
 	  lng0: -83.92063938426975,

@@ -1,6 +1,9 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 
+__[Video]__
+
 __[Live Demo]__
+
 
 ## Basic product requirements 
 
@@ -40,3 +43,4 @@ Note that this is one part of the whole simulator project, the backend detail wi
 ![img.047](https://raw.githubusercontent.com/hkjpotato/react-map-vis-demo/master/img/vis_img.047.png)
 
 [Live Demo]: <http://52.24.114.125/pgdemo/public/>
+[Video]: <https://youtu.be/9h0TL7uOntI>
