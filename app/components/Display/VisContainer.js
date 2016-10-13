@@ -2,6 +2,8 @@ var React = require('react');
 var ForceVis = require('./ForceVis');
 var MapVis = require('./MapVis');
 var SelectInfo = require('./SelectInfo');
+var EditForm = require('./EditForm');
+
 
 var MapSwitch = React.createClass({
     onSwitchChange: function(event) {
@@ -55,8 +57,8 @@ var VisContainer = React.createClass({
 
     return (
         <div style={inlineStyle}> 
-            {!this.state.mapOn ?  (<ForceVis data={this.props.data} width={1000} height={600} onSelectChange={this.props.onSelectChange} onFilterChange={this.props.onFilterChange} selected={this.props.selected} filter={this.props.filter} />) :
-                (<MapVis zoomLevel={this.props.zoomLevel} onViewChange={this.props.onViewChange} data={this.props.data} width={1000} height={600} onSelectChange={this.props.onSelectChange} onFilterChange={this.props.onFilterChange} selected={this.props.selected} filter={this.props.filter}/>)
+            {!this.state.mapOn ?  (<ForceVis dataChange={this.props.dataChange} data={this.props.data} onSelectChange={this.props.onSelectChange} onFilterChange={this.props.onFilterChange} selected={this.props.selected} filter={this.props.filter} />) :
+                (<MapVis dataChange={this.props.dataChange} zoomLevel={this.props.zoomLevel} mapCenter={this.props.mapCenter} onViewChange={this.props.onViewChange} data={this.props.data} onSelectChange={this.props.onSelectChange} onFilterChange={this.props.onFilterChange} selected={this.props.selected} filter={this.props.filter}/>)
             }
             <MapSwitch onSwitchChange={this.onSwitchChange} mapOn={this.state.mapOn}/>   
             {this.props.selected ? <SelectInfo selectedInfo={selectedInfo} /> : null}
@@ -64,6 +66,7 @@ var VisContainer = React.createClass({
     );
   }
 });
+
 
 module.exports = VisContainer;
 

@@ -18,9 +18,11 @@ var link = null;
 var force = null;
 var color = d3.scale.category10();
 
+
+//D3 Component
 d3Force.create = function(el, props, clickCb) {
-    var width = props.width;
-    var height = props.height;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
     // Zoomer
     var zoomer = d3.behavior.zoom();
     zoomer.scaleExtent([0.1, 30]);
@@ -38,6 +40,7 @@ d3Force.create = function(el, props, clickCb) {
         .call(zoomer.on('zoom', function() {
             vis.attr('transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')');
         }));
+
 
     vis = visContainer.append('g') //d3 selections
         .attr('id', 'powerGrid');
@@ -62,6 +65,8 @@ d3Force.create = function(el, props, clickCb) {
 
     force = d3.layout.force()
         .linkDistance(30)
+        // .gravity(0)
+        // .charge(-100)
         .size([width, height])
         .nodes(nodes)
         .links(links)
@@ -76,18 +81,28 @@ d3Force.create = function(el, props, clickCb) {
                     return "translate(" + d.x + "," + d.y + ")";
                 })
         });
+
     d3Force.update(props, clickCb);
 }
 
 //most important!: use to update the nodes and links data
 d3Force.parseData = function(data) {
+    //we can for sure that data has been changed at this state!
+    console.log("^^^CRAZY PARSE DATA DUE TO DATA CHANGE by d3Force^^^");
     pgObject = data;
     //at this moment, we always clear the data
     nodes = [];
     links = [];
-    // console.log('parseData', pgObject);
-    //parse data into the nodes and links
+    //also tell force about it
+    if (force) {
+        force.stop();
+        force.nodes(nodes);
+        force.links(links)
+    }
+
     if (nodes.length == 0) {
+        //if force already set up, which means after the init. or the current force is working
+        //clean them
         for (var x in pgObject) {
             //in a tree, if an element has either name or module but from is undefined, it must be a node
             if ((pgObject[x].name != undefined || pgObject[x].module != undefined) && pgObject[x].from == undefined) {
@@ -98,8 +113,8 @@ d3Force.parseData = function(data) {
                     pgIndex: parseInt(x),
                     objectType: nodeObject,
                     x: pgObject[x].lat,
-                    y: pgObject[x].lon,
-                    fixed: true
+                    y: pgObject[x].lng,
+                    // fixed: true
                 };
                 nodes.push(newNode)
                 name2eleMap[nodeName] = newNode
@@ -254,6 +269,12 @@ var _exitLinks = function(l) {
 
 var _enterNodes = function(n, clickCb) {
     //for the enter
+    // var drag = force.drag()
+    //     .origin(function(d) { return d; })
+    //     .on("dragstart", function(d) {
+    //         //key to stop propagation so that zoom does not try to do panning
+    //         d3.event.sourceEvent.stopPropagation();
+    //     });
     var nodeG = n.enter()
         .append("g")
         .attr("class", "node")
@@ -270,15 +291,19 @@ var _enterNodes = function(n, clickCb) {
             d3.select(this).select('text')
               .style({"display": "none"});
         })
-        .call(force.drag);
+        .call(
+            //to fixed the bug of conflict between drag and zoom
+            force.drag()
+            .origin(function(d) { return d; })
+            .on("dragstart", function(d) {
+                //key to stop propagation so that zoom does not try to do panning
+                d3.event.sourceEvent.stopPropagation();
+            })
+        );
 
     nodeG.append("circle")
      .attr("cx", 0)
      .attr("cy", 0)
-     // .attr("r", function(d) {
-     //    return 4;
-     // })
-    // .call(force.drag)
     .style("cursor", "pointer")
     .on('click', function(d) {
         // d3.select(this).transition()
@@ -303,23 +328,20 @@ var _exitNodes = function(n) {
     n.exit().remove();
 }
 
-
+//React Component
 var ForceVis = React.createClass({
     saveData: function() {
         //update the node x and y to the pgObject, just update the node
         for (var x in pgObject) {
             //in a tree, if an element has either name or module but from is undefined, it must be a node
             if ((pgObject[x].name != undefined || pgObject[x].module != undefined) && pgObject[x].from == undefined) {
-                var nodeName = pgObject[x].name;
-                var updateNode = name2eleMap[nodeName];
-                //update the lat and lon
-                pgObject[x].lat = updateNode.x;
-                pgObject[x].lon = updateNode.y;
+                pgObject[x]['ha'] = "ha";
+                if (pgObject[x].object == "node") {
+                    pgObject[x]['lat'] = name2eleMap[nodeName].x;
+                    pgObject[x]['lng'] = name2eleMap[nodeName].y;
+                }
             }
         }
-        console.log(pgObject);
-
-
         //try to use form to submit
         var method = 'post' // Set method to post by default, if not specified.
         var form = document.createElement('form');
@@ -346,7 +368,7 @@ var ForceVis = React.createClass({
             location.reload();
 
         });
-        form.submit();
+        // form.submit();
 
         // location.reload();
         //try use jquery ajax to send the data
@@ -378,10 +400,6 @@ var ForceVis = React.createClass({
         }
     },
     componentDidMount: function() {
-        // setTimeout(function() {
-        //     console.log('testing....')
-        //     this.saveData()
-        // }.bind(this), 5000);
         console.log('ForceVis didmount!');
         var el = ReactDOM.findDOMNode(this);
         d3Force.parseData(this.props.data);
@@ -389,7 +407,9 @@ var ForceVis = React.createClass({
     },
     componentDidUpdate: function() {
         console.log('ForceVis didUpdate!');
-        d3Force.parseData(this.props.data);
+        if (this.props.dataChange) {
+            d3Force.parseData(this.props.data);
+        }
         d3Force.update(this.props, this.singleClick);
     },
     componentWillUnMount: function() {
@@ -397,21 +417,21 @@ var ForceVis = React.createClass({
     },
     render: function() {
         console.log('ForceVis render');
-        var width = this.props.width;
-        var height = this.props.height;
-        var inlineStyle = {
+        var buttonStyle = {
             position: 'absolute',
-            // top: '30px'
             bottom: '30px',
             right: '30px'
         }
+        var inlineStyle = {
+            width: '100%',
+            height: '100%',
+        }
         return (
-            <div className="vis">
-                <a style={inlineStyle} className="waves-effect waves-light btn" onClick={this.saveData}>update</a>
+            <div style={inlineStyle} className="forceVis">
+                <a style={buttonStyle} className="waves-effect waves-light btn" onClick={this.saveData}>update</a>
             </div>
         )
     }
 });
-
 
 module.exports = ForceVis;

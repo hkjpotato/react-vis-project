@@ -1,50 +1,57 @@
 {
     "1888": {        
         "phases": null, 
-        "from": "t_150test2", 
+        "from": "feeder_root", 
         "name": "transmission_line1", 
         "object": "transmission_line", 
-        "to": "t_150test1", 
+        "to": "feeder0", 
         "gld_treeIndex": null, 
         "pgIndex": 1888
     },
     "1889": {        
         "phases": null, 
-        "from": "t_150", 
+        "from": "feeder_root", 
         "name": "transmission_line2", 
         "object": "transmission_line", 
-        "to": "t_150test1", 
+        "to": "feeder1", 
         "gld_treeIndex": null, 
         "pgIndex": 1889
     },
     "1890": {        
         "phases": null, 
-        "from": "t_150", 
+        "from": "feeder_root", 
         "name": "transmission_line3", 
         "object": "transmission_line", 
-        "to": "t_150test2", 
+        "to": "feeder2", 
         "gld_treeIndex": null, 
         "pgIndex": 1890
     },
     "1891": {
-        "lat": 525.5075613755995, 
-        "object": "t_node", 
-        "lon": 493.8001306403842, 
-        "name": "t_150", 
+        "lat":  33.80933546975174, 
+        "object": "feeder", 
+        "lng": -84.41836848208867, 
+        "name": "feeder0", 
         "pgIndex": 1891
     }, 
     "1892": {
-        "lat": 2525.5075613755994, 
-        "object": "t_node", 
-        "lon": 2493.8001306403844, 
-        "name": "t_150test1", 
+        "lat": 33.80933546975174, 
+        "object": "feeder", 
+        "lng": -83.41836848208867, 
+        "name": "feeder1", 
         "pgIndex": 1892
     },
     "1893": {
-        "lat": 1025.5075613755994, 
-        "object": "t_node", 
-        "lon": -6.199869359615775, 
-        "name": "t_150test2", 
+        "lat": 33.80933546975174, 
+        "object": "feeder", 
+        "lng": -85.41836848208867, 
+        "name": "feeder2", 
         "pgIndex": 1893
+    },
+    "1894": {
+        "lat": 32, 
+        "object": "t_node", 
+        "lng": -84, 
+        "name": "feeder_root", 
+        "pgIndex": 1894
     }
 }

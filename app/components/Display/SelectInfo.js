@@ -16,7 +16,7 @@ var SelectInfo = React.createClass({
     var selectedInfo = this.props.selectedInfo;
     var keys = Object.keys(selectedInfo);
     keys = keys.filter(function(d) {
-        return (d !== "objectType");
+        return (d !== "object" && d !== "elements");
     });
 
     var rows = keys.map(function(key) {
@@ -34,7 +34,7 @@ var SelectInfo = React.createClass({
             <thead>
                 <tr>
                     <th>Object</th>
-                    <th>{selectedInfo.objectType}</th>
+                    <th>{selectedInfo.object}</th>
                 </tr>
             </thead>
             <tbody>{rows}</tbody>

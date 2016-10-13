@@ -15,10 +15,33 @@ var vis = null;
 var node = null;
 var link = null;
 //color scale
-var color = d3.scale.category10();
+var color = d3.scale.category20();
 
+var eleColorMap = {
+  "load": '#ff6d6d',
+  "generator": '#ffca6d',
+  "storage": '#6dcaff',
+  "solar": '#FFFF00 ',
+  "capacitor": '#00c26d',
+}
+var eleMap = {
+  "load": 0,
+  "generator": 1,
+  "storage": 2,
+  "solar": 3,
+  "capacitor": 4,
+}
+var eleTextCodeMap = {
+  "load": '\uf1e6',
+  "generator": '\uf0e7',
+  "storage": '\uf241',
+  "solar": '\uf185',
+  "capacitor": '\uf187',
+}
+
+
+// D3 Component
 d3MapVis.overlay = null;
-
 d3MapVis.create = function(el, initProps, clickCb, onViewChange) {
   //attach the initial props here
   this.initProps = initProps;
@@ -28,9 +51,9 @@ d3MapVis.create = function(el, initProps, clickCb, onViewChange) {
   // Create the Google Map…
   var map = new google.maps.Map(el, {
     zoom: initProps.zoomLevel,
-    center: new google.maps.LatLng(33.7490, -84.3880),
+    center: new google.maps.LatLng(initProps.mapCenter.lat, initProps.mapCenter.lng),
     // mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
+    // disableDefaultUI: true,
     styles: mapStyles
   });
   // The custom MapVisOverlay object contains a reference to the map.
@@ -44,10 +67,9 @@ d3MapVis.destroy = function() {
 
 //update is where the data binding and general d3 update patterns happen
 d3MapVis.update = function(props, clickCb) {
-    console.log('MapVis.update');
+    console.log('MapVis.update with props', props);
     var selected = props.selected;
     var filter = props.filter;
-    console.log('current vis', vis);
 
     // console.log('d3Map update');
     //up to now, the data should be update by parseData already
@@ -70,42 +92,76 @@ d3MapVis.update = function(props, clickCb) {
     link = vis.select("#mapLinkLayer").selectAll(".link");
     node = vis.selectAll(".node");
 
+    // //update elements for both update & enter, as well as do update pattern
+    node
+      .each(function(d) {
+        var elementsData = Object.keys(d.elements).map(function(key) {
+          return d.elements[key];
+        })
+        var elements = d3.select(this)
+          .select(".elements")
+          .selectAll('text')
+          .data(elementsData, function(ele) {
+            return ele.object
+          });
+        elements.enter()
+          .append('text')
+          .attr("x", function(d, i) { 
+            //arrange them in order of load/generator/storage/solar/capacitor
+            return eleMap[d.object] * 10})
+          .attr("dy", 15)
+          .attr('font-size', '1.2em')
+          .attr("fill", function(d) {
+            return eleColorMap[d.object]
+          })
+          .attr('font-family', 'FontAwesome')
+          .text(function(d) {
+            return eleTextCodeMap[d.object] }
+          )
+          .style("cursor", "pointer")
+          .on('click', function(d) {
+            console.log('circle click cb', d);
+            clickCb(d);
+          });
+
+        elements.exit().remove()
+      });
     //render color
     node
     .style('fill', function(d) {
-        return color(d.objectType);
+        if (d.object=="node") {
+          return "#4c4c4c";
+        } else if (d.object=="t_node"){
+          return "#0073E5"
+        }
+        return color(d.object);
+    })
+    .style("display", function(d) {
+      if (d.object === "feeder") {
+        if (props.zoomLevel >= 10) {
+          return "none";
+        } else {
+          return "block";
+        }
+      }
     });
     // highlight select, might be no efficiency
     var selectedName = selected ? selected.name : null;
-    node.selectAll('circle')
-        .transition()
-        .duration(300)
-        .attr('r', function(d) {
-            // console.log(d);
-            if (d.name === selectedName) return 10;
-            if (d.objectType == "t_node") return 12;
-            if (d.objectType == "node") return 5;
-            return 4;
-        })
-        .style('stroke-width', function(d) {
-            if (d.name === selectedName) return 2;
-            return 1;
-        })
-        .style('stroke', function(d) {
-            if (d.name === selectedName) return 'lime';
-            return 'black';
-        });;
-    node.selectAll('text')
-        .transition()
-        .duration(300)
-        .style('display', function(d) {
-            if (d.name === selectedName) return "inline";
-            return "none";
-        });
+    node.selectAll('.elements').selectAll('text')
+      .style('stroke-width', function(d) {
+          if (d.name === selectedName) return 1;
+          return 0;
+      })
+      .style('stroke', function(d) {
+          if (d.name === selectedName) return 'lime';
+          return 'black';
+      });
+
     //render filter
     if (filter) {
-        node.style('opacity', function(d) {
-            if (d.objectType == filter) {
+        node.selectAll('.elements').selectAll('text')
+          .style('opacity', function(d) {
+            if (d.object == filter) {
                 return 1;
             } else {
                 return 0.1;
@@ -113,10 +169,9 @@ d3MapVis.update = function(props, clickCb) {
         });
         link.style('opacity', 0.1);
     } else {
-        node.style('opacity', 1);  
+        node.select('.elements').selectAll('text').style('opacity', 1);  
         link.style('opacity', 1);
     }
-
     //call draw function after data binding to rearrange the location
     this.overlay.draw();
 }
@@ -125,29 +180,22 @@ var _enterLinks = function(l) {
     l.enter()
         .append('line')
         .attr("class", "link")
-        .style('stroke', '#999999')
+        .style('stroke', function(d) {
+          return color(d.object)
+        })
         .style('stroke-opacity', 1)
         .style('stroke-width', function(d) {
-            // return 1;
-            if (d.objectType == "fromTo") {
-                if (d.linkType == "transmission_line") {
-                    return 5;
+            if (d.linkType == "fromTo") {
+                if (d.object == "transmission_line") {
+                    return 3;
                 }
-                return 3;
+                return 2;
             }
             return 1;
         })
         .style("stroke-dasharray", function(d) {
-            if (d.objectType == "parentChild") {
-                return ("2, 1")
-            }
-            if (d.linkType == "transmission_line") {
+            if (d.object == "transmission_line") {
                 return ("5, 5");
-            }
-        })
-        .attr("marker-end", function(d) {
-            if (d.objectType === "parentChild") {
-                return "url(#end)";
             }
         });
 }
@@ -161,35 +209,35 @@ var _enterNodes = function(n, clickCb) {
     var nodeG = n.enter()
         .append("g")
         .attr("class", "node")
-        .on("mouseover", function(d) {
-            d3.select(this).select('circle')
-              .style({"opacity": 0.5});
-            d3.select(this).select('text')
-              .style({"display": "inline"});
-        })
-        .on("mouseout", function(d) {
-            d3.select(this).select('circle')
-              .style({"opacity": 1});
-            d3.select(this).select('text')
-              .style({"display": "none"});
-        })
+    nodeG.append("rect")
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("width", function(d) {
+        return d.object === "feeder" ? 100 : 50;
+      })
+      .attr("height", function(d) {
+        return d.object === "feeder" ? 100 : 4;
+      })
+      .style("cursor", "pointer")
+      .style("opacity", function(d) {
+         return d.object === "feeder" ? 0.1 : 1;
+      })
+      .on('click', function(d) {
+          console.log('circle click cb', d);
+          clickCb(d);
+      })
 
-    nodeG.append("circle")
-     .attr("cx", 0)
-     .attr("cy", 0)
-    .style("cursor", "pointer")
-    .on('click', function(d) {
-        console.log('circle click cb', d);
-        clickCb(d);
-    });
+    //just attach the elements container here
+    nodeG.append("g")
+         .attr("class", "elements");
 
     nodeG.append("text")
      .attr("x", function(d) {
-        return "1em";
+        return "0em";
      })
-     .attr("dy", ".35em")
+     .attr("dy", "-.3em")
      .style("font-size", "1.2em")
-     .text(function(d) {return d.objectType + " : " + d.name})
+     .text(function(d) {return d.name})
 }
 
 var _exitNodes = function(n) {
@@ -198,27 +246,48 @@ var _exitNodes = function(n) {
 
 //most important!: use to update the nodes and links data
 d3MapVis.parseData = function(data) {
+
     pgObject = data;
+    console.log("^^^CRAZY PARSE DATA DUE TO DATA CHANGE^^^");
+
     //at this moment, we always clear the data
     nodes = [];
     links = [];
     // console.log('parseData', pgObject);
     //parse data into the nodes and links
     if (nodes.length == 0) {
+        console.log('^^^^^--------GRAZY PARSING DATA--------^^^^^');
+
         for (var x in pgObject) {
             //in a tree, if an element has either name or module but from is undefined, it must be a node
             if ((pgObject[x].name != undefined || pgObject[x].module != undefined) && pgObject[x].from == undefined) {
                 var nodeName = pgObject[x].name;
                 var nodeObject = pgObject[x].object;
-                var newNode = {
-                    name: nodeName,
-                    pgIndex: parseInt(x),
-                    objectType: nodeObject,
-                    x: pgObject[x].lat,
-                    y: pgObject[x].lon
-                };
-                nodes.push(newNode)
-                name2eleMap[nodeName] = newNode
+                //only regard d_bus as a node
+                if (nodeObject === "node" || nodeObject === "t_node") {
+                  var newNode = {
+                      name: nodeName,
+                      pgIndex: parseInt(x),
+                      object: nodeObject,
+                      x: pgObject[x].lat,
+                      y: pgObject[x].lng,
+                      elements: {}
+                  };
+                  nodes.push(newNode)
+                  name2eleMap[nodeName] = newNode;
+                }
+                if (nodeObject === "feeder") {
+                  var newNode = {
+                      name: nodeName,
+                      pgIndex: parseInt(x),
+                      object: nodeObject,
+                      x: pgObject[x].lat,
+                      y: pgObject[x].lng,
+                      elements: {}
+                  };
+                  nodes.push(newNode)
+                  name2eleMap[nodeName] = newNode;
+                }
             }
         }
         // Go through a second time and set up the links:
@@ -230,28 +299,29 @@ d3MapVis.parseData = function(data) {
                     links.push({
                         source: name2eleMap[pgObject[x].from],
                         target: name2eleMap[pgObject[x].to],
-                        objectType: 'fromTo',
-                        linkType: pgObject[x].object
+                        object: pgObject[x].object,
+                        linkType: 'fromTo'
                     })
-                } else if (pgObject[x].parent != undefined) {
-                    //else if it has parent, it is a parentChild link
-                    links.push({
-                        source: name2eleMap[pgObject[x].parent],
-                        target: name2eleMap[pgObject[x].name],
-                        objectType: 'parentChild'
-                    })
+                } 
+                else if (pgObject[x].parent != undefined) {
+                    //it is an element, attach the data to the right element
+                    var parentNode = name2eleMap[pgObject[x].parent];
+                    // var nodeName = pgObject[x].name;
+                    var eleObject = pgObject[x].object;
+
+                    parentNode.elements[eleObject]
+                      = pgObject[x];
                 }
             }
         }
     }
-    // console.log(links);
-    // console.log(nodes);
 }
 
+//GoogleMapOverlay Component
 MapVisOverlay.prototype = new google.maps.OverlayView();
 /** @constructor */
 function MapVisOverlay(map) {
-  console.log('new MapVisOverlay')
+  console.log('*************new MapVisOverlay*************')
   this._map = map;
   // Define a property to hold the vis div. We'll
   // actually create this div upon receipt of the onAdd()
@@ -266,7 +336,7 @@ function MapVisOverlay(map) {
  * added to the map.
  */
 MapVisOverlay.prototype.onAdd = function() {
-    console.log('on add');
+    console.log('*************Map on Add*************')
     //when the overlay is added, get the pane
     var panes = d3.select(this.getPanes().overlayMouseTarget);
     // Add the layer div, relative position to the "overlayLayer" panes.
@@ -326,13 +396,22 @@ MapVisOverlay.prototype.onAdd = function() {
 MapVisOverlay.prototype.draw = function() {
     //try to get the zoom level
     var zoomLevel = this._map.getZoom();
-    console.log('----zoom-----', zoomLevel)
-    // var lat0 = this._map.getBounds().getNorthEast().lat();
-    // var lng0 = this._map.getBounds().getNorthEast().lng();
-    // var lat1 = this._map.getBounds().getSouthWest().lat();
-    // var lng1 = this._map.getBounds().getSouthWest().lng();
-    // console.log('---bound-----',lat0,lng0,lat1,lng1);
-    d3MapVis.onViewChange(zoomLevel)
+
+    var lat0 = this._map.getBounds().getNorthEast().lat();
+    var lng0 = this._map.getBounds().getNorthEast().lng();
+    var lat1 = this._map.getBounds().getSouthWest().lat();
+    var lng1 = this._map.getBounds().getSouthWest().lng();
+
+    var bound = {
+      lat0: lat0,
+      lng0: lng0,
+      lat1: lat1,
+      lng1: lng1
+    }
+    // console.log('----zoom-----', zoomLevel);
+    // console.log('---new bound-----',bound);
+
+    d3MapVis.onViewChange(zoomLevel, bound)
     // To do this, we need to retrieve the projection from the overlay.
     var overlayProjection = this.getProjection();
     // Turn the overlay projection into a d3 vis projection (notice the HUGE svg)
@@ -348,8 +427,8 @@ MapVisOverlay.prototype.draw = function() {
     //turn the pass in data to atlanta based
     var atlanta = function(d) {
       return {
-        x: (33.5490 + (+d.x / 2000)),
-        y:  (-84.1880 - (+d.y / 2000))
+        x: d.x,
+        y: d.y
       }
     }
     var pgProjection = function(d) {
@@ -365,36 +444,37 @@ MapVisOverlay.prototype.draw = function() {
                 .attr('y1', source.y)
                 .attr('x2', target.x)
                 .attr('y2', target.y)
+                .style("opacity", function(d) {
+                  if (d.object === "transmission_line" && zoomLevel > 10) {
+                    return 0.5;
+                  }
+                  return 1;
+                });
     });
     node.each(function(d) {
       var d = pgProjection(d);
       return d3.select(this)
-              .attr("transform", "translate(" + (d.x)+ "," + (d.y) + ")");
+              .attr("transform", "translate(" + (d.x)+ "," + (d.y) + ")")
+              .style("display", function(d) {
+                if (d.object === "feeder" && (zoomLevel > 10 || zoomLevel <= 7)) {
+                  return "none";
+                }
+                return "block";
+              });
     });
 
 }
-
 MapVisOverlay.prototype.onRemove = function() {
   console.log('remove overlay');
   this._div.parentNode.removeChild(this.div_);
   this._div = null;
 }
 
-var focus = "transimission"
+//React Component
 var MapVis = React.createClass({
-    onViewChange: function(zoomLevel) {
-        if (zoomLevel !== this.props.zoomLevel) {
-            if (zoomLevel <= 9) {
-                var currFocus = "transimission";
-            } else {
-                var currFocus = "distribution";
-            }
-            if (currFocus !== focus) {
-                focus = currFocus;
-                console.log('----------focus level change, ready to reset, using new zoomLevel to fetech data--------')
-                this.props.onViewChange(zoomLevel);
-            }
-        }
+    onViewChange: function(zoomLevel, newBound) {
+        //no need to check here, pass it to the parent element
+        this.props.onViewChange(zoomLevel, newBound);
     },
     singleClick: function(data) {
         //two cases, 1.select change 2.filterchange
@@ -413,8 +493,11 @@ var MapVis = React.createClass({
         d3MapVis.create(el, this.props, this.singleClick, this.onViewChange);
     },
     componentDidUpdate: function() {
-        console.log('MapVis didUpdate! with data!!!', this.props.data);
-        d3MapVis.parseData(this.props.data);
+        console.log('MapVis didUpdate!!!');
+        if (this.props.dataChange) {
+          // a trick to reduce unnessary data parsing
+          d3MapVis.parseData(this.props.data);
+        }
         d3MapVis.update(this.props, this.singleClick);
     },
     componentWillUnMount: function() {
@@ -425,7 +508,6 @@ var MapVis = React.createClass({
         var inlineStyle = {
             width: '100%',
             height: '100%',
-            // zIndex: -1
         }
         return (
             <div style={inlineStyle} className="mapvis">
@@ -434,236 +516,178 @@ var MapVis = React.createClass({
     }
 });
 
-
 module.exports = MapVis;
 
-
-
 var mapStyles = [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.neighborhood",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ffffff"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dadada"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#c9c9c9"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  }
+    {
+        "featureType": "all",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "weight": "0.01"
+            },
+            {
+                "gamma": "0.00"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            },
+            {
+                "weight": "0.01"
+            },
+            {
+                "invert_lightness": true
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#dce5e8"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    }
 ]
