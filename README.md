@@ -25,7 +25,7 @@ There are 3 major challenges when developping this application
  - 2. Let D3 work with React
  - 3. Dynamically fetching data for the map visualization based on viewport.
 
-Note that this is one part of the whole simulator project, the backend detail will be updated in another repos soon.
+Note that this is one part of the whole simulator project, the backend detail will be updated in another [repos](https://github.com/hkjpotato/pg-archive) soon.
 
 ![img.034](https://raw.githubusercontent.com/hkjpotato/react-map-vis-demo/master/img/vis_img.034.png)
 ![img.035](https://raw.githubusercontent.com/hkjpotato/react-map-vis-demo/master/img/vis_img.035.png)
