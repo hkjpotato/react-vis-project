@@ -65,8 +65,9 @@ d3Force.create = function(el, props, clickCb) {
 
     force = d3.layout.force()
         .linkDistance(30)
-        // .gravity(0)
-        // .charge(-100)
+        // .linkStrength(1)
+        .gravity(0)
+        .charge(-10)
         .size([width, height])
         .nodes(nodes)
         .links(links)
@@ -177,6 +178,9 @@ d3Force.update = function(props, clickCb) {
     //render color
     node
     .style('fill', function(d) {
+        if (d.name === "150") {
+            return "black"
+        }
         return color(d.objectType);
     });
     // highlight select, might be no efficiency
@@ -335,8 +339,8 @@ var ForceVis = React.createClass({
         for (var x in pgObject) {
             //in a tree, if an element has either name or module but from is undefined, it must be a node
             if ((pgObject[x].name != undefined || pgObject[x].module != undefined) && pgObject[x].from == undefined) {
-                pgObject[x]['ha'] = "ha";
                 if (pgObject[x].object == "node") {
+                    var nodeName = pgObject[x].name;
                     pgObject[x]['lat'] = name2eleMap[nodeName].x;
                     pgObject[x]['lng'] = name2eleMap[nodeName].y;
                 }
@@ -362,13 +366,13 @@ var ForceVis = React.createClass({
         }
         document.body.appendChild(form);
 
-        $('#invisible').bind('ajax:complete', function() {
-            // tasks to do 
-            console.log('submit complete');
-            location.reload();
+        // $('#invisible').bind('ajax:complete', function() {
+        //     // tasks to do 
+        //     console.log('submit complete');
+        //     location.reload();
 
-        });
-        // form.submit();
+        // });
+        form.submit();
 
         // location.reload();
         //try use jquery ajax to send the data
@@ -399,6 +403,16 @@ var ForceVis = React.createClass({
             this.props.onFilterChange(null);
         }
     },
+    fixNode: function() {
+        //two cases, 1.select change 2.filterchange
+        // node = vis.selectAll(".node");
+        // node.
+        nodes.forEach(function(node) {
+            node.fixed = !node.fixed;
+        });
+        d3Force.update(this.props, this.singleClick);
+
+    },
     componentDidMount: function() {
         console.log('ForceVis didmount!');
         var el = ReactDOM.findDOMNode(this);
@@ -422,12 +436,18 @@ var ForceVis = React.createClass({
             bottom: '30px',
             right: '30px'
         }
+        var buttonStyle2 = {
+            position: 'absolute',
+            bottom: '30px',
+            right: '200px'
+        }
         var inlineStyle = {
             width: '100%',
             height: '100%',
         }
         return (
             <div style={inlineStyle} className="forceVis">
+                <a style={buttonStyle2} className="waves-effect waves-light btn" onClick={this.fixNode}>fix</a>
                 <a style={buttonStyle} className="waves-effect waves-light btn" onClick={this.saveData}>update</a>
             </div>
         )

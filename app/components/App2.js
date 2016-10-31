@@ -165,9 +165,6 @@ var DashBoard = React.createClass({
       process: 'ready',
       playing: false,
       timeVal: 1,
-      tColor: 'black',
-      dColor: 'white',
-      mapStyle: 'satellite',
       mapProps: {
         zoomLevel: 12,
         // mapCenter: new google.maps.LatLng(33.7490, -84.3880)
@@ -176,21 +173,6 @@ var DashBoard = React.createClass({
       },
       dataChange: false
     }
-  },
-  onMapStyleChange: function(mapStyle) {
-    this.setState({
-      mapStyle: mapStyle
-    });
-  },
-  onTColorChange: function(tColor) {
-    this.setState({
-      tColor: tColor
-    });
-  },
-  onDColorChange: function(dColor) {
-    this.setState({
-      dColor: dColor
-    });
   },
   onSelectChange: function(d) {
     if (d && d.object === "centroid") {
@@ -238,7 +220,7 @@ var DashBoard = React.createClass({
   },
   removeElement: function(data) {
     //ajax
-
+    console.log('这是测试删除功能');
     //update state
     var newIndex = 2000;
     var newEle = {
@@ -281,15 +263,15 @@ var DashBoard = React.createClass({
   componentDidMount: function() {
     self = this;
     // console.log('DashBoard component did mount');
-    // $(document).ready(function(){
-
-    // });
-    $('ul.tabs').tabs({
-      onShow: function(event) {
-        self.setState({
-          viewMode: $(event).attr('id')
-        });
-      }
+    $(document).ready(function(){
+      $('ul.tabs').tabs({
+        onShow: function(event) {
+          self.setState({
+            viewMode: $(event).attr('id')
+          });
+        }
+      });
+      // $('select').material_select();
     });
     //for demo purpose
     var apiAddress = "nyc.json";
@@ -355,18 +337,8 @@ var DashBoard = React.createClass({
     var status = this.state.process === "ready" ? "run" : this.state.process;
     return (
      <div className="row" style={{height: '100%'}}>
-      <div className="col s2" style={{height: "100%"}}>
-        <SideBar 
-          tColor={this.state.tColor} 
-          dColor={this.state.dColor}
-          mapStyle={this.state.mapStyle}
-          onMapStyleChange={this.onMapStyleChange} 
-          onTColorChange={this.onTColorChange} 
-          onDColorChange={this.onDColorChange} 
-          status={status} 
-          runAnalysis={this.runAnalysis}data={this.state.data} 
-          onFilterChange={this.onFilterChange} 
-          filter={this.state.filter} />
+      <div className="col s2">
+        <SideBar status={status} runAnalysis={this.runAnalysis}data={this.state.data} onFilterChange={this.onFilterChange} filter={this.state.filter} />
       </div>
       <div className="col s10" style={{height: '100%'}}> 
          <div className="row" style={{height: '100%', position: 'relative'}}>
@@ -379,36 +351,8 @@ var DashBoard = React.createClass({
             {this.state.process === "running" ?  
               <RunningLoader /> : null
             }
-            <div id="vis" style={{height: '90%'}} className="col s12">
-              <VisContainer 
-                mapStyle={this.state.mapStyle} 
-                tColor={this.state.tColor} 
-                dColor={this.state.dColor} 
-                addElement={this.addElement} 
-                onPlayClick={this.onPlayClick} 
-                onTimeChange={this.onTimeChange} 
-                timeVal={this.state.timeVal} 
-                playing={this.state.playing} 
-                process={this.state.process} 
-                dataChange={this.state.dataChange} 
-                mapProps={this.state.mapProps} 
-                data={this.state.data} 
-                height={'100%'} 
-                onSelectChange={this.onSelectChange}  
-                onViewChange={this.onViewChange}  
-                onFilterChange={this.onFilterChange} 
-                selected={this.state.selected} 
-                filter={this.state.filter} />
-              </div>
-            <div id="table"  style={{height: '90%'}} className="col s12">
-              <FilterableElementTable 
-                data={this.state.data} 
-                height={'100%'} 
-                selected={this.state.selected} 
-                filter={this.state.filter} 
-                viewMode={this.state.viewMode} 
-                onSelectChange={this.onSelectChange} />
-              </div>
+            <div id="vis" style={{height: '90%'}} className="col s12"><VisContainer addElement={this.addElement} onPlayClick={this.onPlayClick} onTimeChange={this.onTimeChange} timeVal={this.state.timeVal} playing={this.state.playing} process={this.state.process} dataChange={this.state.dataChange} mapProps={this.state.mapProps} data={this.state.data} height={'100%'} onSelectChange={this.onSelectChange}  onViewChange={this.onViewChange}  onFilterChange={this.onFilterChange} selected={this.state.selected} filter={this.state.filter} /></div>
+            <div id="table"  style={{height: '90%'}} className="col s12"><FilterableElementTable data={this.state.data} height={'100%'} selected={this.state.selected} filter={this.state.filter} viewMode={this.state.viewMode} onSelectChange={this.onSelectChange} /></div>
           </div>
       </div>
     </div>

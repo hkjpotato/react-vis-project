@@ -1,0 +1,130 @@
+{
+    "1888": {        
+        "phases": null, 
+        "from": "t_bus0", 
+        "name": "transmission_line1", 
+        "object": "transmission_line", 
+        "to": "t_bus3", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1888
+    },
+    "1889": {        
+        "phases": null, 
+        "from": "t_bus0", 
+        "name": "transmission_line2", 
+        "object": "transmission_line", 
+        "to": "t_bus2", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1889
+    },
+    "1890": {        
+        "phases": null, 
+        "from": "t_bus3", 
+        "name": "transmission_line3", 
+        "object": "transmission_line", 
+        "to": "t_bus2", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1890
+    },
+    "1904": {        
+        "phases": null, 
+        "from": "t_bus2", 
+        "name": "transmission_line4", 
+        "object": "transmission_line", 
+        "to": "t_bus4", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1904
+    },
+    "1902": {        
+        "phases": null, 
+        "from": "t_bus3", 
+        "name": "transmission_line5", 
+        "object": "transmission_line", 
+        "to": "t_bus1", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1902
+    },
+    "1891": {
+        "lat":  41.0487441, 
+        "object": "t_node", 
+        "lng": -71.9071658, 
+        "name": "t_bus1", 
+        "pgIndex": 1891
+    },
+    "1892": {
+        "lat": 41.039947,
+        "object": "t_node", 
+        "lng": -71.942833,
+        "name": "t_bus2", 
+        "pgIndex": 1892
+    },
+    "1903": {
+        "lat": 40.998410,
+        "object": "t_node", 
+        "lng": -72.051796,
+        "name": "t_bus4", 
+        "pgIndex": 1903
+    },
+    "1901": {
+        "lat": 41.045980,
+        "object": "t_node", 
+        "lng": -71.920356,
+        "name": "t_bus3", 
+        "pgIndex": 1901
+    },
+    "1893": {
+        "lat": 41.060822,
+        "object": "t_node", 
+        "lng": -71.943818,
+        "name": "t_bus0", 
+        "pgIndex": 1893
+    },
+    "1894": {
+        "lat":  41.042886,
+        "lng":  -71.912154, 
+        "object": "centroid", 
+        "parent": "t_bus3",
+        "name": "f1_centroid", 
+        "pgIndex": 1894
+    },
+    "1895": {
+        "lat": 41.059143,
+        "lng": -71.895666, 
+        "object": "centroid", 
+        "parent": "t_bus1",
+        "name": "circuit1_centroid", 
+        "pgIndex": 1895
+    },
+    "1897": {
+        "lat": 41.035411,
+        "lng": -71.939411, 
+        "object": "centroid", 
+        "parent": "t_bus2",
+        "name": "f2_Centroid", 
+        "pgIndex": 1897
+    },
+    "1898": {
+        "lat": 41.043967,
+        "lng": -71.938054, 
+        "object": "centroid", 
+        "parent": "t_bus2",
+        "name": "f3_Centroid", 
+        "pgIndex": 1898
+    },
+    "1899": {
+        "lat": 41.069330,
+        "lng": -71.941875, 
+        "object": "centroid", 
+        "parent": "t_bus0",
+        "name": "f4_Centroid", 
+        "pgIndex": 1899
+    },
+    "1900": {
+        "lat": 41.052617,
+        "lng": -71.951817, 
+        "object": "centroid", 
+        "parent": "t_bus0",
+        "name": "f5_Centroid", 
+        "pgIndex": 1900
+    }
+}
