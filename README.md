@@ -61,8 +61,8 @@ At this stage, the team will focus on improving the backend code, both on the da
 
 #### Study Planning for the second stage
 To get more prepared, I am planning to take following steps:
- - Python study ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
- - Django study ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
+ - Further Python study, focus on OOD and datatype ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
+ - Further Django study, focus on model and database ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
  - Django REST framework([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
  - Database knowledge review([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
  - Taking a system design course.
