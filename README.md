@@ -51,7 +51,7 @@ I am going to carry out a user testing based on the current prototype. The detai
 
 <br />
 ##<a name="second-stage">Second Stage (Improvement of the backend and whole architecture)</a>
-We have a prototyping working with our primary server at the first stage. However, the design of the backend is at very primary stage. And the CRUD function is not implemented. The reason is that:
+We have a prototyping working with our primary server at the first stage. However, the design of the backend is at very primary stage. And the CRUD function is not implemented. The reasons are:
  1. The information about what data should be stored is not totally clear at this stage.
  2. The manipulation of the data is not clear at this stage. We might need a RESTful API for our backend to work with frontend.
  3. I am still not professional in python, django and database. And I am not confident enough about the whole system design.
