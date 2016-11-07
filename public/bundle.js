@@ -23505,6 +23505,7 @@
 	                ));
 	            }
 
+<<<<<<< HEAD
 	            // var addInfo = {
 	            //     parent: selectedInfo.name, 
 	            //     eleObj: 'generator'
@@ -23512,6 +23513,17 @@
 	            // elementsInfo.push(
 	            //     <span key='addIcon' onClick={this.props.addElement.bind(null, addInfo)} className="fa fa-plus" aria-hidden="true">&nbsp;</span>
 	            // )
+=======
+	            var addInfo = {
+	                parent: selectedInfo.name,
+	                eleObj: 'generator'
+	            };
+	            elementsInfo.push(React.createElement(
+	                'span',
+	                { key: 'addIcon', onClick: this.props.addElement.bind(null, addInfo), className: 'fa fa-plus', 'aria-hidden': 'true' },
+	                ' '
+	            ));
+>>>>>>> 5831bd84dd4a9c500d8d76e760b93b7d25163a1d
 	            rows.push(React.createElement(
 	                'tr',
 	                { key: "elements", style: { height: 10 } },
