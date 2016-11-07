@@ -64,7 +64,7 @@ To get more prepared, I am planning to take following steps:
  - Further Python study, focus on OOD and datatype ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
  - Further Django study, focus on model and database ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
  - Django REST framework ([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
- - Database knowledge review ([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
+ - Database knowledge review ([w3chool SQL tutorial](http://www.w3schools.com/sql/), textbook(Fundamentals of Database Systems by Elmasri&Navathe)).
  - Taking a system design course.
 
 #### Principles
