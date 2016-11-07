@@ -1,7 +1,7 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 
 ## Development Schedule
-
+<br />
 ### First Stage (UI prototyping)
 In the first stage, we focus on making the primary interface for the web application, and primary design for the backend application as well as the database. 
 
@@ -46,6 +46,7 @@ __[Prototype2]__
 #### User Testing
 I am going to carry out a user testing based on the current prototype. The details is in our team report.
 
+<br />
 ### Second Stage (Improvement of the backend and whole architecture)
 We have a prototyping working with our primary server at the first stage. However, the design of the backend is at very primary stage. And the CRUD function is not implemented. The reason is that:
  1. The information about what data should be stored is not totally clear at this stage.
@@ -57,11 +58,11 @@ At this stage, the team will focus on improving the backend code, both on the da
 
 #### Study Planning for the second stage
 To get more prepared, I am planning to take following steps:
-	1. Python study ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
-	2. Django study ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
-	3. Django REST framework([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
-	3. Database knowledge review([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
-	4. Taking a system design course.
+1. Python study ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
+2. Django study ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
+3. Django REST framework([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
+3. Database knowledge review([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
+4. Taking a system design course.
 
 #### Principles
 To make sure we are coding properly, we need to follow some design principles through the whole development process, so that we are not 'anti-pattern'.
