@@ -58,11 +58,11 @@ At this stage, the team will focus on improving the backend code, both on the da
 
 #### Study Planning for the second stage
 To get more prepared, I am planning to take following steps:
-1. Python study ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
-2. Django study ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
-3. Django REST framework([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
-3. Database knowledge review([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
-4. Taking a system design course.
+ - Python study ([python tutorial](http://wiki.jikexueyuan.com/project/start-learning-python/211.html)).
+ - Django study ([django doc](https://docs.djangoproject.com/en/1.10/topics/db/models/)).
+ - Django REST framework([Django REST doc](http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/)).
+ - Database knowledge review([w3chool SQL tutorial](http://www.w3schools.com/sql/)).
+ - Taking a system design course.
 
 #### Principles
 To make sure we are coding properly, we need to follow some design principles through the whole development process, so that we are not 'anti-pattern'.
