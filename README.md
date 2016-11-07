@@ -10,7 +10,7 @@ In the first stage, we focus on making the primary interface for the web applica
 
 For the frontend, I choose to use ReactJS + D3 + GoogleMap API to make the visualiztion, The reason is to maintain a uniform state for the front end and try to abstract the UI layer from the backend server.
 
-For the backend, our team is using django with a relational database. The reason to use django is because 
+For the backend, our team is using django with a relational database. We use django because:
  1. The legacy code is developed in flask. 
  2. The team is more familiar with python, the ananlysis tool is developed in python.
  3. We want to make use of the ORM model provided by django to work with SQL database.
