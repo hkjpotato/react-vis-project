@@ -5,7 +5,7 @@
  - [Second Stage](#second-stage)
 
 <br />
-##<a name="first-stage">First Stage](UI prototyping)</a>
+##<a name="first-stage">First Stage (UI prototyping)</a>
 In the first stage, we focus on making the primary interface for the web application, and primary design for the backend application as well as the database. 
 
 For the frontend, I choose to use ReactJS + D3 + GoogleMap API to make the visualiztion, The reason is to maintain a uniform state for the front end and try to abstract the UI layer from the backend server.
