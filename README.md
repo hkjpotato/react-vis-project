@@ -1,8 +1,11 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 
 ## Development Schedule
+ - [First Stage](#first-stage)
+ - [Second Stage](#second-stage)
+
 <br />
-### First Stage (UI prototyping)
+##<a name="first-stage">First Stage](UI prototyping)</a>
 In the first stage, we focus on making the primary interface for the web application, and primary design for the backend application as well as the database. 
 
 For the frontend, I choose to use ReactJS + D3 + GoogleMap API to make the visualiztion, The reason is to maintain a uniform state for the front end and try to abstract the UI layer from the backend server.
@@ -47,7 +50,7 @@ __[Prototype2]__
 I am going to carry out a user testing based on the current prototype. The details is in our team report.
 
 <br />
-### Second Stage (Improvement of the backend and whole architecture)
+##<a name="second-stage">Second Stage (Improvement of the backend and whole architecture)</a>
 We have a prototyping working with our primary server at the first stage. However, the design of the backend is at very primary stage. And the CRUD function is not implemented. The reason is that:
  1. The information about what data should be stored is not totally clear at this stage.
  2. The manipulation of the data is not clear at this stage. We might need a RESTful API for our backend to work with frontend.
