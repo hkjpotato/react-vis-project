@@ -71,8 +71,8 @@ To get more prepared, I am planning to take following steps:
 To make sure we are coding properly, we need to follow some design principles through the whole development process, so that we are not 'anti-pattern'.
 
 In summary, for the backend, we want to 
-1. Make code less verbose, and more robust.
-2. Increase DRYness, raises abstraction level.
+ 1. Make code less verbose, and more robust.
+ 2. Increase DRYness, raises abstraction level.
 
 #### Some sources for reference:
  1. [The right way to use ORM](https://www.dabapps.com/blog/higher-level-query-api-django-orm/)
