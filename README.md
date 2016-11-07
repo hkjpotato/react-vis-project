@@ -2,7 +2,10 @@
 
 __[Video]__
 
+__[Live Demo Updated]__
+
 __[Live Demo]__
+
 
 
 ## Basic product requirements 
@@ -42,5 +45,6 @@ Note that this is one part of the whole simulator project, the backend detail wi
 ![img.046](https://raw.githubusercontent.com/hkjpotato/react-map-vis-demo/master/img/vis_img.046.png)
 ![img.047](https://raw.githubusercontent.com/hkjpotato/react-map-vis-demo/master/img/vis_img.047.png)
 
+[Live Demo Updated]: <http://52.24.114.125/pgdemo2/public/>
 [Live Demo]: <http://52.24.114.125/pgdemo/public/>
 [Video]: <https://youtu.be/9h0TL7uOntI>

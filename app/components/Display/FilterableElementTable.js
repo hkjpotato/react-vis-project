@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 
 var ElementRow = React.createClass({
   rowClick: function(data, reactEvent) {
-    console.log('-----row click-----');
+    // console.log('-----row click-----');
     this.props.singleClick(data);
   },
   render: function() {
@@ -98,7 +98,7 @@ var SearchBar = React.createClass({
 
 var FilterableElementTable = React.createClass({
   componentDidUpdate: function() {
-    console.log('FilterableElementTable didUpdate', this.props);
+    // console.log('FilterableElementTable didUpdate', this.props);
     //at this point, the child element doms should be ready
     if (this.props.selected && this.props.viewMode == "table") {
         var container = $(this.refs.tableView);
@@ -113,18 +113,18 @@ var FilterableElementTable = React.createClass({
     }
   },
   render: function() {
-    console.log('FilterableElementTable render');
+    // console.log('FilterableElementTable render');
     //the filter of the table is decide by the selected at this
     var selected = null, filter = null;
     if (this.props.selected) {
         selected = this.props.selected.name;
         filter = this.props.selected.objectType || this.props.selected.object;
-        console.log('we have select props, filter based on select', filter);
+        // console.log('we have select props, filter based on select', filter);
     }
     //what if we have filter
     if (this.props.filter) {
         filter = this.props.filter;
-        console.log('we have filter props', filter);
+        // console.log('we have filter props', filter);
     }
 
     var filteredElements = [];
@@ -135,7 +135,7 @@ var FilterableElementTable = React.createClass({
         }
     }
     var inlineStyle = {
-        height: this.props.height,
+        height: '100%',
         border: '.5px dotted lightgray',
         overflow: 'scroll',
         padding: 5,

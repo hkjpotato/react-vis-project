@@ -2,7 +2,7 @@ var React = require('react');
 
 var Filter = React.createClass({
   filterClick: function(value, reactEvent) {
-      console.log('------filterClick-------',reactEvent);
+      // console.log('------filterClick-------',reactEvent);
       reactEvent.preventDefault();
       var filter = value.toLowerCase();
       this.props.onFilterChange(filter);
@@ -13,12 +13,12 @@ var Filter = React.createClass({
   render: function() {
     var currFilter = this.props.currFilter
     //arrange them in order of load/generator/storage/solar/capacitor
-    var items = ['Node', 'Generator', 'Load', 'Storage', 'Solar', 'Capacitor'];
+    var items = ['Node', 'Load', 'Generator', 'Storage', 'Solar', 'Capacitor'];
     var iconClassName = {
-      "Load": 'fa fa-plug',
+      "Load": 'fa fa-arrow-down',
       "Generator": 'fa fa-bolt',
       "Storage": 'fa fa-battery-three-quarters',
-      "Solar": 'fa fa-sun-o',
+      "Solar": 'fa fa-star',
       "Capacitor": 'fa fa-archive',
     }
     var rows = items.map(function(item, i) {
@@ -31,7 +31,6 @@ var Filter = React.createClass({
 
     return (
       <div ref="mountPoint">
-        <h4>Explorator</h4>
         <div className="collection">
           {rows}
         </div>

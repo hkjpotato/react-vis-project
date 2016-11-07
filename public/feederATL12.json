@@ -1,0 +1,3401 @@
+{
+    "719": {
+        "pgIndex": 719, 
+        "object": "load", 
+        "name": "Load_S111AfeederATL1", 
+        "parent": "111feederATL1"
+    }, 
+    "718": {
+        "pgIndex": 718, 
+        "object": "load", 
+        "name": "Load_S109AfeederATL1", 
+        "parent": "109feederATL1"
+    }, 
+    "717": {
+        "pgIndex": 717, 
+        "object": "load", 
+        "name": "Load_S107BfeederATL1", 
+        "parent": "107feederATL1"
+    }, 
+    "716": {
+        "pgIndex": 716, 
+        "object": "load", 
+        "name": "Load_S106BfeederATL1", 
+        "parent": "106feederATL1"
+    }, 
+    "715": {
+        "pgIndex": 715, 
+        "object": "load", 
+        "name": "Load_S104CfeederATL1", 
+        "parent": "104feederATL1"
+    }, 
+    "714": {
+        "pgIndex": 714, 
+        "object": "load", 
+        "name": "Load_S103CfeederATL1", 
+        "parent": "103feederATL1"
+    }, 
+    "713": {
+        "pgIndex": 713, 
+        "object": "load", 
+        "name": "Load_S102CfeederATL1", 
+        "parent": "102feederATL1"
+    }, 
+    "712": {
+        "pgIndex": 712, 
+        "object": "load", 
+        "name": "Load_S100CfeederATL1", 
+        "parent": "100feederATL1"
+    }, 
+    "711": {
+        "pgIndex": 711, 
+        "object": "load", 
+        "name": "Load_S99BfeederATL1", 
+        "parent": "99feederATL1"
+    }, 
+    "710": {
+        "pgIndex": 710, 
+        "object": "load", 
+        "name": "Load_S98AfeederATL1", 
+        "parent": "98feederATL1"
+    }, 
+    "591": {
+        "phases": null, 
+        "from": "97feederATL1", 
+        "name": "Line_L96feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "98feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 591
+    }, 
+    "590": {
+        "phases": null, 
+        "from": "95feederATL1", 
+        "name": "Line_L95feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "96feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 590
+    }, 
+    "593": {
+        "phases": null, 
+        "from": "99feederATL1", 
+        "name": "Line_L98feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "100feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 593
+    }, 
+    "592": {
+        "phases": null, 
+        "from": "98feederATL1", 
+        "name": "Line_L97feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "99feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 592
+    }, 
+    "595": {
+        "phases": null, 
+        "from": "197feederATL1", 
+        "name": "Line_L118feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "101feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 595
+    }, 
+    "594": {
+        "phases": null, 
+        "from": "100feederATL1", 
+        "name": "Line_L99feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "450feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 594
+    }, 
+    "597": {
+        "phases": null, 
+        "from": "101feederATL1", 
+        "name": "Line_L101feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "105feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 597
+    }, 
+    "596": {
+        "phases": null, 
+        "from": "101feederATL1", 
+        "name": "Line_L100feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "102feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 596
+    }, 
+    "599": {
+        "phases": null, 
+        "from": "103feederATL1", 
+        "name": "Line_L103feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "104feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 599
+    }, 
+    "598": {
+        "phases": null, 
+        "from": "102feederATL1", 
+        "name": "Line_L102feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "103feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 598
+    }, 
+    "524": {
+        "phases": null, 
+        "from": "27feederATL1", 
+        "name": "Line_L29feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "33feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 524
+    }, 
+    "525": {
+        "phases": null, 
+        "from": "28feederATL1", 
+        "name": "Line_L30feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "29feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 525
+    }, 
+    "526": {
+        "phases": null, 
+        "from": "29feederATL1", 
+        "name": "Line_L31feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "30feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 526
+    }, 
+    "527": {
+        "phases": null, 
+        "from": "30feederATL1", 
+        "name": "Line_L32feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "250feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 527
+    }, 
+    "520": {
+        "phases": null, 
+        "from": "25rfeederATL1", 
+        "name": "Line_L25feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "26feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 520
+    }, 
+    "521": {
+        "phases": null, 
+        "from": "25feederATL1", 
+        "name": "Line_L26feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "28feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 521
+    }, 
+    "522": {
+        "phases": null, 
+        "from": "26feederATL1", 
+        "name": "Line_L27feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "27feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 522
+    }, 
+    "523": {
+        "phases": null, 
+        "from": "26feederATL1", 
+        "name": "Line_L28feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "31feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 523
+    }, 
+    "528": {
+        "phases": null, 
+        "from": "31feederATL1", 
+        "name": "Line_L33feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "32feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 528
+    }, 
+    "529": {
+        "phases": null, 
+        "from": "34feederATL1", 
+        "name": "Line_L34feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "15feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 529
+    }, 
+    "449": {
+        "lat": 33.73249405253427, 
+        "lng": -84.41491982394592, 
+        "object": "node", 
+        "name": "79feederATL1", 
+        "pgIndex": 449
+    }, 
+    "448": {
+        "lat": 33.73252551220101, 
+        "lng": -84.4141552422061, 
+        "object": "node", 
+        "name": "78feederATL1", 
+        "pgIndex": 448
+    }, 
+    "443": {
+        "lat": 33.73368354325559, 
+        "lng": -84.4113741132985, 
+        "object": "node", 
+        "name": "76feederATL1", 
+        "pgIndex": 443
+    }, 
+    "442": {
+        "lat": 33.73520874883397, 
+        "lng": -84.4110700378829, 
+        "object": "node", 
+        "name": "73feederATL1", 
+        "pgIndex": 442
+    }, 
+    "441": {
+        "lat": 33.73890402328216, 
+        "lng": -84.41102422428301, 
+        "object": "node", 
+        "name": "71feederATL1", 
+        "pgIndex": 441
+    }, 
+    "440": {
+        "lat": 33.73823266893912, 
+        "lng": -84.41047692430554, 
+        "object": "node", 
+        "name": "70feederATL1", 
+        "pgIndex": 440
+    }, 
+    "447": {
+        "lat": 33.73248718513534, 
+        "lng": -84.41144758785714, 
+        "object": "node", 
+        "name": "86feederATL1", 
+        "pgIndex": 447
+    }, 
+    "446": {
+        "lat": 33.733128644019644, 
+        "lng": -84.41276508053714, 
+        "object": "node", 
+        "name": "77feederATL1", 
+        "pgIndex": 446
+    }, 
+    "445": {
+        "lat": 33.73583693771786, 
+        "lng": -84.41268616486484, 
+        "object": "node", 
+        "name": "75feederATL1", 
+        "pgIndex": 445
+    }, 
+    "444": {
+        "lat": 33.73550297289191, 
+        "lng": -84.41193700213076, 
+        "object": "node", 
+        "name": "74feederATL1", 
+        "pgIndex": 444
+    }, 
+    "641": {
+        "pgIndex": 641, 
+        "object": "load", 
+        "name": "Load_S5CfeederATL1", 
+        "parent": "5feederATL1"
+    }, 
+    "640": {
+        "pgIndex": 640, 
+        "object": "load", 
+        "name": "Load_S4CfeederATL1", 
+        "parent": "4feederATL1"
+    }, 
+    "643": {
+        "pgIndex": 643, 
+        "object": "load", 
+        "name": "Load_S7AfeederATL1", 
+        "parent": "7feederATL1"
+    }, 
+    "642": {
+        "pgIndex": 642, 
+        "object": "load", 
+        "name": "Load_S6CfeederATL1", 
+        "parent": "6feederATL1"
+    }, 
+    "645": {
+        "pgIndex": 645, 
+        "object": "load", 
+        "name": "Load_S10AfeederATL1", 
+        "parent": "10feederATL1"
+    }, 
+    "644": {
+        "pgIndex": 644, 
+        "object": "load", 
+        "name": "Load_S9AfeederATL1", 
+        "parent": "9feederATL1"
+    }, 
+    "438": {
+        "lat": 33.73841185179401, 
+        "lng": -84.40853165289151, 
+        "object": "node", 
+        "name": "97feederATL1", 
+        "pgIndex": 438
+    }, 
+    "646": {
+        "pgIndex": 646, 
+        "object": "load", 
+        "name": "Load_S11AfeederATL1", 
+        "parent": "11feederATL1"
+    }, 
+    "436": {
+        "lat": 33.73673411731335, 
+        "lng": -84.40923345880921, 
+        "object": "node", 
+        "name": "68feederATL1", 
+        "pgIndex": 436
+    }, 
+    "437": {
+        "lat": 33.73490069109145, 
+        "lng": -84.41016596377312, 
+        "object": "node", 
+        "name": "72feederATL1", 
+        "pgIndex": 437
+    }, 
+    "434": {
+        "lat": 33.72450937345266, 
+        "lng": -84.40526150473319, 
+        "object": "node", 
+        "name": "66feederATL1", 
+        "pgIndex": 434
+    }, 
+    "435": {
+        "lat": 33.7359373144138, 
+        "lng": -84.4086573049683, 
+        "object": "node", 
+        "name": "67feederATL1", 
+        "pgIndex": 435
+    }, 
+    "432": {
+        "lat": 33.72616978524664, 
+        "lng": -84.40425084131478, 
+        "object": "node", 
+        "name": "64feederATL1", 
+        "pgIndex": 432
+    }, 
+    "433": {
+        "lat": 33.725270424642545, 
+        "lng": -84.40477160738655, 
+        "object": "node", 
+        "name": "65feederATL1", 
+        "pgIndex": 433
+    }, 
+    "430": {
+        "lat": 33.72835792346275, 
+        "lng": -84.40309063234798, 
+        "object": "node", 
+        "name": "62feederATL1", 
+        "pgIndex": 430
+    }, 
+    "431": {
+        "lat": 33.72722750797587, 
+        "lng": -84.40371082334833, 
+        "object": "node", 
+        "name": "63feederATL1", 
+        "pgIndex": 431
+    }, 
+    "559": {
+        "phases": null, 
+        "from": "64feederATL1", 
+        "name": "Line_L64feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "65feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 559
+    }, 
+    "558": {
+        "phases": null, 
+        "from": "63feederATL1", 
+        "name": "Line_L63feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "64feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 558
+    }, 
+    "555": {
+        "phases": null, 
+        "from": "60feederATL1", 
+        "name": "Line_L60feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "61feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 555
+    }, 
+    "554": {
+        "phases": null, 
+        "from": "58feederATL1", 
+        "name": "Line_L59feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "59feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 554
+    }, 
+    "557": {
+        "phases": null, 
+        "from": "62feederATL1", 
+        "name": "Line_L62feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "63feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 557
+    }, 
+    "556": {
+        "phases": null, 
+        "from": "60feederATL1", 
+        "name": "Line_L61feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "62feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 556
+    }, 
+    "551": {
+        "phases": null, 
+        "from": "55feederATL1", 
+        "name": "Line_L56feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "56feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 551
+    }, 
+    "550": {
+        "phases": null, 
+        "from": "54feederATL1", 
+        "name": "Line_L55feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "57feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 550
+    }, 
+    "553": {
+        "phases": null, 
+        "from": "57feederATL1", 
+        "name": "Line_L58feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "60feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 553
+    }, 
+    "552": {
+        "phases": null, 
+        "from": "57feederATL1", 
+        "name": "Line_L57feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "58feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 552
+    }, 
+    "618": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW6feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "61sfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "61feederATL1", 
+        "configuration": null, 
+        "pgIndex": 618
+    }, 
+    "619": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW7feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "300_openfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "151feederATL1", 
+        "configuration": null, 
+        "pgIndex": 619
+    }, 
+    "612": {
+        "phases": null, 
+        "from": "160rfeederATL1", 
+        "name": "Line_L117feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "67feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 612
+    }, 
+    "613": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 4000, 
+        "name": "Line_SW1feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "149feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "150rfeederATL1", 
+        "configuration": null, 
+        "pgIndex": 613
+    }, 
+    "610": {
+        "phases": null, 
+        "from": "135feederATL1", 
+        "name": "Line_L114feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "35feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 610
+    }, 
+    "611": {
+        "phases": null, 
+        "from": "152feederATL1", 
+        "name": "Line_L116feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "52feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 611
+    }, 
+    "616": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 2000, 
+        "name": "Line_SW4feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "160feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "60feederATL1", 
+        "configuration": null, 
+        "pgIndex": 616
+    }, 
+    "617": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 500, 
+        "name": "Line_SW5feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "197feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "97feederATL1", 
+        "configuration": null, 
+        "pgIndex": 617
+    }, 
+    "614": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 3000, 
+        "name": "Line_SW2feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "152feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "13feederATL1", 
+        "configuration": null, 
+        "pgIndex": 614
+    }, 
+    "615": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 1000, 
+        "name": "Line_SW3feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "135feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "18feederATL1", 
+        "configuration": null, 
+        "pgIndex": 615
+    }, 
+    "689": {
+        "pgIndex": 689, 
+        "object": "load", 
+        "name": "Load_S70AfeederATL1", 
+        "parent": "70feederATL1"
+    }, 
+    "688": {
+        "pgIndex": 688, 
+        "object": "load", 
+        "name": "Load_S69AfeederATL1", 
+        "parent": "69feederATL1"
+    }, 
+    "685": {
+        "pgIndex": 685, 
+        "object": "load", 
+        "name": "Load_S65feederATL1", 
+        "parent": "65feederATL1"
+    }, 
+    "684": {
+        "pgIndex": 684, 
+        "object": "load", 
+        "name": "Load_S64BfeederATL1", 
+        "parent": "64feederATL1"
+    }, 
+    "687": {
+        "pgIndex": 687, 
+        "object": "load", 
+        "name": "Load_S68AfeederATL1", 
+        "parent": "68feederATL1"
+    }, 
+    "686": {
+        "pgIndex": 686, 
+        "object": "load", 
+        "name": "Load_S66CfeederATL1", 
+        "parent": "66feederATL1"
+    }, 
+    "681": {
+        "pgIndex": 681, 
+        "object": "load", 
+        "name": "Load_S60AfeederATL1", 
+        "parent": "60feederATL1"
+    }, 
+    "680": {
+        "pgIndex": 680, 
+        "object": "load", 
+        "name": "Load_S59BfeederATL1", 
+        "parent": "59feederATL1"
+    }, 
+    "683": {
+        "pgIndex": 683, 
+        "object": "load", 
+        "name": "Load_S63AfeederATL1", 
+        "parent": "63feederATL1"
+    }, 
+    "682": {
+        "pgIndex": 682, 
+        "object": "load", 
+        "name": "Load_S62CfeederATL1", 
+        "parent": "62feederATL1"
+    }, 
+    "458": {
+        "lat": 33.73021206741383, 
+        "lng": -84.41123021381927, 
+        "object": "node", 
+        "name": "89feederATL1", 
+        "pgIndex": 458
+    }, 
+    "459": {
+        "lat": 33.7293869243648, 
+        "lng": -84.41155264353014, 
+        "object": "node", 
+        "name": "90feederATL1", 
+        "pgIndex": 459
+    }, 
+    "498": {
+        "phases": null, 
+        "from": "1feederATL1", 
+        "name": "Line_L3feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "7feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 498
+    }, 
+    "499": {
+        "phases": null, 
+        "from": "3feederATL1", 
+        "name": "Line_L4feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "4feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 499
+    }, 
+    "494": {
+        "phases": null, 
+        "from": "150feederATL1", 
+        "name": "Transformer_REG1feederATL1", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "150rfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 494, 
+        "senseNode": null
+    }, 
+    "495": {
+        "phases": null, 
+        "from": "149feederATL1", 
+        "name": "Line_L115feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "1feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 495
+    }, 
+    "496": {
+        "phases": null, 
+        "from": "1feederATL1", 
+        "name": "Line_L1feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "2feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 496
+    }, 
+    "497": {
+        "phases": null, 
+        "from": "1feederATL1", 
+        "name": "Line_L2feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "3feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 497
+    }, 
+    "490": {
+        "lat": 33.72773526696233, 
+        "lng": -84.40272928512884, 
+        "object": "node", 
+        "name": "61sfeederATL1", 
+        "pgIndex": 490
+    }, 
+    "491": {
+        "lat": 33.7391699875571, 
+        "lng": -84.39225242093488, 
+        "object": "node", 
+        "name": "300_openfeederATL1", 
+        "pgIndex": 491
+    }, 
+    "492": {
+        "lat": 33.72708631082637, 
+        "lng": -84.39906710104219, 
+        "object": "node", 
+        "name": "94_openfeederATL1", 
+        "pgIndex": 492
+    }, 
+    "493": {
+        "lat": 33.72693405358414, 
+        "lng": -84.4028801027112, 
+        "object": "node", 
+        "name": "610feederATL1", 
+        "pgIndex": 493
+    }, 
+    "407": {
+        "lat": 33.73133412502409, 
+        "lng": -84.38696403381431, 
+        "object": "node", 
+        "name": "39feederATL1", 
+        "pgIndex": 407
+    }, 
+    "406": {
+        "lat": 33.73083815015361, 
+        "lng": -84.38759133912963, 
+        "object": "node", 
+        "name": "38feederATL1", 
+        "pgIndex": 406
+    }, 
+    "405": {
+        "lat": 33.73114534886432, 
+        "lng": -84.38811924581199, 
+        "object": "node", 
+        "name": "37feederATL1", 
+        "pgIndex": 405
+    }, 
+    "404": {
+        "lat": 33.73092270220603, 
+        "lng": -84.38962053335202, 
+        "object": "node", 
+        "name": "40feederATL1", 
+        "pgIndex": 404
+    }, 
+    "403": {
+        "lat": 33.73034828453166, 
+        "lng": -84.38826712909302, 
+        "object": "node", 
+        "name": "36feederATL1", 
+        "pgIndex": 403
+    }, 
+    "402": {
+        "lat": 33.7297703530932, 
+        "lng": -84.38890600405625, 
+        "object": "node", 
+        "name": "35feederATL1", 
+        "pgIndex": 402
+    }, 
+    "401": {
+        "lat": 33.73391830728265, 
+        "lng": -84.38098450816089, 
+        "object": "node", 
+        "name": "32feederATL1", 
+        "pgIndex": 401
+    }, 
+    "400": {
+        "lat": 33.73100763769341, 
+        "lng": -84.38008874615342, 
+        "object": "node", 
+        "name": "250feederATL1", 
+        "pgIndex": 400
+    }, 
+    "452": {
+        "lat": 33.73134410334572, 
+        "lng": -84.41738075000634, 
+        "object": "node", 
+        "name": "82feederATL1", 
+        "pgIndex": 452
+    }, 
+    "409": {
+        "lat": 33.73201223457601, 
+        "lng": -84.39030300292465, 
+        "object": "node", 
+        "name": "42feederATL1", 
+        "pgIndex": 409
+    }, 
+    "408": {
+        "lat": 33.73168220334989, 
+        "lng": -84.38940421979602, 
+        "object": "node", 
+        "name": "41feederATL1", 
+        "pgIndex": 408
+    }, 
+    "453": {
+        "lat": 33.73066802451936, 
+        "lng": -84.41714326239182, 
+        "object": "node", 
+        "name": "84feederATL1", 
+        "pgIndex": 453
+    }, 
+    "379": {
+        "lat": 33.72683957850453, 
+        "lng": -84.3877966808269, 
+        "object": "node", 
+        "name": "18feederATL1", 
+        "pgIndex": 379
+    }, 
+    "378": {
+        "lat": 33.724193126898726, 
+        "lng": -84.38923798777681, 
+        "object": "node", 
+        "name": "34feederATL1", 
+        "pgIndex": 378
+    }, 
+    "371": {
+        "lat": 33.72098737547244, 
+        "lng": -84.38249634663461, 
+        "object": "node", 
+        "name": "6feederATL1", 
+        "pgIndex": 371
+    }, 
+    "370": {
+        "lat": 33.721183674507294, 
+        "lng": -84.38332515364925, 
+        "object": "node", 
+        "name": "5feederATL1", 
+        "pgIndex": 370
+    }, 
+    "373": {
+        "lat": 33.72302704406213, 
+        "lng": -84.3873252216076, 
+        "object": "node", 
+        "name": "12feederATL1", 
+        "pgIndex": 373
+    }, 
+    "372": {
+        "lat": 33.72368935115223, 
+        "lng": -84.38775011301487, 
+        "object": "node", 
+        "name": "8feederATL1", 
+        "pgIndex": 372
+    }, 
+    "375": {
+        "lat": 33.7252312327469, 
+        "lng": -84.3888871174574, 
+        "object": "node", 
+        "name": "13feederATL1", 
+        "pgIndex": 375
+    }, 
+    "374": {
+        "lat": 33.72243011275093, 
+        "lng": -84.38760659290088, 
+        "object": "node", 
+        "name": "9feederATL1", 
+        "pgIndex": 374
+    }, 
+    "377": {
+        "lat": 33.71986315859056, 
+        "lng": -84.38723760683851, 
+        "object": "node", 
+        "name": "14feederATL1", 
+        "pgIndex": 377
+    }, 
+    "376": {
+        "lat": 33.72109443318891, 
+        "lng": -84.38741550416471, 
+        "object": "node", 
+        "name": "9rfeederATL1", 
+        "pgIndex": 376
+    }, 
+    "708": {
+        "pgIndex": 708, 
+        "object": "load", 
+        "name": "Load_S95BfeederATL1", 
+        "parent": "95feederATL1"
+    }, 
+    "709": {
+        "pgIndex": 709, 
+        "object": "load", 
+        "name": "Load_S96BfeederATL1", 
+        "parent": "96feederATL1"
+    }, 
+    "704": {
+        "pgIndex": 704, 
+        "object": "load", 
+        "name": "Load_S88AfeederATL1", 
+        "parent": "88feederATL1"
+    }, 
+    "705": {
+        "pgIndex": 705, 
+        "object": "load", 
+        "name": "Load_S90BfeederATL1", 
+        "parent": "90feederATL1"
+    }, 
+    "706": {
+        "pgIndex": 706, 
+        "object": "load", 
+        "name": "Load_S92CfeederATL1", 
+        "parent": "92feederATL1"
+    }, 
+    "707": {
+        "pgIndex": 707, 
+        "object": "load", 
+        "name": "Load_S94AfeederATL1", 
+        "parent": "94feederATL1"
+    }, 
+    "700": {
+        "pgIndex": 700, 
+        "object": "load", 
+        "name": "Load_S84CfeederATL1", 
+        "parent": "84feederATL1"
+    }, 
+    "701": {
+        "pgIndex": 701, 
+        "object": "load", 
+        "name": "Load_S85CfeederATL1", 
+        "parent": "85feederATL1"
+    }, 
+    "702": {
+        "pgIndex": 702, 
+        "object": "load", 
+        "name": "Load_S86BfeederATL1", 
+        "parent": "86feederATL1"
+    }, 
+    "703": {
+        "pgIndex": 703, 
+        "object": "load", 
+        "name": "Load_S87BfeederATL1", 
+        "parent": "87feederATL1"
+    }, 
+    "393": {
+        "lat": 33.73247426860903, 
+        "lng": -84.38217674734983, 
+        "object": "node", 
+        "name": "26feederATL1", 
+        "pgIndex": 393
+    }, 
+    "392": {
+        "lat": 33.73127607648479, 
+        "lng": -84.38291000487267, 
+        "object": "node", 
+        "name": "25rfeederATL1", 
+        "pgIndex": 392
+    }, 
+    "391": {
+        "lat": 33.73002443968186, 
+        "lng": -84.38367630926221, 
+        "object": "node", 
+        "name": "25feederATL1", 
+        "pgIndex": 391
+    }, 
+    "390": {
+        "lat": 33.72893574341415, 
+        "lng": -84.3842341175553, 
+        "object": "node", 
+        "name": "24feederATL1", 
+        "pgIndex": 390
+    }, 
+    "397": {
+        "lat": 33.73432828090941, 
+        "lng": -84.38161930080133, 
+        "object": "node", 
+        "name": "33feederATL1", 
+        "pgIndex": 397
+    }, 
+    "396": {
+        "lat": 33.733191587181274, 
+        "lng": -84.38150838285864, 
+        "object": "node", 
+        "name": "31feederATL1", 
+        "pgIndex": 396
+    }, 
+    "395": {
+        "lat": 33.73342928389041, 
+        "lng": -84.3819043302253, 
+        "object": "node", 
+        "name": "27feederATL1", 
+        "pgIndex": 395
+    }, 
+    "394": {
+        "lat": 33.73037467790393, 
+        "lng": -84.38260077299122, 
+        "object": "node", 
+        "name": "28feederATL1", 
+        "pgIndex": 394
+    }, 
+    "399": {
+        "lat": 33.730959035701176, 
+        "lng": -84.38084216906742, 
+        "object": "node", 
+        "name": "30feederATL1", 
+        "pgIndex": 399
+    }, 
+    "398": {
+        "lat": 33.730705126406214, 
+        "lng": -84.38165753130211, 
+        "object": "node", 
+        "name": "29feederATL1", 
+        "pgIndex": 398
+    }, 
+    "586": {
+        "phases": null, 
+        "from": "91feederATL1", 
+        "name": "Line_L91feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "92feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 586
+    }, 
+    "587": {
+        "phases": null, 
+        "from": "91feederATL1", 
+        "name": "Line_L92feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "93feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 587
+    }, 
+    "584": {
+        "phases": null, 
+        "from": "89feederATL1", 
+        "name": "Line_L89feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "90feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 584
+    }, 
+    "585": {
+        "phases": null, 
+        "from": "89feederATL1", 
+        "name": "Line_L90feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "91feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 585
+    }, 
+    "582": {
+        "phases": null, 
+        "from": "87feederATL1", 
+        "name": "Line_L87feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "88feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 582
+    }, 
+    "583": {
+        "phases": null, 
+        "from": "87feederATL1", 
+        "name": "Line_L88feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "89feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 583
+    }, 
+    "580": {
+        "phases": null, 
+        "from": "84feederATL1", 
+        "name": "Line_L85feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "85feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 580
+    }, 
+    "581": {
+        "phases": null, 
+        "from": "86feederATL1", 
+        "name": "Line_L86feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.40000", 
+        "to": "87feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 400, 
+        "configuration": null, 
+        "pgIndex": 581
+    }, 
+    "588": {
+        "phases": null, 
+        "from": "93feederATL1", 
+        "name": "Line_L93feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "94feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 588
+    }, 
+    "589": {
+        "phases": null, 
+        "from": "93feederATL1", 
+        "name": "Line_L94feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "95feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 589
+    }, 
+    "519": {
+        "phases": null, 
+        "from": "23feederATL1", 
+        "name": "Line_L24feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "25feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 519
+    }, 
+    "518": {
+        "phases": null, 
+        "from": "23feederATL1", 
+        "name": "Line_L23feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "24feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 518
+    }, 
+    "511": {
+        "phases": null, 
+        "from": "15feederATL1", 
+        "name": "Line_L16feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "16feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 511
+    }, 
+    "510": {
+        "phases": null, 
+        "from": "14feederATL1", 
+        "name": "Line_L15feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "10feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 510
+    }, 
+    "513": {
+        "phases": null, 
+        "from": "18feederATL1", 
+        "name": "Line_L18feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "19feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 513
+    }, 
+    "512": {
+        "phases": null, 
+        "from": "15feederATL1", 
+        "name": "Line_L17feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "17feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 512
+    }, 
+    "515": {
+        "phases": null, 
+        "from": "19feederATL1", 
+        "name": "Line_L20feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "20feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 515
+    }, 
+    "514": {
+        "phases": null, 
+        "from": "18feederATL1", 
+        "name": "Line_L19feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "21feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 514
+    }, 
+    "517": {
+        "phases": null, 
+        "from": "21feederATL1", 
+        "name": "Line_L22feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "23feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 517
+    }, 
+    "516": {
+        "phases": null, 
+        "from": "21feederATL1", 
+        "name": "Line_L21feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "22feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 516
+    }, 
+    "623": {
+        "phases": null, 
+        "from": "25feederATL1", 
+        "name": "Transformer_REG3feederATL1", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "25rfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 623, 
+        "senseNode": null
+    }, 
+    "622": {
+        "phases": null, 
+        "from": "9feederATL1", 
+        "name": "Transformer_REG2feederATL1", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "9rfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 622, 
+        "senseNode": null
+    }, 
+    "621": {
+        "phases": null, 
+        "from": "61sfeederATL1", 
+        "name": "Transformer_XFM1feederATL1", 
+        "object": "transformer", 
+        "gld_groupid": null, 
+        "bmat": "0.40000", 
+        "to": "610feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 400, 
+        "configuration": null, 
+        "pgIndex": 621
+    }, 
+    "620": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW8feederATL1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "94_openfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "54feederATL1", 
+        "configuration": null, 
+        "pgIndex": 620
+    }, 
+    "627": {
+        "cost": 18, 
+        "capacity": 400, 
+        "name": "g3feederATL1", 
+        "parent": "54feederATL1", 
+        "object": "generator", 
+        "pgIndex": 627
+    }, 
+    "626": {
+        "cost": 14, 
+        "capacity": 200, 
+        "name": "g2feederATL1", 
+        "parent": "21feederATL1", 
+        "object": "generator", 
+        "pgIndex": 626
+    }, 
+    "625": {
+        "cost": 8, 
+        "capacity": 250, 
+        "name": "g1feederATL1", 
+        "parent": "105feederATL1", 
+        "object": "generator", 
+        "pgIndex": 625
+    }, 
+    "624": {
+        "phases": null, 
+        "from": "160feederATL1", 
+        "name": "Transformer_REG4feederATL1", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "160rfeederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 624, 
+        "senseNode": null
+    }, 
+    "450": {
+        "lat": 33.73191495874619, 
+        "lng": -84.41536602327676, 
+        "object": "node", 
+        "name": "80feederATL1", 
+        "pgIndex": 450
+    }, 
+    "451": {
+        "lat": 33.73137701431836, 
+        "lng": -84.41648136067221, 
+        "object": "node", 
+        "name": "81feederATL1", 
+        "pgIndex": 451
+    }, 
+    "629": {
+        "dischargeEff": "1.00000", 
+        "object": "storage", 
+        "name": "s2feederATL1", 
+        "parent": "99feederATL1", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 200, 
+        "pgIndex": 629
+    }, 
+    "628": {
+        "dischargeEff": "1.00000", 
+        "object": "storage", 
+        "name": "s1feederATL1", 
+        "parent": "42feederATL1", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "initialCharge": 10, 
+        "chargeRate": 5, 
+        "maxCharge": 500, 
+        "pgIndex": 628
+    }, 
+    "454": {
+        "lat": 33.73141157657241, 
+        "lng": -84.41819120272449, 
+        "object": "node", 
+        "name": "83feederATL1", 
+        "pgIndex": 454
+    }, 
+    "455": {
+        "lat": 33.72997110181456, 
+        "lng": -84.41768751708834, 
+        "object": "node", 
+        "name": "85feederATL1", 
+        "pgIndex": 455
+    }, 
+    "456": {
+        "lat": 33.73132003551867, 
+        "lng": -84.41144092538235, 
+        "object": "node", 
+        "name": "87feederATL1", 
+        "pgIndex": 456
+    }, 
+    "457": {
+        "lat": 33.7306936224422, 
+        "lng": -84.4119717072739, 
+        "object": "node", 
+        "name": "88feederATL1", 
+        "pgIndex": 457
+    }, 
+    "656": {
+        "pgIndex": 656, 
+        "object": "load", 
+        "name": "Load_S30CfeederATL1", 
+        "parent": "30feederATL1"
+    }, 
+    "657": {
+        "pgIndex": 657, 
+        "object": "load", 
+        "name": "Load_S31CfeederATL1", 
+        "parent": "31feederATL1"
+    }, 
+    "654": {
+        "pgIndex": 654, 
+        "object": "load", 
+        "name": "Load_S28AfeederATL1", 
+        "parent": "28feederATL1"
+    }, 
+    "655": {
+        "pgIndex": 655, 
+        "object": "load", 
+        "name": "Load_S29AfeederATL1", 
+        "parent": "29feederATL1"
+    }, 
+    "652": {
+        "pgIndex": 652, 
+        "object": "load", 
+        "name": "Load_S22BfeederATL1", 
+        "parent": "22feederATL1"
+    }, 
+    "653": {
+        "pgIndex": 653, 
+        "object": "load", 
+        "name": "Load_S24CfeederATL1", 
+        "parent": "24feederATL1"
+    }, 
+    "650": {
+        "pgIndex": 650, 
+        "object": "load", 
+        "name": "Load_S19AfeederATL1", 
+        "parent": "19feederATL1"
+    }, 
+    "651": {
+        "pgIndex": 651, 
+        "object": "load", 
+        "name": "Load_S20AfeederATL1", 
+        "parent": "20feederATL1"
+    }, 
+    "658": {
+        "pgIndex": 658, 
+        "object": "load", 
+        "name": "Load_S32CfeederATL1", 
+        "parent": "32feederATL1"
+    }, 
+    "659": {
+        "pgIndex": 659, 
+        "object": "load", 
+        "name": "Load_S33AfeederATL1", 
+        "parent": "33feederATL1"
+    }, 
+    "669": {
+        "pgIndex": 669, 
+        "object": "load", 
+        "name": "Load_S46AfeederATL1", 
+        "parent": "46feederATL1"
+    }, 
+    "668": {
+        "pgIndex": 668, 
+        "object": "load", 
+        "name": "Load_S45AfeederATL1", 
+        "parent": "45feederATL1"
+    }, 
+    "667": {
+        "pgIndex": 667, 
+        "object": "load", 
+        "name": "Load_S43BfeederATL1", 
+        "parent": "43feederATL1"
+    }, 
+    "666": {
+        "pgIndex": 666, 
+        "object": "load", 
+        "name": "Load_S42AfeederATL1", 
+        "parent": "42feederATL1"
+    }, 
+    "665": {
+        "pgIndex": 665, 
+        "object": "load", 
+        "name": "Load_S41CfeederATL1", 
+        "parent": "41feederATL1"
+    }, 
+    "664": {
+        "pgIndex": 664, 
+        "object": "load", 
+        "name": "Load_S39BfeederATL1", 
+        "parent": "39feederATL1"
+    }, 
+    "663": {
+        "pgIndex": 663, 
+        "object": "load", 
+        "name": "Load_S38BfeederATL1", 
+        "parent": "38feederATL1"
+    }, 
+    "662": {
+        "pgIndex": 662, 
+        "object": "load", 
+        "name": "Load_S37AfeederATL1", 
+        "parent": "37feederATL1"
+    }, 
+    "661": {
+        "pgIndex": 661, 
+        "object": "load", 
+        "name": "Load_S35AfeederATL1", 
+        "parent": "35feederATL1"
+    }, 
+    "660": {
+        "pgIndex": 660, 
+        "object": "load", 
+        "name": "Load_S34CfeederATL1", 
+        "parent": "34feederATL1"
+    }, 
+    "692": {
+        "pgIndex": 692, 
+        "object": "load", 
+        "name": "Load_S74CfeederATL1", 
+        "parent": "74feederATL1"
+    }, 
+    "693": {
+        "pgIndex": 693, 
+        "object": "load", 
+        "name": "Load_S75CfeederATL1", 
+        "parent": "75feederATL1"
+    }, 
+    "690": {
+        "pgIndex": 690, 
+        "object": "load", 
+        "name": "Load_S71AfeederATL1", 
+        "parent": "71feederATL1"
+    }, 
+    "691": {
+        "pgIndex": 691, 
+        "object": "load", 
+        "name": "Load_S73CfeederATL1", 
+        "parent": "73feederATL1"
+    }, 
+    "696": {
+        "pgIndex": 696, 
+        "object": "load", 
+        "name": "Load_S79AfeederATL1", 
+        "parent": "79feederATL1"
+    }, 
+    "697": {
+        "pgIndex": 697, 
+        "object": "load", 
+        "name": "Load_S80BfeederATL1", 
+        "parent": "80feederATL1"
+    }, 
+    "694": {
+        "pgIndex": 694, 
+        "object": "load", 
+        "name": "Load_S76feederATL1", 
+        "parent": "76feederATL1"
+    }, 
+    "695": {
+        "pgIndex": 695, 
+        "object": "load", 
+        "name": "Load_S77BfeederATL1", 
+        "parent": "77feederATL1"
+    }, 
+    "698": {
+        "pgIndex": 698, 
+        "object": "load", 
+        "name": "Load_S82AfeederATL1", 
+        "parent": "82feederATL1"
+    }, 
+    "699": {
+        "pgIndex": 699, 
+        "object": "load", 
+        "name": "Load_S83CfeederATL1", 
+        "parent": "83feederATL1"
+    }, 
+    "542": {
+        "phases": null, 
+        "from": "47feederATL1", 
+        "name": "Line_L47feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "48feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 542
+    }, 
+    "543": {
+        "phases": null, 
+        "from": "47feederATL1", 
+        "name": "Line_L48feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "49feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 543
+    }, 
+    "540": {
+        "phases": null, 
+        "from": "44feederATL1", 
+        "name": "Line_L45feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "47feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 540
+    }, 
+    "541": {
+        "phases": null, 
+        "from": "45feederATL1", 
+        "name": "Line_L46feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "46feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 541
+    }, 
+    "546": {
+        "phases": null, 
+        "from": "51feederATL1", 
+        "name": "Line_L51feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "151feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 546
+    }, 
+    "547": {
+        "phases": null, 
+        "from": "52feederATL1", 
+        "name": "Line_L52feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "53feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 547
+    }, 
+    "544": {
+        "phases": null, 
+        "from": "49feederATL1", 
+        "name": "Line_L49feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "50feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 544
+    }, 
+    "545": {
+        "phases": null, 
+        "from": "50feederATL1", 
+        "name": "Line_L50feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "51feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 545
+    }, 
+    "548": {
+        "phases": null, 
+        "from": "53feederATL1", 
+        "name": "Line_L53feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "54feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 548
+    }, 
+    "549": {
+        "phases": null, 
+        "from": "54feederATL1", 
+        "name": "Line_L54feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "55feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 549
+    }, 
+    "414": {
+        "lat": 33.733234885419186, 
+        "lng": -84.39243643155744, 
+        "object": "node", 
+        "name": "46feederATL1", 
+        "pgIndex": 414
+    }, 
+    "415": {
+        "lat": 33.734927698023355, 
+        "lng": -84.39173338164017, 
+        "object": "node", 
+        "name": "48feederATL1", 
+        "pgIndex": 415
+    }, 
+    "416": {
+        "lat": 33.735510442532096, 
+        "lng": -84.39140211811876, 
+        "object": "node", 
+        "name": "49feederATL1", 
+        "pgIndex": 416
+    }, 
+    "417": {
+        "lat": 33.73657373918487, 
+        "lng": -84.39162205935494, 
+        "object": "node", 
+        "name": "50feederATL1", 
+        "pgIndex": 417
+    }, 
+    "410": {
+        "lat": 33.731427423891844, 
+        "lng": -84.39080915176089, 
+        "object": "node", 
+        "name": "43feederATL1", 
+        "pgIndex": 410
+    }, 
+    "411": {
+        "lat": 33.73315541041405, 
+        "lng": -84.39087189399521, 
+        "object": "node", 
+        "name": "44feederATL1", 
+        "pgIndex": 411
+    }, 
+    "412": {
+        "lat": 33.73317099878482, 
+        "lng": -84.39167454704534, 
+        "object": "node", 
+        "name": "45feederATL1", 
+        "pgIndex": 412
+    }, 
+    "413": {
+        "lat": 33.73437310091232, 
+        "lng": -84.39118634237886, 
+        "object": "node", 
+        "name": "47feederATL1", 
+        "pgIndex": 413
+    }, 
+    "418": {
+        "lat": 33.73752731875015, 
+        "lng": -84.39177634627003, 
+        "object": "node", 
+        "name": "51feederATL1", 
+        "pgIndex": 418
+    }, 
+    "419": {
+        "lat": 33.7383994546835, 
+        "lng": -84.39195343155852, 
+        "object": "node", 
+        "name": "151feederATL1", 
+        "pgIndex": 419
+    }, 
+    "368": {
+        "lat": 33.72273788055567, 
+        "lng": -84.38646359047436, 
+        "object": "node", 
+        "name": "7feederATL1", 
+        "pgIndex": 368
+    }, 
+    "369": {
+        "lat": 33.72084438000829, 
+        "lng": -84.38364039408096, 
+        "object": "node", 
+        "name": "4feederATL1", 
+        "pgIndex": 369
+    }, 
+    "366": {
+        "lat": 33.721268425376586, 
+        "lng": -84.38475514886159, 
+        "object": "node", 
+        "name": "2feederATL1", 
+        "pgIndex": 366
+    }, 
+    "367": {
+        "lat": 33.72144016688465, 
+        "lng": -84.38427201200852, 
+        "object": "node", 
+        "name": "3feederATL1", 
+        "pgIndex": 367
+    }, 
+    "364": {
+        "lat": 33.720947506459204, 
+        "lng": -84.3849622587194, 
+        "object": "node", 
+        "name": "149feederATL1", 
+        "pgIndex": 364
+    }, 
+    "365": {
+        "lat": 33.72186775938074, 
+        "lng": -84.38530065723393, 
+        "object": "node", 
+        "name": "1feederATL1", 
+        "pgIndex": 365
+    }, 
+    "362": {
+        "lat": 33.714380261152506, 
+        "lng": -84.3741392665842, 
+        "object": "node", 
+        "name": "150feederATL1", 
+        "pgIndex": 362
+    }, 
+    "363": {
+        "lat": 33.716294208599564, 
+        "lng": -84.38101319062133, 
+        "object": "node", 
+        "name": "150rfeederATL1", 
+        "pgIndex": 363
+    }, 
+    "380": {
+        "lat": 33.71893239987097, 
+        "lng": -84.38727910230855, 
+        "object": "node", 
+        "name": "11feederATL1", 
+        "pgIndex": 380
+    }, 
+    "381": {
+        "lat": 33.71900491051835, 
+        "lng": -84.38691673586447, 
+        "object": "node", 
+        "name": "10feederATL1", 
+        "pgIndex": 381
+    }, 
+    "382": {
+        "lat": 33.72315740107165, 
+        "lng": -84.3895880641387, 
+        "object": "node", 
+        "name": "15feederATL1", 
+        "pgIndex": 382
+    }, 
+    "383": {
+        "lat": 33.72222333708817, 
+        "lng": -84.38967515500964, 
+        "object": "node", 
+        "name": "16feederATL1", 
+        "pgIndex": 383
+    }, 
+    "384": {
+        "lat": 33.72246387458765, 
+        "lng": -84.39007345331167, 
+        "object": "node", 
+        "name": "17feederATL1", 
+        "pgIndex": 384
+    }, 
+    "385": {
+        "lat": 33.726380747929184, 
+        "lng": -84.38716006838307, 
+        "object": "node", 
+        "name": "19feederATL1", 
+        "pgIndex": 385
+    }, 
+    "386": {
+        "lat": 33.7277951666079, 
+        "lng": -84.38641419484112, 
+        "object": "node", 
+        "name": "21feederATL1", 
+        "pgIndex": 386
+    }, 
+    "387": {
+        "lat": 33.72609735137318, 
+        "lng": -84.38645395914253, 
+        "object": "node", 
+        "name": "20feederATL1", 
+        "pgIndex": 387
+    }, 
+    "388": {
+        "lat": 33.72789781480666, 
+        "lng": -84.38568715081274, 
+        "object": "node", 
+        "name": "22feederATL1", 
+        "pgIndex": 388
+    }, 
+    "389": {
+        "lat": 33.72886470899106, 
+        "lng": -84.38500926707948, 
+        "object": "node", 
+        "name": "23feederATL1", 
+        "pgIndex": 389
+    }, 
+    "579": {
+        "phases": null, 
+        "from": "82feederATL1", 
+        "name": "Line_L84feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "83feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 579
+    }, 
+    "578": {
+        "phases": null, 
+        "from": "81feederATL1", 
+        "name": "Line_L83feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "84feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 578
+    }, 
+    "573": {
+        "phases": null, 
+        "from": "77feederATL1", 
+        "name": "Line_L78feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "78feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 573
+    }, 
+    "572": {
+        "phases": null, 
+        "from": "76feederATL1", 
+        "name": "Line_L77feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "86feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 572
+    }, 
+    "571": {
+        "phases": null, 
+        "from": "76feederATL1", 
+        "name": "Line_L76feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "77feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 571
+    }, 
+    "570": {
+        "phases": null, 
+        "from": "74feederATL1", 
+        "name": "Line_L75feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "75feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 570
+    }, 
+    "577": {
+        "phases": null, 
+        "from": "81feederATL1", 
+        "name": "Line_L82feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "82feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 577
+    }, 
+    "576": {
+        "phases": null, 
+        "from": "80feederATL1", 
+        "name": "Line_L81feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "81feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 576
+    }, 
+    "575": {
+        "phases": null, 
+        "from": "78feederATL1", 
+        "name": "Line_L80feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "80feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 575
+    }, 
+    "574": {
+        "phases": null, 
+        "from": "78feederATL1", 
+        "name": "Line_L79feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "79feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 574
+    }, 
+    "508": {
+        "phases": null, 
+        "from": "13feederATL1", 
+        "name": "Line_L13feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "18feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 508
+    }, 
+    "509": {
+        "phases": null, 
+        "from": "14feederATL1", 
+        "name": "Line_L14feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "11feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 509
+    }, 
+    "506": {
+        "phases": null, 
+        "from": "9rfeederATL1", 
+        "name": "Line_L11feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "14feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 506
+    }, 
+    "507": {
+        "phases": null, 
+        "from": "13feederATL1", 
+        "name": "Line_L12feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "34feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 507
+    }, 
+    "504": {
+        "phases": null, 
+        "from": "8feederATL1", 
+        "name": "Line_L9feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "9feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 504
+    }, 
+    "505": {
+        "phases": null, 
+        "from": "8feederATL1", 
+        "name": "Line_L10feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "13feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 505
+    }, 
+    "502": {
+        "phases": null, 
+        "from": "7feederATL1", 
+        "name": "Line_L7feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "8feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 502
+    }, 
+    "503": {
+        "phases": null, 
+        "from": "8feederATL1", 
+        "name": "Line_L8feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "12feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 503
+    }, 
+    "500": {
+        "phases": null, 
+        "from": "3feederATL1", 
+        "name": "Line_L5feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "5feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 500
+    }, 
+    "501": {
+        "phases": null, 
+        "from": "5feederATL1", 
+        "name": "Line_L6feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "6feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 501
+    }, 
+    "630": {
+        "dischargeEff": "1.00000", 
+        "object": "storage", 
+        "name": "s3feederATL1", 
+        "parent": "72feederATL1", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 500, 
+        "pgIndex": 630
+    }, 
+    "631": {
+        "dischargeEff": "1.00000", 
+        "object": "storage", 
+        "name": "s4feederATL1", 
+        "parent": "29feederATL1", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 200, 
+        "pgIndex": 631
+    }, 
+    "632": {
+        "dischargeEff": "1.00000", 
+        "object": "storage", 
+        "name": "s5feederATL1", 
+        "parent": "16feederATL1", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 100, 
+        "pgIndex": 632
+    }, 
+    "633": {
+        "pgIndex": 633, 
+        "object": "solar", 
+        "name": "r1feederATL1", 
+        "parent": "86feederATL1"
+    }, 
+    "469": {
+        "lat": 33.74170031958492, 
+        "lng": -84.41039067586397, 
+        "object": "node", 
+        "name": "450feederATL1", 
+        "pgIndex": 469
+    }, 
+    "468": {
+        "lat": 33.74115061235603, 
+        "lng": -84.4098221243674, 
+        "object": "node", 
+        "name": "100feederATL1", 
+        "pgIndex": 468
+    }, 
+    "636": {
+        "pgIndex": 636, 
+        "object": "solar", 
+        "name": "r4feederATL1", 
+        "parent": "109feederATL1"
+    }, 
+    "637": {
+        "pgIndex": 637, 
+        "object": "solar", 
+        "name": "r5feederATL1", 
+        "parent": "74feederATL1"
+    }, 
+    "465": {
+        "lat": 33.72943027871995, 
+        "lng": -84.40865192151335, 
+        "object": "node", 
+        "name": "96feederATL1", 
+        "pgIndex": 465
+    }, 
+    "639": {
+        "pgIndex": 639, 
+        "object": "load", 
+        "name": "Load_S2BfeederATL1", 
+        "parent": "2feederATL1"
+    }, 
+    "467": {
+        "lat": 33.74035972200778, 
+        "lng": -84.40938924752763, 
+        "object": "node", 
+        "name": "99feederATL1", 
+        "pgIndex": 467
+    }, 
+    "466": {
+        "lat": 33.739450264735275, 
+        "lng": -84.40893304454295, 
+        "object": "node", 
+        "name": "98feederATL1", 
+        "pgIndex": 466
+    }, 
+    "461": {
+        "lat": 33.72848332570157, 
+        "lng": -84.41082220051811, 
+        "object": "node", 
+        "name": "92feederATL1", 
+        "pgIndex": 461
+    }, 
+    "460": {
+        "lat": 33.72934087280482, 
+        "lng": -84.4107475594, 
+        "object": "node", 
+        "name": "91feederATL1", 
+        "pgIndex": 460
+    }, 
+    "463": {
+        "lat": 33.72828110913377, 
+        "lng": -84.40950939509624, 
+        "object": "node", 
+        "name": "94feederATL1", 
+        "pgIndex": 463
+    }, 
+    "462": {
+        "lat": 33.728892946640265, 
+        "lng": -84.41002774995547, 
+        "object": "node", 
+        "name": "93feederATL1", 
+        "pgIndex": 462
+    }, 
+    "647": {
+        "pgIndex": 647, 
+        "object": "load", 
+        "name": "Load_S12BfeederATL1", 
+        "parent": "12feederATL1"
+    }, 
+    "439": {
+        "lat": 33.73750052479335, 
+        "lng": -84.40987642579238, 
+        "object": "node", 
+        "name": "69feederATL1", 
+        "pgIndex": 439
+    }, 
+    "649": {
+        "pgIndex": 649, 
+        "object": "load", 
+        "name": "Load_S17CfeederATL1", 
+        "parent": "17feederATL1"
+    }, 
+    "648": {
+        "pgIndex": 648, 
+        "object": "load", 
+        "name": "Load_S16CfeederATL1", 
+        "parent": "16feederATL1"
+    }, 
+    "678": {
+        "pgIndex": 678, 
+        "object": "load", 
+        "name": "Load_S56BfeederATL1", 
+        "parent": "56feederATL1"
+    }, 
+    "679": {
+        "pgIndex": 679, 
+        "object": "load", 
+        "name": "Load_S58BfeederATL1", 
+        "parent": "58feederATL1"
+    }, 
+    "674": {
+        "pgIndex": 674, 
+        "object": "load", 
+        "name": "Load_S51AfeederATL1", 
+        "parent": "51feederATL1"
+    }, 
+    "675": {
+        "pgIndex": 675, 
+        "object": "load", 
+        "name": "Load_S52AfeederATL1", 
+        "parent": "52feederATL1"
+    }, 
+    "676": {
+        "pgIndex": 676, 
+        "object": "load", 
+        "name": "Load_S53AfeederATL1", 
+        "parent": "53feederATL1"
+    }, 
+    "677": {
+        "pgIndex": 677, 
+        "object": "load", 
+        "name": "Load_S55AfeederATL1", 
+        "parent": "55feederATL1"
+    }, 
+    "670": {
+        "pgIndex": 670, 
+        "object": "load", 
+        "name": "Load_S47feederATL1", 
+        "parent": "47feederATL1"
+    }, 
+    "671": {
+        "pgIndex": 671, 
+        "object": "load", 
+        "name": "Load_S48feederATL1", 
+        "parent": "48feederATL1"
+    }, 
+    "672": {
+        "pgIndex": 672, 
+        "object": "load", 
+        "name": "Load_S49feederATL1", 
+        "parent": "49feederATL1"
+    }, 
+    "673": {
+        "pgIndex": 673, 
+        "object": "load", 
+        "name": "Load_S50CfeederATL1", 
+        "parent": "50feederATL1"
+    }, 
+    "537": {
+        "phases": null, 
+        "from": "42feederATL1", 
+        "name": "Line_L42feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "43feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 537
+    }, 
+    "536": {
+        "phases": null, 
+        "from": "40feederATL1", 
+        "name": "Line_L41feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "42feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 536
+    }, 
+    "535": {
+        "phases": null, 
+        "from": "40feederATL1", 
+        "name": "Line_L40feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "41feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 535
+    }, 
+    "534": {
+        "phases": null, 
+        "from": "38feederATL1", 
+        "name": "Line_L39feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "39feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 534
+    }, 
+    "533": {
+        "phases": null, 
+        "from": "36feederATL1", 
+        "name": "Line_L38feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "38feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 533
+    }, 
+    "532": {
+        "phases": null, 
+        "from": "36feederATL1", 
+        "name": "Line_L37feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "37feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 532
+    }, 
+    "531": {
+        "phases": null, 
+        "from": "35feederATL1", 
+        "name": "Line_L36feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "40feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 531
+    }, 
+    "530": {
+        "phases": null, 
+        "from": "35feederATL1", 
+        "name": "Line_L35feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "36feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 530
+    }, 
+    "539": {
+        "phases": null, 
+        "from": "44feederATL1", 
+        "name": "Line_L44feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "45feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 539
+    }, 
+    "538": {
+        "phases": null, 
+        "from": "42feederATL1", 
+        "name": "Line_L43feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "44feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 538
+    }, 
+    "429": {
+        "lat": 33.72856985703687, 
+        "lng": -84.40257763677887, 
+        "object": "node", 
+        "name": "61feederATL1", 
+        "pgIndex": 429
+    }, 
+    "428": {
+        "lat": 33.72668632411469, 
+        "lng": -84.40075843836534, 
+        "object": "node", 
+        "name": "59feederATL1", 
+        "pgIndex": 428
+    }, 
+    "421": {
+        "lat": 33.72701102944612, 
+        "lng": -84.39656776283842, 
+        "object": "node", 
+        "name": "53feederATL1", 
+        "pgIndex": 421
+    }, 
+    "420": {
+        "lat": 33.726388511419344, 
+        "lng": -84.39423864771847, 
+        "object": "node", 
+        "name": "52feederATL1", 
+        "pgIndex": 420
+    }, 
+    "423": {
+        "lat": 33.72669007512609, 
+        "lng": -84.39859476144485, 
+        "object": "node", 
+        "name": "55feederATL1", 
+        "pgIndex": 423
+    }, 
+    "422": {
+        "lat": 33.72760011393797, 
+        "lng": -84.39855531630077, 
+        "object": "node", 
+        "name": "54feederATL1", 
+        "pgIndex": 422
+    }, 
+    "425": {
+        "lat": 33.72580002124513, 
+        "lng": -84.39855470800903, 
+        "object": "node", 
+        "name": "56feederATL1", 
+        "pgIndex": 425
+    }, 
+    "424": {
+        "lat": 33.728420298311235, 
+        "lng": -84.40051906497816, 
+        "object": "node", 
+        "name": "57feederATL1", 
+        "pgIndex": 424
+    }, 
+    "427": {
+        "lat": 33.729383911004206, 
+        "lng": -84.40244264452747, 
+        "object": "node", 
+        "name": "60feederATL1", 
+        "pgIndex": 427
+    }, 
+    "426": {
+        "lat": 33.72755007916184, 
+        "lng": -84.40068452604451, 
+        "object": "node", 
+        "name": "58feederATL1", 
+        "pgIndex": 426
+    }, 
+    "568": {
+        "phases": null, 
+        "from": "72feederATL1", 
+        "name": "Line_L73feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "76feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 568
+    }, 
+    "569": {
+        "phases": null, 
+        "from": "73feederATL1", 
+        "name": "Line_L74feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "74feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 569
+    }, 
+    "560": {
+        "phases": null, 
+        "from": "65feederATL1", 
+        "name": "Line_L65feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "66feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 560
+    }, 
+    "561": {
+        "phases": null, 
+        "from": "67feederATL1", 
+        "name": "Line_L66feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "68feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 561
+    }, 
+    "562": {
+        "phases": null, 
+        "from": "67feederATL1", 
+        "name": "Line_L67feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "72feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 562
+    }, 
+    "563": {
+        "phases": null, 
+        "from": "67feederATL1", 
+        "name": "Line_L68feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "97feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 563
+    }, 
+    "564": {
+        "phases": null, 
+        "from": "68feederATL1", 
+        "name": "Line_L69feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "69feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 564
+    }, 
+    "565": {
+        "phases": null, 
+        "from": "69feederATL1", 
+        "name": "Line_L70feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "70feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 565
+    }, 
+    "566": {
+        "phases": null, 
+        "from": "70feederATL1", 
+        "name": "Line_L71feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "71feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 566
+    }, 
+    "567": {
+        "phases": null, 
+        "from": "72feederATL1", 
+        "name": "Line_L72feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "73feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 567
+    }, 
+    "722": {
+        "pgIndex": 722, 
+        "object": "load", 
+        "name": "Load_S114AfeederATL1", 
+        "parent": "114feederATL1"
+    }, 
+    "720": {
+        "pgIndex": 720, 
+        "object": "load", 
+        "name": "Load_S112AfeederATL1", 
+        "parent": "112feederATL1"
+    }, 
+    "721": {
+        "pgIndex": 721, 
+        "object": "load", 
+        "name": "Load_S113AfeederATL1", 
+        "parent": "113feederATL1"
+    }, 
+    "605": {
+        "phases": null, 
+        "from": "109feederATL1", 
+        "name": "Line_L109feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "110feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 605
+    }, 
+    "604": {
+        "phases": null, 
+        "from": "108feederATL1", 
+        "name": "Line_L108feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "300feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 604
+    }, 
+    "607": {
+        "phases": null, 
+        "from": "110feederATL1", 
+        "name": "Line_L111feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "112feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 607
+    }, 
+    "606": {
+        "phases": null, 
+        "from": "110feederATL1", 
+        "name": "Line_L110feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "111feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 606
+    }, 
+    "601": {
+        "phases": null, 
+        "from": "105feederATL1", 
+        "name": "Line_L105feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "108feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 601
+    }, 
+    "600": {
+        "phases": null, 
+        "from": "105feederATL1", 
+        "name": "Line_L104feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "106feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 600
+    }, 
+    "603": {
+        "phases": null, 
+        "from": "108feederATL1", 
+        "name": "Line_L107feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "109feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 603
+    }, 
+    "602": {
+        "phases": null, 
+        "from": "106feederATL1", 
+        "name": "Line_L106feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "107feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 602
+    }, 
+    "609": {
+        "phases": null, 
+        "from": "113feederATL1", 
+        "name": "Line_L113feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "114feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 609
+    }, 
+    "608": {
+        "phases": null, 
+        "from": "112feederATL1", 
+        "name": "Line_L112feederATL1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "113feederATL1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 608
+    }, 
+    "634": {
+        "pgIndex": 634, 
+        "object": "solar", 
+        "name": "r2feederATL1", 
+        "parent": "24feederATL1"
+    }, 
+    "635": {
+        "pgIndex": 635, 
+        "object": "solar", 
+        "name": "r3feederATL1", 
+        "parent": "50feederATL1"
+    }, 
+    "638": {
+        "pgIndex": 638, 
+        "object": "load", 
+        "name": "Load_S1AfeederATL1", 
+        "parent": "1feederATL1"
+    }, 
+    "464": {
+        "lat": 33.72905375874647, 
+        "lng": -84.40929872669892, 
+        "object": "node", 
+        "name": "95feederATL1", 
+        "pgIndex": 464
+    }, 
+    "489": {
+        "lat": 33.731341924568426, 
+        "lng": -84.40429274491527, 
+        "object": "node", 
+        "name": "160feederATL1", 
+        "pgIndex": 489
+    }, 
+    "488": {
+        "lat": 33.733897558911906, 
+        "lng": -84.40670841341311, 
+        "object": "node", 
+        "name": "160rfeederATL1", 
+        "pgIndex": 488
+    }, 
+    "487": {
+        "lat": 33.72576142156482, 
+        "lng": -84.39146537503598, 
+        "object": "node", 
+        "name": "152feederATL1", 
+        "pgIndex": 487
+    }, 
+    "486": {
+        "lat": 33.728293103937695, 
+        "lng": -84.38835297711411, 
+        "object": "node", 
+        "name": "135feederATL1", 
+        "pgIndex": 486
+    }, 
+    "485": {
+        "lat": 33.752448188170376, 
+        "lng": -84.4044254902302, 
+        "object": "node", 
+        "name": "114feederATL1", 
+        "pgIndex": 485
+    }, 
+    "484": {
+        "lat": 33.75167017905105, 
+        "lng": -84.4048786596946, 
+        "object": "node", 
+        "name": "113feederATL1", 
+        "pgIndex": 484
+    }, 
+    "483": {
+        "lat": 33.750747834366756, 
+        "lng": -84.40535490072004, 
+        "object": "node", 
+        "name": "112feederATL1", 
+        "pgIndex": 483
+    }, 
+    "482": {
+        "lat": 33.750581524875244, 
+        "lng": -84.40589991151533, 
+        "object": "node", 
+        "name": "111feederATL1", 
+        "pgIndex": 482
+    }, 
+    "481": {
+        "lat": 33.74968786597917, 
+        "lng": -84.40587211853997, 
+        "object": "node", 
+        "name": "110feederATL1", 
+        "pgIndex": 481
+    }, 
+    "480": {
+        "lat": 33.74777160210701, 
+        "lng": -84.4065136664831, 
+        "object": "node", 
+        "name": "300feederATL1", 
+        "pgIndex": 480
+    }, 
+    "472": {
+        "lat": 33.744647764379025, 
+        "lng": -84.40838730749873, 
+        "object": "node", 
+        "name": "102feederATL1", 
+        "pgIndex": 472
+    }, 
+    "473": {
+        "lat": 33.74553969983593, 
+        "lng": -84.40735716478366, 
+        "object": "node", 
+        "name": "105feederATL1", 
+        "pgIndex": 473
+    }, 
+    "470": {
+        "lat": 33.741115719363314, 
+        "lng": -84.4081728931202, 
+        "object": "node", 
+        "name": "197feederATL1", 
+        "pgIndex": 470
+    }, 
+    "471": {
+        "lat": 33.74376693718125, 
+        "lng": -84.40784874443992, 
+        "object": "node", 
+        "name": "101feederATL1", 
+        "pgIndex": 471
+    }, 
+    "476": {
+        "lat": 33.74646363035932, 
+        "lng": -84.407539295877, 
+        "object": "node", 
+        "name": "106feederATL1", 
+        "pgIndex": 476
+    }, 
+    "477": {
+        "lat": 33.74703450510009, 
+        "lng": -84.4068124509971, 
+        "object": "node", 
+        "name": "108feederATL1", 
+        "pgIndex": 477
+    }, 
+    "474": {
+        "lat": 33.7454231368241, 
+        "lng": -84.40895509141546, 
+        "object": "node", 
+        "name": "103feederATL1", 
+        "pgIndex": 474
+    }, 
+    "475": {
+        "lat": 33.746092704908136, 
+        "lng": -84.40950725191846, 
+        "object": "node", 
+        "name": "104feederATL1", 
+        "pgIndex": 475
+    }, 
+    "478": {
+        "lat": 33.74730376470842, 
+        "lng": -84.40784446137884, 
+        "object": "node", 
+        "name": "107feederATL1", 
+        "pgIndex": 478
+    }, 
+    "479": {
+        "lat": 33.74844253475065, 
+        "lng": -84.40632553346924, 
+        "object": "node", 
+        "name": "109feederATL1", 
+        "pgIndex": 479
+    }
+}
