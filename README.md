@@ -6,8 +6,8 @@ __[Prototype1]__
 
 __[Prototype2]__(most updated)
 
-[Prototype2]: <www.kjhuang.com/pgdemo2/public/>
-[Prototype1]: <www.kjhuang.com/pgdemo/public/>
+[Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
+[Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
 [Video]: <https://youtu.be/9h0TL7uOntI>
 
 ## Development Schedule
