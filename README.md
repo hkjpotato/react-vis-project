@@ -1,4 +1,14 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
+#### Result
+__[Video]__
+
+__[Prototype1]__
+
+__[Prototype2]__(most updated)
+
+[Prototype2]: <www.kjhuang.com/pgdemo2/public/>
+[Prototype1]: <www.kjhuang.com/pgdemo/public/>
+[Video]: <https://youtu.be/9h0TL7uOntI>
 
 ## Development Schedule
  - [First Stage](#first-stage)
@@ -35,16 +45,6 @@ There are 3 major challenges when developping this application
  - 2. Let D3 work with React
  - 3. Dynamically fetching data for the map visualization based on viewport.
 
-#### Result
-__[Video]__
-
-__[Prototype1]__
-
-__[Prototype2]__
-
-[Prototype2]: <http://52.24.114.125/pgdemo2/public/>
-[Prototype1]: <http://52.24.114.125/pgdemo/public/>
-[Video]: <https://youtu.be/9h0TL7uOntI>
 
 #### User Testing
 I am going to carry out a user testing based on the current prototype. The details is in our team report.
