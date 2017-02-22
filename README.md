@@ -1,12 +1,17 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 #### Result
-__[Video (fake time series)]__
 
-__[Video (real time series)]__
+##### Most Update
+__[Video (UX study version)]__
 
-__[Video (geo based zoom)]__
+__[Video (time series version)]__
 
 __[Prototype3]__(most updated)
+
+---
+
+##### Old Version
+__[Video (geo based zoom)]__
 
 __[Prototype2]__
 
@@ -16,7 +21,9 @@ __[Prototype1]__
 [Prototype3]: <http://www.kjhuang.com/pgdemo3/>
 [Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
 [Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
-[Video (fake time series)]: <https://https://youtu.be/D1Dew-8vRIQ>
+[Video (UX study version)]: <https://https://youtu.be/D1Dew-8vRIQ>
+[Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>
+
 
 The backend django code is not open source anymore. You can check the front end [React](./static_version/react) to get and idea of the frontend code. 
 
