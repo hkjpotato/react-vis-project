@@ -4,25 +4,32 @@
 ![gif](./time_series.gif)
 
 ##### Most Update
-__[Video (UX study version)]__
+<!-- __[Video (UX study version)]__ -->
 
-__[Prototype3 (time series)]__
+<a href="https://youtu.be/D1Dew-8vRIQ" target="_blank">Video (UX study version)</a>
+
+<!-- __[Prototype3 (time series)]__ -->
+
+<a href="http://www.kjhuang.com/pgdemo3/" target="_blank">Prototype3 (time series)</a>
+
 
 ---
 
 ##### Old Version
-__[Video (geo based zoom)]__
+<!-- __[Video (geo based zoom)]__ -->
+<a href="https://youtu.be/9h0TL7uOntI" target="_blank">Video (geo based zoom)</a>
 
-__[Prototype2]__
+<!-- __[Prototype2]__ -->
+<a href="http://www.kjhuang.com/pgdemo2/public/" target="_blank">Prototype2</a>
 
-__[Prototype1]__
 
-[Prototype3 (time series)]: <http://www.kjhuang.com/pgdemo3/>{:target="_blank"}
-[Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>{:target="_blank"}
-[Prototype1]: <http://www.kjhuang.com/pgdemo/public/>{:target="_blank"}
-[Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>{:target="_blank"}
-[Video (UX study version)]: <https://youtu.be/D1Dew-8vRIQ>{:target="_blank"}
-[Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>{:target="_blank"}
+<!-- 
+[Prototype3 (time series)]: <http://www.kjhuang.com/pgdemo3/>
+[Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
+
+[Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
+[Video (UX study version)]: <https://youtu.be/D1Dew-8vRIQ>
+[Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ> -->
 ---
 
 The backend django code is not open source anymore. You can check the front end [React](./static_version/react) to get and idea of the frontend code. 
