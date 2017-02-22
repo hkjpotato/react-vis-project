@@ -21,7 +21,7 @@ __[Prototype1]__
 [Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
 [Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
 [Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
-[Video (UX study version)]: <https://https://youtu.be/D1Dew-8vRIQ>
+[Video (UX study version)]: <https://youtu.be/D1Dew-8vRIQ>
 [Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>
 ---
 
