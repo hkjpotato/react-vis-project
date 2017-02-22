@@ -17,12 +17,12 @@ __[Prototype2]__
 
 __[Prototype1]__
 
-[Prototype3 (time series)]: <http://www.kjhuang.com/pgdemo3/>
-[Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
-[Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
-[Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
-[Video (UX study version)]: <https://youtu.be/D1Dew-8vRIQ>
-[Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>
+[Prototype3 (time series)]: <http://www.kjhuang.com/pgdemo3/>{:target="_blank"}
+[Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>{:target="_blank"}
+[Prototype1]: <http://www.kjhuang.com/pgdemo/public/>{:target="_blank"}
+[Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>{:target="_blank"}
+[Video (UX study version)]: <https://youtu.be/D1Dew-8vRIQ>{:target="_blank"}
+[Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>{:target="_blank"}
 ---
 
 The backend django code is not open source anymore. You can check the front end [React](./static_version/react) to get and idea of the frontend code. 
