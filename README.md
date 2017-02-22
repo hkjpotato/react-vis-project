@@ -1,12 +1,12 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 #### Result
 
+![gif](./time_series.gif)
+
 ##### Most Update
 __[Video (UX study version)]__
 
-__[Video (time series version)]__
-
-__[Prototype3]__(most updated)
+__[Prototype3 (time series)]__
 
 ---
 
@@ -17,8 +17,8 @@ __[Prototype2]__
 
 __[Prototype1]__
 
+[Prototype3 (time series)]: <http://www.kjhuang.com/pgdemo3/>
 [Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
-[Prototype3]: <http://www.kjhuang.com/pgdemo3/>
 [Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
 [Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
 [Video (UX study version)]: <https://https://youtu.be/D1Dew-8vRIQ>
