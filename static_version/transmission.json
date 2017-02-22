@@ -2,147 +2,188 @@
     "nodes": [
         {
             "name": "f2_Centroid", 
-            "parent": "t_bus2", 
+            "parent": "Montauk", 
             "object": "centroid", 
             "lat": 41.035411, 
             "lng": -71.939411
         }, 
         {
-            "lat": 40.99841, 
-            "gldIndex": 1903, 
-            "lng": -72.051796, 
-            "object": "t_node", 
-            "name": "t_bus4"
-        }, 
-        {
             "name": "f5_Centroid", 
-            "parent": "t_bus0", 
+            "parent": "Culloden Point", 
             "object": "centroid", 
-            "lat": 41.052617, 
-            "lng": -71.951817
+            "lat": 41.057617, 
+            "lng": -71.941817
         }, 
         {
             "name": "f3_Centroid", 
-            "parent": "t_bus2", 
+            "parent": "Montauk", 
             "object": "centroid", 
-            "lat": 41.043967, 
-            "lng": -71.938054
+            "lat": 41.049967, 
+            "lng": -71.948054
         }, 
         {
             "name": "f4_Centroid", 
-            "parent": "t_bus0", 
+            "parent": "Culloden Point", 
             "object": "centroid", 
             "lat": 41.06933, 
-            "lng": -71.941875
+            "lng": -71.951875
         }, 
         {
             "name": "f1_centroid", 
-            "parent": "t_bus3", 
+            "parent": "Hero", 
             "object": "centroid", 
             "lat": 41.042886, 
             "lng": -71.912154
         }, 
         {
             "name": "f6_centroid", 
-            "parent": "t_bus1", 
+            "parent": "Hero", 
             "object": "centroid", 
             "lat": 41.059143, 
             "lng": -71.895666
-        }, 
-        {
-            "lat": 41.060822, 
-            "gldIndex": 1893, 
-            "lng": -71.943818, 
-            "object": "t_node", 
-            "name": "t_bus0"
         }, 
         {
             "lat": 41.04569895808175, 
             "gldIndex": 1891, 
             "lng": -71.91291242837906, 
             "object": "t_node", 
-            "name": "t_bus1"
-        }, 
+            "name": "Hero"
+        },
         {
-            "lat": 41.039947, 
-            "gldIndex": 1892, 
-            "lng": -71.942833, 
+            "lat": 40.890001,  
+            "lng": -72.491731, 
             "object": "t_node", 
-            "name": "t_bus2"
-        }, 
+            "name": "Canal"
+        },
         {
-            "lat": 41.04598, 
-            "gldIndex": 1901, 
-            "lng": -71.925460, 
+            "lat": 40.936422,  
+            "lng": -72.373214, 
             "object": "t_node", 
-            "name": "t_bus3"
+            "name": "Deerfield"
+        },
+        {
+            "lat": 40.892599,  
+            "lng": -72.397498, 
+            "object": "t_node", 
+            "name": "Southampton"
+        },
+        {
+            "lat": 40.972195,  
+            "lng": -72.301710, 
+            "object": "t_node", 
+            "name": "Bridgehampton"
+        },
+        {
+            "lat": 40.961921,  
+            "lng": -72.208619, 
+            "object": "t_node", 
+            "name": "East Hampton"
+        },
+        {
+            "lat": 40.99841,
+            "lng": -72.051796, 
+            "object": "t_node", 
+            "name": "Amagansett"
+        },
+        {
+            "lat": 41.042132,  
+            "lng": -71.958122, 
+            "object": "t_node", 
+            "name": "Montauk"
+        },
+        {
+            "lat": 41.067200,  
+            "lng": -71.945309, 
+            "object": "t_node", 
+            "name": "Culloden Point"
         }
     ], 
     "links": [
         {
             "to": "f2_Centroid", 
             "object": "centroid_line", 
-            "from": "t_bus2"
+            "from": "Montauk"
         }, 
         {
             "phases": null, 
-            "from": "t_bus3", 
+            "from": "Hero", 
             "name": "t_line3", 
             "object": "t_line", 
-            "to": "t_bus2"
+            "to": "Montauk"
         }, 
         {
             "to": "f5_Centroid", 
             "object": "centroid_line", 
-            "from": "t_bus0"
+            "from": "Culloden Point"
         }, 
         {
             "to": "f3_Centroid", 
             "object": "centroid_line", 
-            "from": "t_bus2"
+            "from": "Montauk"
         }, 
         {
             "to": "f4_Centroid", 
             "object": "centroid_line", 
-            "from": "t_bus0"
+            "from": "Culloden Point"
         }, 
         {
             "phases": null, 
-            "from": "t_bus0", 
+            "from": "Culloden Point", 
             "name": "t_line2", 
             "object": "t_line", 
-            "to": "t_bus2"
-        }, 
-        {
-            "phases": null, 
-            "from": "t_bus0", 
-            "name": "t_line1", 
-            "object": "t_line", 
-            "to": "t_bus3"
-        }, 
+            "to": "Montauk"
+        },
         {
             "to": "f1_centroid", 
             "object": "centroid_line", 
-            "from": "t_bus3"
+            "from": "Hero"
         }, 
         {
             "to": "f6_centroid", 
             "object": "centroid_line", 
-            "from": "t_bus1"
+            "from": "Hero"
         }, 
         {
             "phases": null, 
-            "from": "t_bus2", 
+            "from": "Montauk", 
             "name": "t_line4", 
             "object": "t_line", 
-            "to": "t_bus4"
-        }, 
+            "to": "Amagansett"
+        },
         {
             "phases": null, 
-            "from": "t_bus3", 
+            "from": "Amagansett", 
             "name": "t_line5", 
             "object": "t_line", 
-            "to": "t_bus1"
+            "to": "East Hampton"
+        },
+        {
+            "phases": null, 
+            "from": "East Hampton", 
+            "name": "t_line6", 
+            "object": "t_line", 
+            "to": "Bridgehampton"
+        },
+        {
+            "phases": null, 
+            "from": "Bridgehampton", 
+            "name": "t_line7", 
+            "object": "t_line", 
+            "to": "Deerfield"
+        },
+        {
+            "phases": null, 
+            "from": "Deerfield", 
+            "name": "t_line8", 
+            "object": "t_line", 
+            "to": "Southampton"
+        },
+        {
+            "phases": null, 
+            "from": "Southampton", 
+            "name": "t_line9", 
+            "object": "t_line", 
+            "to": "Canal"
         }
     ]
 }
