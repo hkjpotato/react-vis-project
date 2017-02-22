@@ -16,7 +16,7 @@
 ---
 
 ##### Old Version
-<!-- __[Video (geo based zoom)]__ -->
+[Video (geo based zoom)](https://youtu.be/9h0TL7uOntI){:target="blank"}
 <a href="https://youtu.be/9h0TL7uOntI" target="_blank">Video (geo based zoom)</a>
 
 <!-- __[Prototype2]__ -->
