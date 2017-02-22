@@ -23,7 +23,7 @@ __[Prototype1]__
 [Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
 [Video (UX study version)]: <https://https://youtu.be/D1Dew-8vRIQ>
 [Video (time series version)]: <https://https://youtu.be/D1Dew-8vRIQ>
-
+---
 
 The backend django code is not open source anymore. You can check the front end [React](./static_version/react) to get and idea of the frontend code. 
 
@@ -31,6 +31,14 @@ Frankly speaking, this is not a pure React App as Google Map and D3 componenet a
 
 Part of reason behind it is about teamwork, as one of my teammate is an expert in d3 but not in React. That is why you can see some ES6 code with ES5...
 
+
+---
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Development Schedule(Outdate Schedule)
  - [First Stage](#first-stage)
