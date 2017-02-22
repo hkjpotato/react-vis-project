@@ -1,0 +1,82 @@
+{
+    "1888": {        
+        "phases": null, 
+        "from": "t_bus0", 
+        "name": "transmission_line1", 
+        "object": "transmission_line", 
+        "to": "t_bus1", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1888
+    },
+    "1889": {        
+        "phases": null, 
+        "from": "t_bus0", 
+        "name": "transmission_line2", 
+        "object": "transmission_line", 
+        "to": "t_bus2", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1889
+    },
+    "1890": {        
+        "phases": null, 
+        "from": "t_bus1", 
+        "name": "transmission_line3", 
+        "object": "transmission_line", 
+        "to": "t_bus2", 
+        "gld_treeIndex": null, 
+        "pgIndex": 1890
+    },
+    "1891": {
+        "lat":  33.714380261152506, 
+        "object": "t_node", 
+        "lng": -84.3741392665842, 
+        "name": "t_bus1", 
+        "pgIndex": 1891
+    },
+    "1892": {
+        "lat": 33.5933546975174, 
+        "object": "t_node", 
+        "lng": -84.48836848208867, 
+        "name": "t_bus2", 
+        "pgIndex": 1892
+    },
+    "1893": {
+        "lat": 33.5, 
+        "object": "t_node", 
+        "lng": -84.3, 
+        "name": "t_bus0", 
+        "pgIndex": 1893
+    },
+    "1894": {
+        "lat":  33.733897558911906, 
+        "lng":  -84.40670841341311, 
+        "object": "centroid", 
+        "parent": "t_bus1",
+        "name": "123_centroid", 
+        "pgIndex": 1894
+    },
+    "1895": {
+        "lat": 33.73211096115251, 
+        "lng": -84.3577065665842, 
+        "object": "centroid", 
+        "parent": "t_bus1",
+        "name": "circuit1_centroid", 
+        "pgIndex": 1895
+    },
+    "1897": {
+        "lat": 33.5933546975174, 
+        "lng": -84.5236848208867, 
+        "object": "centroid", 
+        "parent": "t_bus2",
+        "name": "f4_Centroid", 
+        "pgIndex": 1897
+    },
+    "1898": {
+        "lat": 33.6133546975174, 
+        "lng": -84.5136848208867, 
+        "object": "centroid", 
+        "parent": "t_bus2",
+        "name": "f5_Centroid", 
+        "pgIndex": 1898
+    }
+}

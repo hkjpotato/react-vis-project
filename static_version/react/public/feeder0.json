@@ -1,0 +1,3401 @@
+{    
+    "344": {
+        "parent": "90", 
+        "object": "load", 
+        "name": "Load_S90B", 
+        "pgIndex": 344
+    }, 
+    "345": {
+        "parent": "92", 
+        "object": "load", 
+        "name": "Load_S92C", 
+        "pgIndex": 345
+    }, 
+    "346": {
+        "parent": "94", 
+        "object": "load", 
+        "name": "Load_S94A", 
+        "pgIndex": 346
+    }, 
+    "347": {
+        "parent": "95", 
+        "object": "load", 
+        "name": "Load_S95B", 
+        "pgIndex": 347
+    }, 
+    "340": {
+        "parent": "85", 
+        "object": "load", 
+        "name": "Load_S85C", 
+        "pgIndex": 340
+    }, 
+    "341": {
+        "parent": "86", 
+        "object": "load", 
+        "name": "Load_S86B", 
+        "pgIndex": 341
+    }, 
+    "342": {
+        "parent": "87", 
+        "object": "load", 
+        "name": "Load_S87B", 
+        "pgIndex": 342
+    }, 
+    "343": {
+        "parent": "88", 
+        "object": "load", 
+        "name": "Load_S88A", 
+        "pgIndex": 343
+    }, 
+    "348": {
+        "parent": "96", 
+        "object": "load", 
+        "name": "Load_S96B", 
+        "pgIndex": 348
+    }, 
+    "349": {
+        "parent": "98", 
+        "object": "load", 
+        "name": "Load_S98A", 
+        "pgIndex": 349
+    }, 
+    "298": {
+        "parent": "33", 
+        "object": "load", 
+        "name": "Load_S33A", 
+        "pgIndex": 298
+    }, 
+    "299": {
+        "parent": "34", 
+        "object": "load", 
+        "name": "Load_S34C", 
+        "pgIndex": 299
+    }, 
+    "296": {
+        "parent": "31", 
+        "object": "load", 
+        "name": "Load_S31C", 
+        "pgIndex": 296
+    }, 
+    "297": {
+        "parent": "32", 
+        "object": "load", 
+        "name": "Load_S32C", 
+        "pgIndex": 297
+    }, 
+    "294": {
+        "parent": "29", 
+        "object": "load", 
+        "name": "Load_S29A", 
+        "pgIndex": 294
+    }, 
+    "295": {
+        "parent": "30", 
+        "object": "load", 
+        "name": "Load_S30C", 
+        "pgIndex": 295
+    }, 
+    "292": {
+        "parent": "24", 
+        "object": "load", 
+        "name": "Load_S24C", 
+        "pgIndex": 292
+    }, 
+    "293": {
+        "parent": "28", 
+        "object": "load", 
+        "name": "Load_S28A", 
+        "pgIndex": 293
+    }, 
+    "290": {
+        "parent": "20", 
+        "object": "load", 
+        "name": "Load_S20A", 
+        "pgIndex": 290
+    }, 
+    "291": {
+        "parent": "22", 
+        "object": "load", 
+        "name": "Load_S22B", 
+        "pgIndex": 291
+    }, 
+    "199": {
+        "phases": null, 
+        "from": "65", 
+        "name": "Line_L65", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "66", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 199
+    }, 
+    "198": {
+        "phases": null, 
+        "from": "64", 
+        "name": "Line_L64", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "65", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 198
+    }, 
+    "195": {
+        "phases": null, 
+        "from": "60", 
+        "name": "Line_L61", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "62", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 195
+    }, 
+    "194": {
+        "phases": null, 
+        "from": "60", 
+        "name": "Line_L60", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "61", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 194
+    }, 
+    "197": {
+        "phases": null, 
+        "from": "63", 
+        "name": "Line_L63", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "64", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 197
+    }, 
+    "196": {
+        "phases": null, 
+        "from": "62", 
+        "name": "Line_L62", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "63", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 196
+    }, 
+    "191": {
+        "phases": null, 
+        "from": "57", 
+        "name": "Line_L57", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "58", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 191
+    }, 
+    "190": {
+        "phases": null, 
+        "from": "55", 
+        "name": "Line_L56", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "56", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 190
+    }, 
+    "193": {
+        "phases": null, 
+        "from": "58", 
+        "name": "Line_L59", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "59", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 193
+    }, 
+    "192": {
+        "phases": null, 
+        "from": "57", 
+        "name": "Line_L58", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "60", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 192
+    }, 
+    "270": {
+        "dischargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "name": "s4", 
+        "parent": "29", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "object": "storage", 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 200, 
+        "pgIndex": 270
+    }, 
+    "271": {
+        "dischargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "name": "s5", 
+        "parent": "16", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "object": "storage", 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 100, 
+        "pgIndex": 271
+    }, 
+    "272": {
+        "parent": "86", 
+        "object": "solar", 
+        "name": "r1", 
+        "pgIndex": 272
+    }, 
+    "273": {
+        "parent": "24", 
+        "object": "solar", 
+        "name": "r2", 
+        "pgIndex": 273
+    }, 
+    "274": {
+        "parent": "50", 
+        "object": "solar", 
+        "name": "r3", 
+        "pgIndex": 274
+    }, 
+    "275": {
+        "parent": "109", 
+        "object": "solar", 
+        "name": "r4", 
+        "pgIndex": 275
+    }, 
+    "276": {
+        "parent": "74", 
+        "object": "solar", 
+        "name": "r5", 
+        "pgIndex": 276
+    }, 
+    "277": {
+        "parent": "1", 
+        "object": "load", 
+        "name": "Load_S1A", 
+        "pgIndex": 277
+    }, 
+    "278": {
+        "parent": "2", 
+        "object": "load", 
+        "name": "Load_S2B", 
+        "pgIndex": 278
+    }, 
+    "279": {
+        "parent": "4", 
+        "object": "load", 
+        "name": "Load_S4C", 
+        "pgIndex": 279
+    }, 
+    "108": {
+        "lat": 33.716918140799635, 
+        "lng": -84.35056934100396, 
+        "object": "node", 
+        "name": "450", 
+        "pgIndex": 108
+    }, 
+    "109": {
+        "lat": 33.74012143218412, 
+        "lng": -84.35348243990362, 
+        "object": "node", 
+        "name": "197", 
+        "pgIndex": 109
+    }, 
+    "102": {
+        "lat": 33.8048802597107, 
+        "lng": -84.26375005769692, 
+        "object": "node", 
+        "name": "94", 
+        "pgIndex": 102
+    }, 
+    "103": {
+        "lat": 33.815823525509884, 
+        "lng": -84.27214127636668, 
+        "object": "node", 
+        "name": "95", 
+        "pgIndex": 103
+    }, 
+    "100": {
+        "lat": 33.78178835476003, 
+        "lng": -84.27280378821372, 
+        "object": "node", 
+        "name": "92", 
+        "pgIndex": 100
+    }, 
+    "101": {
+        "lat": 33.800982958869334, 
+        "lng": -84.2791678237392, 
+        "object": "node", 
+        "name": "93", 
+        "pgIndex": 101
+    }, 
+    "106": {
+        "lat": 33.7230437300625, 
+        "lng": -84.37769485062911, 
+        "object": "node", 
+        "name": "99", 
+        "pgIndex": 106
+    }, 
+    "107": {
+        "lat": 33.7141095527232, 
+        "lng": -84.36539423024153, 
+        "object": "node", 
+        "name": "100", 
+        "pgIndex": 107
+    }, 
+    "104": {
+        "lat": 33.8306511270704, 
+        "lng": -84.2664999329424, 
+        "object": "node", 
+        "name": "96", 
+        "pgIndex": 104
+    }, 
+    "105": {
+        "lat": 33.73876901261624, 
+        "lng": -84.37589640236666, 
+        "object": "node", 
+        "name": "98", 
+        "pgIndex": 105
+    }, 
+    "39": {
+        "lat": 33.761249918377864, 
+        "lng": -84.41073641365627, 
+        "object": "node", 
+        "name": "250", 
+        "pgIndex": 39
+    }, 
+    "38": {
+        "lat": 33.76696836853837, 
+        "lng": -84.39687447376205, 
+        "object": "node", 
+        "name": "30", 
+        "pgIndex": 38
+    }, 
+    "33": {
+        "lat": 33.79308706715064, 
+        "lng": -84.37622716433509, 
+        "object": "node", 
+        "name": "28", 
+        "pgIndex": 33
+    }, 
+    "32": {
+        "lat": 33.79411284472809, 
+        "lng": -84.3273099394993, 
+        "object": "node", 
+        "name": "26", 
+        "pgIndex": 32
+    }, 
+    "31": {
+        "lat": 33.788736611821335, 
+        "lng": -84.34326012991988, 
+        "object": "node", 
+        "name": "25r", 
+        "pgIndex": 31
+    }, 
+    "30": {
+        "lat": 33.79306052866529, 
+        "lng": -84.35890201295894, 
+        "object": "node", 
+        "name": "25", 
+        "pgIndex": 30
+    }, 
+    "37": {
+        "lat": 33.78007791251687, 
+        "lng": -84.38571857223347, 
+        "object": "node", 
+        "name": "29", 
+        "pgIndex": 37
+    }, 
+    "36": {
+        "lat": 33.7864055240846, 
+        "lng": -84.30207557256125, 
+        "object": "node", 
+        "name": "33", 
+        "pgIndex": 36
+    }, 
+    "35": {
+        "lat": 33.800056682966364, 
+        "lng": -84.31258616361755, 
+        "object": "node", 
+        "name": "31", 
+        "pgIndex": 35
+    }, 
+    "34": {
+        "lat": 33.78298787609253, 
+        "lng": -84.31645999013189, 
+        "object": "node", 
+        "name": "27", 
+        "pgIndex": 34
+    }, 
+    "339": {
+        "parent": "84", 
+        "object": "load", 
+        "name": "Load_S84C", 
+        "pgIndex": 339
+    }, 
+    "338": {
+        "parent": "83", 
+        "object": "load", 
+        "name": "Load_S83C", 
+        "pgIndex": 338
+    }, 
+    "335": {
+        "parent": "79", 
+        "object": "load", 
+        "name": "Load_S79A", 
+        "pgIndex": 335
+    }, 
+    "334": {
+        "parent": "77", 
+        "object": "load", 
+        "name": "Load_S77B", 
+        "pgIndex": 334
+    }, 
+    "337": {
+        "parent": "82", 
+        "object": "load", 
+        "name": "Load_S82A", 
+        "pgIndex": 337
+    }, 
+    "336": {
+        "parent": "80", 
+        "object": "load", 
+        "name": "Load_S80B", 
+        "pgIndex": 336
+    }, 
+    "331": {
+        "parent": "74", 
+        "object": "load", 
+        "name": "Load_S74C", 
+        "pgIndex": 331
+    }, 
+    "330": {
+        "parent": "73", 
+        "object": "load", 
+        "name": "Load_S73C", 
+        "pgIndex": 330
+    }, 
+    "333": {
+        "parent": "76", 
+        "object": "load", 
+        "name": "Load_S76", 
+        "pgIndex": 333
+    }, 
+    "332": {
+        "parent": "75", 
+        "object": "load", 
+        "name": "Load_S75C", 
+        "pgIndex": 332
+    }, 
+    "6": {
+        "lat": 33.825657760113046, 
+        "lng": -84.40081983117634, 
+        "object": "node", 
+        "name": "3", 
+        "pgIndex": 6
+    }, 
+    "99": {
+        "lat": 33.78533955427062, 
+        "lng": -84.28841722815062, 
+        "object": "node", 
+        "name": "91", 
+        "pgIndex": 99
+    }, 
+    "98": {
+        "lat": 33.7533916130692, 
+        "lng": -84.2928797815515, 
+        "object": "node", 
+        "name": "90", 
+        "pgIndex": 98
+    }, 
+    "91": {
+        "lat": 33.7280503056234, 
+        "lng": -84.28665864517974, 
+        "object": "node", 
+        "name": "82", 
+        "pgIndex": 91
+    }, 
+    "90": {
+        "lat": 33.720838361764564, 
+        "lng": -84.30021505653794, 
+        "object": "node", 
+        "name": "81", 
+        "pgIndex": 90
+    }, 
+    "93": {
+        "lat": 33.73748362103017, 
+        "lng": -84.27485701102647, 
+        "object": "node", 
+        "name": "83", 
+        "pgIndex": 93
+    }, 
+    "92": {
+        "lat": 33.731221271205776, 
+        "lng": -84.31105507453248, 
+        "object": "node", 
+        "name": "84", 
+        "pgIndex": 92
+    }, 
+    "95": {
+        "lat": 33.75369506589203, 
+        "lng": -84.30551625178471, 
+        "object": "node", 
+        "name": "87", 
+        "pgIndex": 95
+    }, 
+    "94": {
+        "lat": 33.71997923572806, 
+        "lng": -84.32125613673136, 
+        "object": "node", 
+        "name": "85", 
+        "pgIndex": 94
+    }, 
+    "97": {
+        "lat": 33.768763199433636, 
+        "lng": -84.29589848165739, 
+        "object": "node", 
+        "name": "89", 
+        "pgIndex": 97
+    }, 
+    "96": {
+        "lat": 33.73889830779099, 
+        "lng": -84.29942974685414, 
+        "object": "node", 
+        "name": "88", 
+        "pgIndex": 96
+    }, 
+    "238": {
+        "phases": null, 
+        "from": "103", 
+        "name": "Line_L103", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "104", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 238
+    }, 
+    "239": {
+        "phases": null, 
+        "from": "105", 
+        "name": "Line_L104", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "106", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 239
+    }, 
+    "234": {
+        "phases": null, 
+        "from": "197", 
+        "name": "Line_L118", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "101", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 234
+    }, 
+    "235": {
+        "phases": null, 
+        "from": "101", 
+        "name": "Line_L100", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "102", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 235
+    }, 
+    "236": {
+        "phases": null, 
+        "from": "101", 
+        "name": "Line_L101", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "105", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 236
+    }, 
+    "237": {
+        "phases": null, 
+        "from": "102", 
+        "name": "Line_L102", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "103", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 237
+    }, 
+    "230": {
+        "phases": null, 
+        "from": "97", 
+        "name": "Line_L96", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "98", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 230
+    }, 
+    "231": {
+        "phases": null, 
+        "from": "98", 
+        "name": "Line_L97", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "99", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 231
+    }, 
+    "232": {
+        "phases": null, 
+        "from": "99", 
+        "name": "Line_L98", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "100", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 232
+    }, 
+    "233": {
+        "phases": null, 
+        "from": "100", 
+        "name": "Line_L99", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "450", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 233
+    }, 
+    "1": {
+        "lat": 33.80933546975174, 
+        "lng": -84.41836848208867, 
+        "object": "node", 
+        "name": "150", 
+        "pgIndex": 1
+    }, 
+    "146": {
+        "phases": null, 
+        "from": "13", 
+        "name": "Line_L12", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "34", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 146
+    }, 
+    "147": {
+        "phases": null, 
+        "from": "13", 
+        "name": "Line_L13", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "18", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 147
+    }, 
+    "144": {
+        "phases": null, 
+        "from": "8", 
+        "name": "Line_L10", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "13", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 144
+    }, 
+    "145": {
+        "phases": null, 
+        "from": "9r", 
+        "name": "Line_L11", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "14", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 145
+    }, 
+    "142": {
+        "phases": null, 
+        "from": "8", 
+        "name": "Line_L8", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "12", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 142
+    }, 
+    "143": {
+        "phases": null, 
+        "from": "8", 
+        "name": "Line_L9", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "9", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 143
+    }, 
+    "140": {
+        "phases": null, 
+        "from": "5", 
+        "name": "Line_L6", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "6", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 140
+    }, 
+    "141": {
+        "phases": null, 
+        "from": "7", 
+        "name": "Line_L7", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "8", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 141
+    }, 
+    "148": {
+        "phases": null, 
+        "from": "14", 
+        "name": "Line_L14", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "11", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 148
+    }, 
+    "149": {
+        "phases": null, 
+        "from": "14", 
+        "name": "Line_L15", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "10", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 149
+    }, 
+    "133": {
+        "phases": null, 
+        "from": "150", 
+        "name": "Transformer_REG1", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "150r", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 133, 
+        "senseNode": null
+    }, 
+    "132": {
+        "lat": 33.85169648779109, 
+        "lng": -84.40820986185659, 
+        "object": "node", 
+        "name": "610", 
+        "pgIndex": 132
+    }, 
+    "131": {
+        "lat": 33.88433386479516, 
+        "lng": -84.35826459686686, 
+        "object": "node", 
+        "name": "94_open", 
+        "pgIndex": 131
+    }, 
+    "130": {
+        "lat": 33.82796600677955, 
+        "lng": -84.25446285286556, 
+        "object": "node", 
+        "name": "300_open", 
+        "pgIndex": 130
+    }, 
+    "137": {
+        "phases": null, 
+        "from": "1", 
+        "name": "Line_L3", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "7", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 137
+    }, 
+    "136": {
+        "phases": null, 
+        "from": "1", 
+        "name": "Line_L2", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "3", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 136
+    }, 
+    "135": {
+        "phases": null, 
+        "from": "1", 
+        "name": "Line_L1", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "2", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 135
+    }, 
+    "134": {
+        "phases": null, 
+        "from": "149", 
+        "name": "Line_L115", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "1", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 4000, 
+        "configuration": null, 
+        "pgIndex": 134
+    }, 
+    "139": {
+        "phases": null, 
+        "from": "3", 
+        "name": "Line_L5", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "5", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 139
+    }, 
+    "138": {
+        "phases": null, 
+        "from": "3", 
+        "name": "Line_L4", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "4", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 138
+    }, 
+    "24": {
+        "lat": 33.82770891295233, 
+        "lng": -84.34155214191455, 
+        "object": "node", 
+        "name": "19", 
+        "pgIndex": 24
+    }, 
+    "25": {
+        "lat": 33.81533570433385, 
+        "lng": -84.33932963139331, 
+        "object": "node", 
+        "name": "21", 
+        "pgIndex": 25
+    }, 
+    "26": {
+        "lat": 33.822995665944795, 
+        "lng": -84.35578129163241, 
+        "object": "node", 
+        "name": "20", 
+        "pgIndex": 26
+    }, 
+    "27": {
+        "lat": 33.800955323825576, 
+        "lng": -84.34406346100579, 
+        "object": "node", 
+        "name": "22", 
+        "pgIndex": 27
+    }, 
+    "20": {
+        "lat": 33.865888546439784, 
+        "lng": -84.28650068424727, 
+        "object": "node", 
+        "name": "10", 
+        "pgIndex": 20
+    }, 
+    "21": {
+        "lat": 33.82384788863159, 
+        "lng": -84.31316635862106, 
+        "object": "node", 
+        "name": "15", 
+        "pgIndex": 21
+    }, 
+    "22": {
+        "lat": 33.809873827173845, 
+        "lng": -84.30422358972055, 
+        "object": "node", 
+        "name": "16", 
+        "pgIndex": 22
+    }, 
+    "23": {
+        "lat": 33.81206106893464, 
+        "lng": -84.32341994822701, 
+        "object": "node", 
+        "name": "17", 
+        "pgIndex": 23
+    }, 
+    "28": {
+        "lat": 33.808187774021484, 
+        "lng": -84.35436210986109, 
+        "object": "node", 
+        "name": "23", 
+        "pgIndex": 28
+    }, 
+    "29": {
+        "lat": 33.80771659508203, 
+        "lng": -84.37084599403244, 
+        "object": "node", 
+        "name": "24", 
+        "pgIndex": 29
+    }, 
+    "88": {
+        "lat": 33.71108362485686, 
+        "lng": -84.34279135365055, 
+        "object": "node", 
+        "name": "79", 
+        "pgIndex": 88
+    }, 
+    "89": {
+        "lat": 33.71431816666414, 
+        "lng": -84.31482185713827, 
+        "object": "node", 
+        "name": "80", 
+        "pgIndex": 89
+    }, 
+    "82": {
+        "lat": 33.74694296831706, 
+        "lng": -84.33728453607269, 
+        "object": "node", 
+        "name": "76", 
+        "pgIndex": 82
+    }, 
+    "181": {
+        "phases": null, 
+        "from": "47", 
+        "name": "Line_L47", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "48", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 181
+    }, 
+    "80": {
+        "lat": 33.73048093683059, 
+        "lng": -84.39274811962665, 
+        "object": "node", 
+        "name": "71", 
+        "pgIndex": 80
+    }, 
+    "81": {
+        "lat": 33.76002025679918, 
+        "lng": -84.33306522982126, 
+        "object": "node", 
+        "name": "73", 
+        "pgIndex": 81
+    }, 
+    "86": {
+        "lat": 33.745899428867816, 
+        "lng": -84.32035541296129, 
+        "object": "node", 
+        "name": "86", 
+        "pgIndex": 86
+    }, 
+    "87": {
+        "lat": 33.7198168490485, 
+        "lng": -84.33056604408296, 
+        "object": "node", 
+        "name": "78", 
+        "pgIndex": 87
+    }, 
+    "84": {
+        "lat": 33.78221854019148, 
+        "lng": -84.32899762372114, 
+        "object": "node", 
+        "name": "75", 
+        "pgIndex": 84
+    }, 
+    "85": {
+        "lat": 33.73483339618799, 
+        "lng": -84.3265311512667, 
+        "object": "node", 
+        "name": "77", 
+        "pgIndex": 85
+    }, 
+    "7": {
+        "lat": 33.8346107397899, 
+        "lng": -84.36769280441344, 
+        "object": "node", 
+        "name": "7", 
+        "pgIndex": 7
+    }, 
+    "245": {
+        "phases": null, 
+        "from": "110", 
+        "name": "Line_L110", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "111", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 245
+    }, 
+    "244": {
+        "phases": null, 
+        "from": "109", 
+        "name": "Line_L109", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "110", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 244
+    }, 
+    "247": {
+        "phases": null, 
+        "from": "112", 
+        "name": "Line_L112", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "113", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 247
+    }, 
+    "246": {
+        "phases": null, 
+        "from": "110", 
+        "name": "Line_L111", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "112", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 246
+    }, 
+    "241": {
+        "phases": null, 
+        "from": "106", 
+        "name": "Line_L106", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "107", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 241
+    }, 
+    "240": {
+        "phases": null, 
+        "from": "105", 
+        "name": "Line_L105", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "108", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 240
+    }, 
+    "243": {
+        "phases": null, 
+        "from": "108", 
+        "name": "Line_L108", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "300", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 243
+    }, 
+    "242": {
+        "phases": null, 
+        "from": "108", 
+        "name": "Line_L107", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "109", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 242
+    }, 
+    "249": {
+        "phases": null, 
+        "from": "135", 
+        "name": "Line_L114", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "35", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 249
+    }, 
+    "248": {
+        "phases": null, 
+        "from": "113", 
+        "name": "Line_L113", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "114", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 248
+    }, 
+    "179": {
+        "phases": null, 
+        "from": "44", 
+        "name": "Line_L45", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "47", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 179
+    }, 
+    "178": {
+        "phases": null, 
+        "from": "44", 
+        "name": "Line_L44", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "45", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 178
+    }, 
+    "177": {
+        "phases": null, 
+        "from": "42", 
+        "name": "Line_L43", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "44", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 177
+    }, 
+    "176": {
+        "phases": null, 
+        "from": "42", 
+        "name": "Line_L42", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "43", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 176
+    }, 
+    "175": {
+        "phases": null, 
+        "from": "40", 
+        "name": "Line_L41", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "42", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 175
+    }, 
+    "174": {
+        "phases": null, 
+        "from": "40", 
+        "name": "Line_L40", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "41", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 174
+    }, 
+    "173": {
+        "phases": null, 
+        "from": "38", 
+        "name": "Line_L39", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "39", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 173
+    }, 
+    "172": {
+        "phases": null, 
+        "from": "36", 
+        "name": "Line_L38", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "38", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 172
+    }, 
+    "171": {
+        "phases": null, 
+        "from": "36", 
+        "name": "Line_L37", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "37", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 171
+    }, 
+    "170": {
+        "phases": null, 
+        "from": "35", 
+        "name": "Line_L36", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "40", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 170
+    }, 
+    "182": {
+        "phases": null, 
+        "from": "47", 
+        "name": "Line_L48", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "49", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 182
+    }, 
+    "183": {
+        "phases": null, 
+        "from": "49", 
+        "name": "Line_L49", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "50", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 183
+    }, 
+    "180": {
+        "phases": null, 
+        "from": "45", 
+        "name": "Line_L46", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "46", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 180
+    }, 
+    "2": {
+        "lat": 33.803515866464885, 
+        "lng": -84.4040882154463, 
+        "object": "node", 
+        "name": "150r", 
+        "pgIndex": 2
+    }, 
+    "186": {
+        "phases": null, 
+        "from": "52", 
+        "name": "Line_L52", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "53", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 186
+    }, 
+    "187": {
+        "phases": null, 
+        "from": "53", 
+        "name": "Line_L53", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "54", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 187
+    }, 
+    "184": {
+        "phases": null, 
+        "from": "50", 
+        "name": "Line_L50", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "51", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 184
+    }, 
+    "185": {
+        "phases": null, 
+        "from": "51", 
+        "name": "Line_L51", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.10000", 
+        "to": "151", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 100, 
+        "configuration": null, 
+        "pgIndex": 185
+    }, 
+    "188": {
+        "phases": null, 
+        "from": "54", 
+        "name": "Line_L54", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "55", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 188
+    }, 
+    "189": {
+        "phases": null, 
+        "from": "54", 
+        "name": "Line_L55", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "57", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 189
+    }, 
+    "11": {
+        "lat": 33.84063880649406, 
+        "lng": -84.34764984947033, 
+        "object": "node", 
+        "name": "8", 
+        "pgIndex": 11
+    }, 
+    "10": {
+        "lat": 33.82610343506967, 
+        "lng": -84.42409448891799, 
+        "object": "node", 
+        "name": "6", 
+        "pgIndex": 10
+    }, 
+    "13": {
+        "lat": 33.850559813811806, 
+        "lng": -84.33294251745282, 
+        "object": "node", 
+        "name": "9", 
+        "pgIndex": 13
+    }, 
+    "12": {
+        "lat": 33.85539542027029, 
+        "lng": -84.34380297057278, 
+        "object": "node", 
+        "name": "12", 
+        "pgIndex": 12
+    }, 
+    "15": {
+        "lat": 33.856201239339065, 
+        "lng": -84.316054611842, 
+        "object": "node", 
+        "name": "9r", 
+        "pgIndex": 15
+    }, 
+    "14": {
+        "lat": 33.84144491688401, 
+        "lng": -84.33068426804599, 
+        "object": "node", 
+        "name": "13", 
+        "pgIndex": 14
+    }, 
+    "17": {
+        "lat": 33.83998117264103, 
+        "lng": -84.31488769336403, 
+        "object": "node", 
+        "name": "34", 
+        "pgIndex": 17
+    }, 
+    "16": {
+        "lat": 33.86312622486267, 
+        "lng": -84.30211171428182, 
+        "object": "node", 
+        "name": "14", 
+        "pgIndex": 16
+    }, 
+    "19": {
+        "lat": 33.87525899126767, 
+        "lng": -84.29246804257936, 
+        "object": "node", 
+        "name": "11", 
+        "pgIndex": 19
+    }, 
+    "18": {
+        "lat": 33.8263746277187, 
+        "lng": -84.32650420567093, 
+        "object": "node", 
+        "name": "18", 
+        "pgIndex": 18
+    }, 
+    "62": {
+        "lat": 33.8791559030307, 
+        "lng": -84.37244334328007, 
+        "object": "node", 
+        "name": "55", 
+        "pgIndex": 62
+    }, 
+    "322": {
+        "parent": "63", 
+        "object": "load", 
+        "name": "Load_S63A", 
+        "pgIndex": 322
+    }, 
+    "323": {
+        "parent": "64", 
+        "object": "load", 
+        "name": "Load_S64B", 
+        "pgIndex": 323
+    }, 
+    "320": {
+        "parent": "60", 
+        "object": "load", 
+        "name": "Load_S60A", 
+        "pgIndex": 320
+    }, 
+    "321": {
+        "parent": "62", 
+        "object": "load", 
+        "name": "Load_S62C", 
+        "pgIndex": 321
+    }, 
+    "326": {
+        "parent": "68", 
+        "object": "load", 
+        "name": "Load_S68A", 
+        "pgIndex": 326
+    }, 
+    "327": {
+        "parent": "69", 
+        "object": "load", 
+        "name": "Load_S69A", 
+        "pgIndex": 327
+    }, 
+    "324": {
+        "parent": "65", 
+        "object": "load", 
+        "name": "Load_S65", 
+        "pgIndex": 324
+    }, 
+    "325": {
+        "parent": "66", 
+        "object": "load", 
+        "name": "Load_S66C", 
+        "pgIndex": 325
+    }, 
+    "328": {
+        "parent": "70", 
+        "object": "load", 
+        "name": "Load_S70A", 
+        "pgIndex": 328
+    }, 
+    "329": {
+        "parent": "71", 
+        "object": "load", 
+        "name": "Load_S71A", 
+        "pgIndex": 329
+    }, 
+    "201": {
+        "phases": null, 
+        "from": "67", 
+        "name": "Line_L67", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "72", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 201
+    }, 
+    "200": {
+        "phases": null, 
+        "from": "67", 
+        "name": "Line_L66", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "68", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 200
+    }, 
+    "203": {
+        "phases": null, 
+        "from": "68", 
+        "name": "Line_L69", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "69", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 203
+    }, 
+    "202": {
+        "phases": null, 
+        "from": "67", 
+        "name": "Line_L68", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "97", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 202
+    }, 
+    "205": {
+        "phases": null, 
+        "from": "70", 
+        "name": "Line_L71", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "71", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 205
+    }, 
+    "204": {
+        "phases": null, 
+        "from": "69", 
+        "name": "Line_L70", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "70", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 204
+    }, 
+    "207": {
+        "phases": null, 
+        "from": "72", 
+        "name": "Line_L73", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "76", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 207
+    }, 
+    "206": {
+        "phases": null, 
+        "from": "72", 
+        "name": "Line_L72", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "73", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 206
+    }, 
+    "209": {
+        "phases": null, 
+        "from": "74", 
+        "name": "Line_L75", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "75", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 209
+    }, 
+    "208": {
+        "phases": null, 
+        "from": "73", 
+        "name": "Line_L74", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "74", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 208
+    }, 
+    "77": {
+        "lat": 33.75253619487532, 
+        "lng": -84.36509682853699, 
+        "object": "node", 
+        "name": "97", 
+        "pgIndex": 77
+    }, 
+    "76": {
+        "lat": 33.76164144540556, 
+        "lng": -84.3490279638678, 
+        "object": "node", 
+        "name": "72", 
+        "pgIndex": 76
+    }, 
+    "75": {
+        "lat": 33.76175155892216, 
+        "lng": -84.37936012423214, 
+        "object": "node", 
+        "name": "68", 
+        "pgIndex": 75
+    }, 
+    "74": {
+        "lat": 33.77092376710276, 
+        "lng": -84.36459994752852, 
+        "object": "node", 
+        "name": "67", 
+        "pgIndex": 74
+    }, 
+    "73": {
+        "lat": 33.87886743522664, 
+        "lng": -84.30533460906675, 
+        "object": "node", 
+        "name": "66", 
+        "pgIndex": 73
+    }, 
+    "72": {
+        "lat": 33.883022832955376, 
+        "lng": -84.31954545300977, 
+        "object": "node", 
+        "name": "65", 
+        "pgIndex": 72
+    }, 
+    "71": {
+        "lat": 33.881604136470116, 
+        "lng": -84.33516515846442, 
+        "object": "node", 
+        "name": "64", 
+        "pgIndex": 71
+    }, 
+    "70": {
+        "lat": 33.867720847301, 
+        "lng": -84.34587674580362, 
+        "object": "node", 
+        "name": "63", 
+        "pgIndex": 70
+    }, 
+    "79": {
+        "lat": 33.74130811299677, 
+        "lng": -84.40308910095445, 
+        "object": "node", 
+        "name": "70", 
+        "pgIndex": 79
+    }, 
+    "78": {
+        "lat": 33.74834795255081, 
+        "lng": -84.38945550889434, 
+        "object": "node", 
+        "name": "69", 
+        "pgIndex": 78
+    }, 
+    "8": {
+        "lat": 33.81853546633015, 
+        "lng": -84.41417505286881, 
+        "object": "node", 
+        "name": "4", 
+        "pgIndex": 8
+    }, 
+    "120": {
+        "lat": 33.78988019945854, 
+        "lng": -84.41121117906684, 
+        "object": "node", 
+        "name": "110", 
+        "pgIndex": 120
+    }, 
+    "121": {
+        "lat": 33.799239207674916, 
+        "lng": -84.42364192220303, 
+        "object": "node", 
+        "name": "111", 
+        "pgIndex": 121
+    }, 
+    "122": {
+        "lat": 33.78582755529558, 
+        "lng": -84.42584009503622, 
+        "object": "node", 
+        "name": "112", 
+        "pgIndex": 122
+    }, 
+    "123": {
+        "lat": 33.771590744577246, 
+        "lng": -84.42089894801742, 
+        "object": "node", 
+        "name": "113", 
+        "pgIndex": 123
+    }, 
+    "124": {
+        "lat": 33.75605982820832, 
+        "lng": -84.41775251206596, 
+        "object": "node", 
+        "name": "114", 
+        "pgIndex": 124
+    }, 
+    "125": {
+        "lat": 33.83209663984801, 
+        "lng": -84.30971511489557, 
+        "object": "node", 
+        "name": "135", 
+        "pgIndex": 125
+    }, 
+    "126": {
+        "lat": 33.85755902887256, 
+        "lng": -84.32577222644534, 
+        "object": "node", 
+        "name": "152", 
+        "pgIndex": 126
+    }, 
+    "127": {
+        "lat": 33.791824684752676, 
+        "lng": -84.3668791403191, 
+        "object": "node", 
+        "name": "160r", 
+        "pgIndex": 127
+    }, 
+    "128": {
+        "lat": 33.81537843362438, 
+        "lng": -84.36682450392325, 
+        "object": "node", 
+        "name": "160", 
+        "pgIndex": 128
+    }, 
+    "129": {
+        "lat": 33.84890542453542, 
+        "lng": -84.39301477772058, 
+        "object": "node", 
+        "name": "61s", 
+        "pgIndex": 129
+    }, 
+    "319": {
+        "parent": "59", 
+        "object": "load", 
+        "name": "Load_S59B", 
+        "pgIndex": 319
+    }, 
+    "318": {
+        "parent": "58", 
+        "object": "load", 
+        "name": "Load_S58B", 
+        "pgIndex": 318
+    }, 
+    "313": {
+        "parent": "51", 
+        "object": "load", 
+        "name": "Load_S51A", 
+        "pgIndex": 313
+    }, 
+    "312": {
+        "parent": "50", 
+        "object": "load", 
+        "name": "Load_S50C", 
+        "pgIndex": 312
+    }, 
+    "311": {
+        "parent": "49", 
+        "object": "load", 
+        "name": "Load_S49", 
+        "pgIndex": 311
+    }, 
+    "310": {
+        "parent": "48", 
+        "object": "load", 
+        "name": "Load_S48", 
+        "pgIndex": 310
+    }, 
+    "317": {
+        "parent": "56", 
+        "object": "load", 
+        "name": "Load_S56B", 
+        "pgIndex": 317
+    }, 
+    "316": {
+        "parent": "55", 
+        "object": "load", 
+        "name": "Load_S55A", 
+        "pgIndex": 316
+    }, 
+    "315": {
+        "parent": "53", 
+        "object": "load", 
+        "name": "Load_S53A", 
+        "pgIndex": 315
+    }, 
+    "314": {
+        "parent": "52", 
+        "object": "load", 
+        "name": "Load_S52A", 
+        "pgIndex": 314
+    }, 
+    "3": {
+        "lat": 33.81287168250998, 
+        "lng": -84.39197810113284, 
+        "object": "node", 
+        "name": "149", 
+        "pgIndex": 3
+    }, 
+    "360": {
+        "parent": "113", 
+        "object": "load", 
+        "name": "Load_S113A", 
+        "pgIndex": 360
+    }, 
+    "361": {
+        "parent": "114", 
+        "object": "load", 
+        "name": "Load_S114A", 
+        "pgIndex": 361
+    }, 
+    "252": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 4000, 
+        "name": "Line_SW1", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "4.00000", 
+        "to": "149", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "150r", 
+        "configuration": null, 
+        "pgIndex": 252
+    }, 
+    "60": {
+        "lat": 33.877074978171535, 
+        "lng": -84.34652366177312, 
+        "object": "node", 
+        "name": "53", 
+        "pgIndex": 60
+    }, 
+    "61": {
+        "lat": 33.869020877898436, 
+        "lng": -84.3611870725272, 
+        "object": "node", 
+        "name": "54", 
+        "pgIndex": 61
+    }, 
+    "258": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW7", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "300_open", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "151", 
+        "configuration": null, 
+        "pgIndex": 258
+    }, 
+    "63": {
+        "lat": 33.85337499258511, 
+        "lng": -84.36707857558109, 
+        "object": "node", 
+        "name": "57", 
+        "pgIndex": 63
+    }, 
+    "64": {
+        "lat": 33.87378487083399, 
+        "lng": -84.38646357726422, 
+        "object": "node", 
+        "name": "56", 
+        "pgIndex": 64
+    }, 
+    "65": {
+        "lat": 33.861491657976195, 
+        "lng": -84.38033854665505, 
+        "object": "node", 
+        "name": "58", 
+        "pgIndex": 65
+    }, 
+    "66": {
+        "lat": 33.8364796603843, 
+        "lng": -84.36310582063604, 
+        "object": "node", 
+        "name": "60", 
+        "pgIndex": 66
+    }, 
+    "67": {
+        "lat": 33.862015973185905, 
+        "lng": -84.39578383677313, 
+        "object": "node", 
+        "name": "59", 
+        "pgIndex": 67
+    }, 
+    "68": {
+        "lat": 33.84172415313239, 
+        "lng": -84.37892096332955, 
+        "object": "node", 
+        "name": "61", 
+        "pgIndex": 68
+    }, 
+    "69": {
+        "lat": 33.852479318317705, 
+        "lng": -84.3556376255088, 
+        "object": "node", 
+        "name": "62", 
+        "pgIndex": 69
+    }, 
+    "250": {
+        "phases": null, 
+        "from": "152", 
+        "name": "Line_L116", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "52", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 3000, 
+        "configuration": null, 
+        "pgIndex": 250
+    }, 
+    "251": {
+        "phases": null, 
+        "from": "160r", 
+        "name": "Line_L117", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "67", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 251
+    }, 
+    "256": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 500, 
+        "name": "Line_SW5", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "197", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "97", 
+        "configuration": null, 
+        "pgIndex": 256
+    }, 
+    "257": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW6", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "61s", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "61", 
+        "configuration": null, 
+        "pgIndex": 257
+    }, 
+    "254": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 1000, 
+        "name": "Line_SW3", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "135", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "18", 
+        "configuration": null, 
+        "pgIndex": 254
+    }, 
+    "255": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 2000, 
+        "name": "Line_SW4", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "160", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "60", 
+        "configuration": null, 
+        "pgIndex": 255
+    }, 
+    "168": {
+        "phases": null, 
+        "from": "34", 
+        "name": "Line_L34", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "15", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 168
+    }, 
+    "169": {
+        "phases": null, 
+        "from": "35", 
+        "name": "Line_L35", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "36", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 169
+    }, 
+    "164": {
+        "phases": null, 
+        "from": "28", 
+        "name": "Line_L30", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "29", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 164
+    }, 
+    "165": {
+        "phases": null, 
+        "from": "29", 
+        "name": "Line_L31", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "30", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 165
+    }, 
+    "166": {
+        "phases": null, 
+        "from": "30", 
+        "name": "Line_L32", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "250", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 166
+    }, 
+    "167": {
+        "phases": null, 
+        "from": "31", 
+        "name": "Line_L33", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "32", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 167
+    }, 
+    "160": {
+        "phases": null, 
+        "from": "25", 
+        "name": "Line_L26", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "28", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 160
+    }, 
+    "161": {
+        "phases": null, 
+        "from": "26", 
+        "name": "Line_L27", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "27", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 161
+    }, 
+    "162": {
+        "phases": null, 
+        "from": "26", 
+        "name": "Line_L28", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "31", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 162
+    }, 
+    "163": {
+        "phases": null, 
+        "from": "27", 
+        "name": "Line_L29", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "33", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 163
+    }, 
+    "9": {
+        "lat": 33.83602362811433, 
+        "lng": -84.41278692464472, 
+        "object": "node", 
+        "name": "5", 
+        "pgIndex": 9
+    }, 
+    "357": {
+        "parent": "109", 
+        "object": "load", 
+        "name": "Load_S109A", 
+        "pgIndex": 357
+    }, 
+    "356": {
+        "parent": "107", 
+        "object": "load", 
+        "name": "Load_S107B", 
+        "pgIndex": 356
+    }, 
+    "355": {
+        "parent": "106", 
+        "object": "load", 
+        "name": "Load_S106B", 
+        "pgIndex": 355
+    }, 
+    "354": {
+        "parent": "104", 
+        "object": "load", 
+        "name": "Load_S104C", 
+        "pgIndex": 354
+    }, 
+    "353": {
+        "parent": "103", 
+        "object": "load", 
+        "name": "Load_S103C", 
+        "pgIndex": 353
+    }, 
+    "352": {
+        "parent": "102", 
+        "object": "load", 
+        "name": "Load_S102C", 
+        "pgIndex": 352
+    }, 
+    "351": {
+        "parent": "100", 
+        "object": "load", 
+        "name": "Load_S100C", 
+        "pgIndex": 351
+    }, 
+    "350": {
+        "parent": "99", 
+        "object": "load", 
+        "name": "Load_S99B", 
+        "pgIndex": 350
+    }, 
+    "359": {
+        "parent": "112", 
+        "object": "load", 
+        "name": "Load_S112A", 
+        "pgIndex": 359
+    }, 
+    "358": {
+        "parent": "111", 
+        "object": "load", 
+        "name": "Load_S111A", 
+        "pgIndex": 358
+    }, 
+    "216": {
+        "phases": null, 
+        "from": "81", 
+        "name": "Line_L82", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "82", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 216
+    }, 
+    "217": {
+        "phases": null, 
+        "from": "81", 
+        "name": "Line_L83", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "84", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 217
+    }, 
+    "214": {
+        "phases": null, 
+        "from": "78", 
+        "name": "Line_L80", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "80", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 214
+    }, 
+    "215": {
+        "phases": null, 
+        "from": "80", 
+        "name": "Line_L81", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "81", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 215
+    }, 
+    "212": {
+        "phases": null, 
+        "from": "77", 
+        "name": "Line_L78", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "78", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 212
+    }, 
+    "213": {
+        "phases": null, 
+        "from": "78", 
+        "name": "Line_L79", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "79", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 213
+    }, 
+    "210": {
+        "phases": null, 
+        "from": "76", 
+        "name": "Line_L76", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "77", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 210
+    }, 
+    "211": {
+        "phases": null, 
+        "from": "76", 
+        "name": "Line_L77", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "86", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 211
+    }, 
+    "218": {
+        "phases": null, 
+        "from": "82", 
+        "name": "Line_L84", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "83", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 218
+    }, 
+    "219": {
+        "phases": null, 
+        "from": "84", 
+        "name": "Line_L85", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "85", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 219
+    }, 
+    "289": {
+        "parent": "19", 
+        "object": "load", 
+        "name": "Load_S19A", 
+        "pgIndex": 289
+    }, 
+    "288": {
+        "parent": "17", 
+        "object": "load", 
+        "name": "Load_S17C", 
+        "pgIndex": 288
+    }, 
+    "4": {
+        "lat": 33.82691105914154, 
+        "lng": -84.38462434665279, 
+        "object": "node", 
+        "name": "1", 
+        "pgIndex": 4
+    }, 
+    "281": {
+        "parent": "6", 
+        "object": "load", 
+        "name": "Load_S6C", 
+        "pgIndex": 281
+    }, 
+    "280": {
+        "parent": "5", 
+        "object": "load", 
+        "name": "Load_S5C", 
+        "pgIndex": 280
+    }, 
+    "283": {
+        "parent": "9", 
+        "object": "load", 
+        "name": "Load_S9A", 
+        "pgIndex": 283
+    }, 
+    "282": {
+        "parent": "7", 
+        "object": "load", 
+        "name": "Load_S7A", 
+        "pgIndex": 282
+    }, 
+    "285": {
+        "parent": "11", 
+        "object": "load", 
+        "name": "Load_S11A", 
+        "pgIndex": 285
+    }, 
+    "284": {
+        "parent": "10", 
+        "object": "load", 
+        "name": "Load_S10A", 
+        "pgIndex": 284
+    }, 
+    "287": {
+        "parent": "16", 
+        "object": "load", 
+        "name": "Load_S16C", 
+        "pgIndex": 287
+    }, 
+    "286": {
+        "parent": "12", 
+        "object": "load", 
+        "name": "Load_S12B", 
+        "pgIndex": 286
+    }, 
+    "263": {
+        "phases": null, 
+        "from": "160", 
+        "name": "Transformer_REG4", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "2.00000", 
+        "to": "160r", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 2000, 
+        "configuration": null, 
+        "pgIndex": 263, 
+        "senseNode": null
+    }, 
+    "262": {
+        "phases": null, 
+        "from": "25", 
+        "name": "Transformer_REG3", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "25r", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 262, 
+        "senseNode": null
+    }, 
+    "261": {
+        "phases": null, 
+        "from": "9", 
+        "name": "Transformer_REG2", 
+        "object": "regulator", 
+        "gld_groupid": null, 
+        "bmat": "1.00000", 
+        "to": "9r", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 1000, 
+        "configuration": null, 
+        "pgIndex": 261, 
+        "senseNode": null
+    }, 
+    "260": {
+        "phases": null, 
+        "from": "61s", 
+        "name": "Transformer_XFM1", 
+        "object": "transformer", 
+        "gld_groupid": null, 
+        "bmat": "0.40000", 
+        "to": "610", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 400, 
+        "configuration": null, 
+        "pgIndex": 260
+    }, 
+    "267": {
+        "dischargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "name": "s1", 
+        "parent": "42", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "object": "storage", 
+        "initialCharge": 10, 
+        "chargeRate": 5, 
+        "maxCharge": 500, 
+        "pgIndex": 267
+    }, 
+    "266": {
+        "capacity": 400, 
+        "name": "g3", 
+        "parent": "54", 
+        "object": "generator", 
+        "cost": 18, 
+        "pgIndex": 266
+    }, 
+    "265": {
+        "capacity": 200, 
+        "name": "g2", 
+        "parent": "21", 
+        "object": "generator", 
+        "cost": 14, 
+        "pgIndex": 265
+    }, 
+    "264": {
+        "capacity": 250, 
+        "name": "g1", 
+        "parent": "105", 
+        "object": "generator", 
+        "cost": 8, 
+        "pgIndex": 264
+    }, 
+    "269": {
+        "dischargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "name": "s3", 
+        "parent": "72", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "object": "storage", 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 500, 
+        "pgIndex": 269
+    }, 
+    "268": {
+        "dischargeEff": "1.00000", 
+        "dischargeRate": 8, 
+        "name": "s2", 
+        "parent": "99", 
+        "minCharge": 0, 
+        "chargeEff": "1.00000", 
+        "object": "storage", 
+        "initialCharge": 50, 
+        "chargeRate": 5, 
+        "maxCharge": 200, 
+        "pgIndex": 268
+    }, 
+    "59": {
+        "lat": 33.87286908753174, 
+        "lng": -84.33007244584785, 
+        "object": "node", 
+        "name": "52", 
+        "pgIndex": 59
+    }, 
+    "58": {
+        "lat": 33.812445648203195, 
+        "lng": -84.25150604060133, 
+        "object": "node", 
+        "name": "151", 
+        "pgIndex": 58
+    }, 
+    "55": {
+        "lat": 33.764586489762415, 
+        "lng": -84.25450692379836, 
+        "object": "node", 
+        "name": "49", 
+        "pgIndex": 55
+    }, 
+    "54": {
+        "lat": 33.75334079899851, 
+        "lng": -84.26461683026392, 
+        "object": "node", 
+        "name": "48", 
+        "pgIndex": 54
+    }, 
+    "57": {
+        "lat": 33.79619030741583, 
+        "lng": -84.25077753195863, 
+        "object": "node", 
+        "name": "51", 
+        "pgIndex": 57
+    }, 
+    "56": {
+        "lat": 33.780145537427956, 
+        "lng": -84.25214930530849, 
+        "object": "node", 
+        "name": "50", 
+        "pgIndex": 56
+    }, 
+    "51": {
+        "lat": 33.762182946778466, 
+        "lng": -84.2811430494735, 
+        "object": "node", 
+        "name": "45", 
+        "pgIndex": 51
+    }, 
+    "50": {
+        "lat": 33.77808156868335, 
+        "lng": -84.28270920686573, 
+        "object": "node", 
+        "name": "44", 
+        "pgIndex": 50
+    }, 
+    "53": {
+        "lat": 33.74747957248471, 
+        "lng": -84.27714601577188, 
+        "object": "node", 
+        "name": "46", 
+        "pgIndex": 53
+    }, 
+    "52": {
+        "lat": 33.76828731624809, 
+        "lng": -84.26929828821068, 
+        "object": "node", 
+        "name": "47", 
+        "pgIndex": 52
+    }, 
+    "259": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 300, 
+        "name": "Line_SW8", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "94_open", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "54", 
+        "configuration": null, 
+        "pgIndex": 259
+    }, 
+    "115": {
+        "lat": 33.7414872419857, 
+        "lng": -84.36767975721646, 
+        "object": "node", 
+        "name": "106", 
+        "pgIndex": 115
+    }, 
+    "114": {
+        "lat": 33.76729976804795, 
+        "lng": -84.30825734416405, 
+        "object": "node", 
+        "name": "104", 
+        "pgIndex": 114
+    }, 
+    "117": {
+        "lat": 33.72812392389158, 
+        "lng": -84.35978043557851, 
+        "object": "node", 
+        "name": "107", 
+        "pgIndex": 117
+    }, 
+    "116": {
+        "lat": 33.76908385220759, 
+        "lng": -84.38621659302787, 
+        "object": "node", 
+        "name": "108", 
+        "pgIndex": 116
+    }, 
+    "111": {
+        "lat": 33.762690678469774, 
+        "lng": -84.33995161577573, 
+        "object": "node", 
+        "name": "102", 
+        "pgIndex": 111
+    }, 
+    "110": {
+        "lat": 33.754916529189636, 
+        "lng": -84.35529194291385, 
+        "object": "node", 
+        "name": "101", 
+        "pgIndex": 110
+    }, 
+    "113": {
+        "lat": 33.767104289988616, 
+        "lng": -84.32364164559013, 
+        "object": "node", 
+        "name": "103", 
+        "pgIndex": 113
+    }, 
+    "253": {
+        "status": null, 
+        "phases": null, 
+        "capacity": 3000, 
+        "name": "Line_SW2", 
+        "object": "switch", 
+        "gld_groupid": null, 
+        "bmat": "3.00000", 
+        "to": "152", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "from": "13", 
+        "configuration": null, 
+        "pgIndex": 253
+    }, 
+    "119": {
+        "lat": 33.78463827566469, 
+        "lng": -84.39277358301689, 
+        "object": "node", 
+        "name": "300", 
+        "pgIndex": 119
+    }, 
+    "118": {
+        "lat": 33.77711982419987, 
+        "lng": -84.4016985310336, 
+        "object": "node", 
+        "name": "109", 
+        "pgIndex": 118
+    }, 
+    "308": {
+        "parent": "46", 
+        "object": "load", 
+        "name": "Load_S46A", 
+        "pgIndex": 308
+    }, 
+    "309": {
+        "parent": "47", 
+        "object": "load", 
+        "name": "Load_S47", 
+        "pgIndex": 309
+    }, 
+    "300": {
+        "parent": "35", 
+        "object": "load", 
+        "name": "Load_S35A", 
+        "pgIndex": 300
+    }, 
+    "301": {
+        "parent": "37", 
+        "object": "load", 
+        "name": "Load_S37A", 
+        "pgIndex": 301
+    }, 
+    "302": {
+        "parent": "38", 
+        "object": "load", 
+        "name": "Load_S38B", 
+        "pgIndex": 302
+    }, 
+    "303": {
+        "parent": "39", 
+        "object": "load", 
+        "name": "Load_S39B", 
+        "pgIndex": 303
+    }, 
+    "304": {
+        "parent": "41", 
+        "object": "load", 
+        "name": "Load_S41C", 
+        "pgIndex": 304
+    }, 
+    "305": {
+        "parent": "42", 
+        "object": "load", 
+        "name": "Load_S42A", 
+        "pgIndex": 305
+    }, 
+    "306": {
+        "parent": "43", 
+        "object": "load", 
+        "name": "Load_S43B", 
+        "pgIndex": 306
+    }, 
+    "307": {
+        "parent": "45", 
+        "object": "load", 
+        "name": "Load_S45A", 
+        "pgIndex": 307
+    }, 
+    "229": {
+        "phases": null, 
+        "from": "95", 
+        "name": "Line_L95", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "96", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 229
+    }, 
+    "228": {
+        "phases": null, 
+        "from": "93", 
+        "name": "Line_L94", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "95", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 228
+    }, 
+    "227": {
+        "phases": null, 
+        "from": "93", 
+        "name": "Line_L93", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "94", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 227
+    }, 
+    "226": {
+        "phases": null, 
+        "from": "91", 
+        "name": "Line_L92", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "93", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 226
+    }, 
+    "225": {
+        "phases": null, 
+        "from": "91", 
+        "name": "Line_L91", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "92", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 225
+    }, 
+    "224": {
+        "phases": null, 
+        "from": "89", 
+        "name": "Line_L90", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "91", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 224
+    }, 
+    "223": {
+        "phases": null, 
+        "from": "89", 
+        "name": "Line_L89", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "90", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 223
+    }, 
+    "222": {
+        "phases": null, 
+        "from": "87", 
+        "name": "Line_L88", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "89", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 222
+    }, 
+    "221": {
+        "phases": null, 
+        "from": "87", 
+        "name": "Line_L87", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.20000", 
+        "to": "88", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 200, 
+        "configuration": null, 
+        "pgIndex": 221
+    }, 
+    "220": {
+        "phases": null, 
+        "from": "86", 
+        "name": "Line_L86", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.40000", 
+        "to": "87", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 400, 
+        "configuration": null, 
+        "pgIndex": 220
+    }, 
+    "151": {
+        "phases": null, 
+        "from": "15", 
+        "name": "Line_L17", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "17", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 151
+    }, 
+    "150": {
+        "phases": null, 
+        "from": "15", 
+        "name": "Line_L16", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "16", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 150
+    }, 
+    "153": {
+        "phases": null, 
+        "from": "18", 
+        "name": "Line_L19", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "21", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 153
+    }, 
+    "152": {
+        "phases": null, 
+        "from": "18", 
+        "name": "Line_L18", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "19", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 152
+    }, 
+    "155": {
+        "phases": null, 
+        "from": "21", 
+        "name": "Line_L21", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "22", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 155
+    }, 
+    "154": {
+        "phases": null, 
+        "from": "19", 
+        "name": "Line_L20", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "20", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 154
+    }, 
+    "157": {
+        "phases": null, 
+        "from": "23", 
+        "name": "Line_L23", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "24", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 157
+    }, 
+    "156": {
+        "phases": null, 
+        "from": "21", 
+        "name": "Line_L22", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "23", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 156
+    }, 
+    "159": {
+        "phases": null, 
+        "from": "25r", 
+        "name": "Line_L25", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.30000", 
+        "to": "26", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 300, 
+        "configuration": null, 
+        "pgIndex": 159
+    }, 
+    "158": {
+        "phases": null, 
+        "from": "23", 
+        "name": "Line_L24", 
+        "object": "overhead_line", 
+        "gld_groupid": null, 
+        "bmat": "0.50000", 
+        "to": "25", 
+        "length": null, 
+        "gld_treeIndex": null, 
+        "capacity": 500, 
+        "configuration": null, 
+        "pgIndex": 158
+    }, 
+    "112": {
+        "lat": 33.757433630653914, 
+        "lng": -84.37250082731018, 
+        "object": "node", 
+        "name": "105", 
+        "pgIndex": 112
+    }, 
+    "83": {
+        "lat": 33.77391308552787, 
+        "lng": -84.3415677566618, 
+        "object": "node", 
+        "name": "74", 
+        "pgIndex": 83
+    }, 
+    "48": {
+        "lat": 33.796121121815716, 
+        "lng": -84.28660171560014, 
+        "object": "node", 
+        "name": "42", 
+        "pgIndex": 48
+    }, 
+    "49": {
+        "lat": 33.79427814511751, 
+        "lng": -84.2707740524478, 
+        "object": "node", 
+        "name": "43", 
+        "pgIndex": 49
+    }, 
+    "46": {
+        "lat": 33.85832468799831, 
+        "lng": -84.26207025348005, 
+        "object": "node", 
+        "name": "39", 
+        "pgIndex": 46
+    }, 
+    "47": {
+        "lat": 33.82860494545947, 
+        "lng": -84.27950071814509, 
+        "object": "node", 
+        "name": "41", 
+        "pgIndex": 47
+    }, 
+    "44": {
+        "lat": 33.85759794922531, 
+        "lng": -84.28814470393479, 
+        "object": "node", 
+        "name": "37", 
+        "pgIndex": 44
+    }, 
+    "45": {
+        "lat": 33.84756765783566, 
+        "lng": -84.27166041184186, 
+        "object": "node", 
+        "name": "38", 
+        "pgIndex": 45
+    }, 
+    "42": {
+        "lat": 33.84337392541758, 
+        "lng": -84.28615068259579, 
+        "object": "node", 
+        "name": "36", 
+        "pgIndex": 42
+    }, 
+    "43": {
+        "lat": 33.81406170280873, 
+        "lng": -84.28675261513202, 
+        "object": "node", 
+        "name": "40", 
+        "pgIndex": 43
+    }, 
+    "40": {
+        "lat": 33.815220918170084, 
+        "lng": -84.30657093083427, 
+        "object": "node", 
+        "name": "32", 
+        "pgIndex": 40
+    }, 
+    "41": {
+        "lat": 33.829609827948886, 
+        "lng": -84.29321321400744, 
+        "object": "node", 
+        "name": "35", 
+        "pgIndex": 41
+    }, 
+    "5": {
+        "lat": 33.83695996333591, 
+        "lng": -84.39647485492563, 
+        "object": "node", 
+        "name": "2", 
+        "pgIndex": 5
+    }
+}

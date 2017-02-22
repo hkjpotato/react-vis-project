@@ -1,0 +1,148 @@
+{
+    "nodes": [
+        {
+            "name": "f2_Centroid", 
+            "parent": "t_bus2", 
+            "object": "centroid", 
+            "lat": 41.035411, 
+            "lng": -71.939411
+        }, 
+        {
+            "lat": 40.99841, 
+            "gldIndex": 1903, 
+            "lng": -72.051796, 
+            "object": "t_node", 
+            "name": "t_bus4"
+        }, 
+        {
+            "name": "f5_Centroid", 
+            "parent": "t_bus0", 
+            "object": "centroid", 
+            "lat": 41.052617, 
+            "lng": -71.951817
+        }, 
+        {
+            "name": "f3_Centroid", 
+            "parent": "t_bus2", 
+            "object": "centroid", 
+            "lat": 41.043967, 
+            "lng": -71.938054
+        }, 
+        {
+            "name": "f4_Centroid", 
+            "parent": "t_bus0", 
+            "object": "centroid", 
+            "lat": 41.06933, 
+            "lng": -71.941875
+        }, 
+        {
+            "name": "f1_centroid", 
+            "parent": "t_bus3", 
+            "object": "centroid", 
+            "lat": 41.042886, 
+            "lng": -71.912154
+        }, 
+        {
+            "name": "f6_centroid", 
+            "parent": "t_bus1", 
+            "object": "centroid", 
+            "lat": 41.059143, 
+            "lng": -71.895666
+        }, 
+        {
+            "lat": 41.060822, 
+            "gldIndex": 1893, 
+            "lng": -71.943818, 
+            "object": "t_node", 
+            "name": "t_bus0"
+        }, 
+        {
+            "lat": 41.04569895808175, 
+            "gldIndex": 1891, 
+            "lng": -71.91291242837906, 
+            "object": "t_node", 
+            "name": "t_bus1"
+        }, 
+        {
+            "lat": 41.039947, 
+            "gldIndex": 1892, 
+            "lng": -71.942833, 
+            "object": "t_node", 
+            "name": "t_bus2"
+        }, 
+        {
+            "lat": 41.04598, 
+            "gldIndex": 1901, 
+            "lng": -71.925460, 
+            "object": "t_node", 
+            "name": "t_bus3"
+        }
+    ], 
+    "links": [
+        {
+            "to": "f2_Centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus2"
+        }, 
+        {
+            "phases": null, 
+            "from": "t_bus3", 
+            "name": "t_line3", 
+            "object": "t_line", 
+            "to": "t_bus2"
+        }, 
+        {
+            "to": "f5_Centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus0"
+        }, 
+        {
+            "to": "f3_Centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus2"
+        }, 
+        {
+            "to": "f4_Centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus0"
+        }, 
+        {
+            "phases": null, 
+            "from": "t_bus0", 
+            "name": "t_line2", 
+            "object": "t_line", 
+            "to": "t_bus2"
+        }, 
+        {
+            "phases": null, 
+            "from": "t_bus0", 
+            "name": "t_line1", 
+            "object": "t_line", 
+            "to": "t_bus3"
+        }, 
+        {
+            "to": "f1_centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus3"
+        }, 
+        {
+            "to": "f6_centroid", 
+            "object": "centroid_line", 
+            "from": "t_bus1"
+        }, 
+        {
+            "phases": null, 
+            "from": "t_bus2", 
+            "name": "t_line4", 
+            "object": "t_line", 
+            "to": "t_bus4"
+        }, 
+        {
+            "phases": null, 
+            "from": "t_bus3", 
+            "name": "t_line5", 
+            "object": "t_line", 
+            "to": "t_bus1"
+        }
+    ]
+}

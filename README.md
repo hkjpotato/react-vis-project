@@ -1,16 +1,31 @@
 # React + D3 Visualization of Electrical Grid System (DEMO)
 #### Result
-__[Video]__
+__[Video (fake time series)]__
+
+__[Video (real time series)]__
+
+__[Video (geo based zoom)]__
+
+__[Prototype3]__(most updated)
+
+__[Prototype2]__
 
 __[Prototype1]__
 
-__[Prototype2]__(most updated)
-
 [Prototype2]: <http://www.kjhuang.com/pgdemo2/public/>
+[Prototype3]: <http://www.kjhuang.com/pgdemo3/>
 [Prototype1]: <http://www.kjhuang.com/pgdemo/public/>
-[Video]: <https://youtu.be/9h0TL7uOntI>
+[Video (geo based zoom)]: <https://youtu.be/9h0TL7uOntI>
+[Video (fake time series)]: <https://https://youtu.be/D1Dew-8vRIQ>
 
-## Development Schedule
+The backend django code is not open source anymore. You can check the front end [React](./static_version/react) to get and idea of the frontend code. 
+
+Frankly speaking, this is not a pure React App as Google Map and D3 componenet are living outside the React controlled dom. The data is not strictly one way flow. For example, zoom event of Google Map is controlled by the Google Map API. Besides, the [MapVisManager](./static_version/react/app/components/MapVisUsage/MapVisManager.js) is controlling the d3 update pattern and other Map & Svg related update. Anything related to d3 svg is controlled outside React life cycle. 
+
+Part of reason behind it is about teamwork, as one of my teammate is an expert in d3 but not in React. That is why you can see some ES6 code with ES5...
+
+
+## Development Schedule(Outdate Schedule)
  - [First Stage](#first-stage)
  - [Second Stage](#second-stage)
 

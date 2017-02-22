@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>React Vis App</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- d3 -->
+<script src='http://d3js.org/d3.v3.min.js'></script>
+
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+<!-- font awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<!-- google map -->
+<script src="//maps.google.com/maps/api/js?key=AIzaSyBfv885t6_HFj4pt3_-751j6e6nxoXNWfk"></script>  
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- mui -->
+<link href="//cdn.muicss.com/mui-0.9.9/css/mui.min.css" rel="stylesheet" type="text/css" />
+<script src="//cdn.muicss.com/mui-0.9.9/js/mui.min.js"></script>
+
+<style type="text/css">
+  body, html {
+    height: 100%;
+    width: 100%;
+    color: #73879C;
+  }
+  #app {
+    height: 100%;
+    width: 100%; 
+  }
+
+
+  th, td, tr {
+    height: 20px;
+    /*font-size: 50%;*/
+  }
+
+
+.real-table {
+  position: absolute;
+  top: 0px;
+  overflow-y: scroll;
+  height: 300px;
+  width: 100%;
+}
+
+.fake-table {
+  z-index: 20;
+  height: 40px;
+  overflow-y: hidden;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+}
+
+.thumb {
+  display: none
+}
+
+
+</style>
+
+    <style type="text/css">
+.rv-treemap {
+  font-size: 12px;
+  position: relative; }
+
+.rv-treemap__leaf {
+  overflow: hidden;
+  position: absolute; }
+
+.rv-treemap__leaf__content {
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis; }
+
+.rv-table {
+  overflow: hidden; }
+
+.rv-table__header {
+  position: relative;
+  z-index: 100; }
+
+.rv-table__header__cell {
+  background: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  font-weight: bold;
+  overflow: hidden; }
+
+.rv-table__header__cell__content {
+  margin: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.rv-table__data {
+  overflow: auto; }
+
+.rv-table__data-inner {
+  position: relative; }
+
+.rv-table__data__cell {
+  position: absolute;
+  border: 1px solid #ccc;
+  overflow: hidden; }
+
+.rv-table__data__cell__content {
+  margin: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.rv-xy-plot {
+  color: #c3c3c3;
+  position: relative; }
+
+.rv-xy-plot__inner {
+  display: block; }
+
+.rv-xy-plot__axis__line {
+  stroke-width: 2px;
+  stroke: #e6e6e9;
+  fill: none; }
+
+.rv-xy-plot__axis__tick__line {
+  stroke: #e6e6e9; }
+
+.rv-xy-plot__axis__tick__text {
+  fill: #6B6B76;
+  font-size: 11px; }
+
+.rv-xy-plot__axis__title text {
+  font-size: 11px;
+  fill: #6B6B76; }
+
+.rv-xy-plot__grid-lines__line {
+  stroke: #e6e6e9; }
+
+.rv-xy-plot__series--line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px; }
+
+.rv-crosshair {
+  position: absolute;
+  font-size: 11px;
+  pointer-events: none; }
+
+.rv-crosshair__line {
+  background: #47d3d9;
+  width: 1px; }
+
+.rv-crosshair__inner {
+  position: absolute;
+  text-align: left;
+  top: 0; }
+
+.rv-crosshair__inner__content {
+  border-radius: 4px;
+  background: #3A3A48;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+
+.rv-crosshair__inner--left {
+  right: 4px; }
+
+.rv-crosshair__inner--right {
+  left: 4px; }
+
+.rv-crosshair__title {
+  font-weight: bold;
+  white-space: nowrap; }
+
+.rv-crosshair__item {
+  white-space: nowrap; }
+
+.rv-hint {
+  position: absolute;
+  pointer-events: none; }
+
+.rv-hint__content {
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-size: 12px;
+  background: #3A3A48;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: left;
+  white-space: nowrap; }
+
+.rv-discrete-color-legend {
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-size: 12px; }
+  .rv-discrete-color-legend.horizontal {
+    white-space: nowrap; }
+
+.rv-discrete-color-legend-item {
+  color: #3A3A48;
+  border-radius: 1px;
+  padding: 9px 10px; }
+  .rv-discrete-color-legend-item.horizontal {
+    display: inline-block; }
+    .rv-discrete-color-legend-item.horizontal .rv-discrete-color-legend-item__title {
+      margin-left: 0;
+      display: block; }
+
+.rv-discrete-color-legend-item__color {
+  background: #DCDCDC;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 14px; }
+
+.rv-discrete-color-legend-item__title {
+  margin-left: 10px; }
+
+.rv-discrete-color-legend-item.disabled {
+  color: #B8B8B8; }
+
+.rv-discrete-color-legend-item.clickable {
+  cursor: pointer; }
+  .rv-discrete-color-legend-item.clickable:hover {
+    background: #f9f9f9; }
+
+.rv-search-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.rv-search-wrapper__form {
+  flex: 0; }
+
+.rv-search-wrapper__form__input {
+  width: 100%;
+  color: #A6A6A5;
+  border: 1px solid #E5E5E4;
+  padding: 7px 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin: 0 0 9px;
+  outline: 0; }
+
+.rv-search-wrapper__contents {
+  flex: 1;
+  overflow: auto; }
+
+.rv-continuous-color-legend {
+  font-size: 12px; }
+  .rv-continuous-color-legend .rv-gradient {
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 5px; }
+
+.rv-continuous-size-legend {
+  font-size: 12px; }
+  .rv-continuous-size-legend .rv-bubbles {
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 5px;
+    width: 100%; }
+  .rv-continuous-size-legend .rv-bubble {
+    background: #D8D9DC;
+    display: inline-block;
+    vertical-align: bottom; }
+  .rv-continuous-size-legend .rv-spacer {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    width: 100%; }
+
+.rv-legend-titles {
+  height: 16px;
+  position: relative; }
+
+.rv-legend-titles__left,
+.rv-legend-titles__right,
+.rv-legend-titles__center {
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.rv-legend-titles__center {
+  display: block;
+  text-align: center;
+  width: 100%; }
+
+.rv-legend-titles__right {
+  right: 0; }
+
+.rv-radial-chart__svg {
+  display: block; }
+
+.rv-radial-chart__series--pie > path {
+  stroke: #fff;
+  stroke-width: 1px; }
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  /*animate: 0.2s;*/
+  /*box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;*/
+  background: #3071a9;
+  border-radius: 1px;
+  /*border: 0.2px solid #010101;*/
+}
+input[type=range]::-webkit-slider-thumb {
+  /*box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;*/
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border: 1px solid gray;
+  height: 20px;
+  width: 10px;
+  margin-left: 0px;
+  border-radius: 2px;
+  background: white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+  z-index: 10;
+  overflow: hidden;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+
+#timeControl {
+  z-index: 10
+}
+
+    </style>
+</head>
+<body>
+  <div id="app"></div>
+
+</body>
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"> -->
+  <!-- Compiled and minified JavaScript -->
+   <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script> -->
+
+    <!-- React -->
+    <script src="./static/bundle.js"></script>
+    <!-- <link rel="stylesheet" href="/static/feeder/build/css/custom.css"> -->
+    <script type="text/javascript">
+      //for django template glue code
+      window.MyApp.init({data: ''})
+    </script>
+</html>
