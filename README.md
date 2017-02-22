@@ -15,6 +15,8 @@
 
 ---
 
+[test](http://test.com){:target="_blank"}
+
 ##### Old Version
 [Video (geo based zoom)](https://youtu.be/9h0TL7uOntI){:target="_blank"}
 
